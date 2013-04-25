@@ -12,6 +12,10 @@
     <link href="style.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
+    <script src="jquery/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="code.js"></script>
+
     <!-- <link rel="shortcut icon" href="../assets/ico/favicon.png"> -->
   </head>
 
@@ -21,33 +25,53 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Interviews</a></li>
-          <li><a href="#">Manifesto</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="active"><a href="#home" data-toggle="pill">Home</a></li>
+          <!-- <li><a href="#interviews" data-toggle="pill">Interviews</a></li> -->
+          <li><a href="#manifesto" data-toggle="pill">Manifesto</a></li>
+          <li><a href="#contact" data-toggle="pill">Contact</a></li>
         </ul>
         <h3 class="muted">Redecentralise</h3>
       </div>
 
       <hr>
 
-      <div class="jumbotron">
-        <h1>Quietly, some geeks are decentralising the web. Again.</h1>
-        <p class="lead">Who are they? Why are they doing it? What new algorithms are they using?
-        How will it change the world? We interview them, one a month, for fifteen minutes.</p>
-        <a class="btn btn-large btn-success" href="#">Get the podcast</a>
-      </div>
+      <div class="pill-content">
 
-      <div class="row-fluid marketing">
-        <div class="span6">
-          <h4>Nicholas Tollervey</h4>
-          <p>...</p>
+        <div class="pill-pane active" id="home">
+          <div class="jumbotron">
+            <h1>Quietly, some geeks are decentralising the net. Again.</h1>
+            <p class="lead">Who are they? Why are they doing it? What new algorithms are they using?
+            How will it change the world? We interview them, one a month, for fifteen minutes.</p>
+            <a class="btn btn-large btn-success" href="#">Get the podcast</a>
+          </div>
+
+          <!--
+          <div class="row-fluid marketing">
+            <div class="span6">
+              <h4>Nicholas Tollervey</h4>
+              <p>...</p>
+            </div>
+
+            <div class="span6">
+              <h4>Subheading</h4>
+              <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+          </div>
+          -->
         </div>
 
-        <div class="span6">
-          <!--<h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p> -->
+        <!-- <div class="pill-pane" id="interviews">
+          <p>Email me, Francis Irving, at <a href="mailto:francis@flourish.org">francis@flourish.org</a>.</p>
+        </div> -->
+
+        <div class="pill-pane" id="manifesto">
+          <h1>We believe</h1>
         </div>
+
+        <div class="pill-pane" id="contact">
+          <p>Email me, Francis Irving, at <a href="mailto:francis@flourish.org">francis@flourish.org</a>.</p>
+        </div>
+
       </div>
 
       <hr>
@@ -61,7 +85,6 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
 
   </body>
 </html>
