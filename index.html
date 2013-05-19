@@ -27,7 +27,7 @@
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#home" data-toggle="pill">Home</a></li>
           <!-- <li><a href="#interviews" data-toggle="pill">Interviews</a></li> -->
-          <li><a href="#manifesto" data-toggle="pill">Manifesto</a></li>
+          <!-- <li><a href="#about" data-toggle="pill">About</a></li> -->
           <li><a href="#contact" data-toggle="pill">Contact</a></li>
         </ul>
         <h3 class="muted">Redecentralise</h3>
@@ -39,9 +39,9 @@
 
         <div class="pill-pane active" id="home">
           <div class="jumbotron">
-            <h1>Quietly, some geeks are decentralising the net. Again.</h1>
-            <p class="lead">Who are they? Why are they doing it? What new algorithms are they using?
-            How will it change the world? We interview them, one a month, for fifteen minutes.</p>
+            <h1>Quietly, some geeks are decentralising the world. Again.</h1>
+            <p class="lead">Who are they? Why are they doing it? What new technologies are they using?
+            How will it change the future? Once a month, we interview one for 15 minutes.</p>
             <a class="btn btn-large btn-success" href="#">Get the podcast</a>
           </div>
 
@@ -61,12 +61,26 @@
         </div>
 
         <!-- <div class="pill-pane" id="interviews">
-          <p>Email me, Francis Irving, at <a href="mailto:francis@flourish.org">francis@flourish.org</a>.</p>
+          <p>Interviews</p>
         </div> -->
 
-        <div class="pill-pane" id="manifesto">
-          <h1>We believe</h1>
-        </div>
+<!--        <div class="pill-pane" id="about">
+          <p class="lead">Technologies replace technologies, and in the process power shifts
+          between the centre and the periphery. </p>
+
+          <p class="lead">Centrally controlled mainframes
+          were replaced by the personal computer. The decentralised, standards
+          based Internet has been replaced by centralised, monolithic software as a
+          service.</p>
+
+          <p>Around the world, a whole set of new technologies are emerging. At the moment
+          they are hobbies. Together they form a philosophy for a new technological shift
+          of the Internet, and beyond. Right now the world is becoming 
+          increasingly centralised. These new technologies shift it the other way.</p>
+
+          <p>It's becoming decentralised. Again.</p>
+
+        </div>-->
 
         <div class="pill-pane" id="contact">
           <p>Email me, Francis Irving, at <a href="mailto:francis@flourish.org">francis@flourish.org</a>.</p>
@@ -85,6 +99,18 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+
+    <script>
+      // Put navigation in URL.
+      // see http://stackoverflow.com/questions/9982043/bootstrap-2-0-tab-with-data-toggle-tab-doesnt-appear-on-navigation-bar
+      $(function () {
+        var activeTab = $('[href=' + location.hash + ']');
+        activeTab && activeTab.tab('show');
+      });
+      $('.nav a').on('shown', function (e) {
+        window.location.hash = e.target.hash;
+      })
+    </script>
 
   </body>
 </html>
