@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+
+<title>Redecentralize</title>
+<link>http://redecentralize.org</link>
+<language>en-us</language>
+<itunes:subtitle>Quietly, some geeks are decentralizing the net. Again.</itunes:subtitle>
+<itunes:author>Francis Irving</itunes:author>
+<itunes:summary>Quietly, some geeks are decentralizing the net. Again. Who are they? Why are they doing it? What new technologies are they using? How will this change the world? Each month, we interview one for 15 minutes.</itunes:summary>
+<description>Quietly, some geeks are decentralizing the net. Again. Who are they? Why are they doing it? What new technologies are they using? How will this change the world? Each month, we interview one for 15 minutes.</description>
+
+<itunes:owner>
+<itunes:name>Francis Irving</itunes:name>
+<itunes:email>francis@flourish.org</itunes:email>
+</itunes:owner>
+
+<!-- <itunes:image href="http://.jpg" /> -->
+<itunes:category text="Technology"/>
+
+<item>
+<title>Just testing</title>
+<itunes:author>Francis Irving</itunes:author>
+<itunes:subtitle>Introducing the podcast</itunes:subtitle>
+<itunes:summary>I briefly introduce the podcast, and use it to check everything works.</itunes:summary>
+<!-- <itunes:image href="http://.episode.jpg" /> -->
+<enclosure url="http://redecentralize.org/podcast/00-test.mp4" length="2397753" type="video/mp4" />
+<guid>http://redecentralize.org/podcast/00-test.mp4</guid>
+<pubDate>Fri, 14 Jun 2013 21:00:00 GMT</pubDate>
+<itunes:duration>0:56</itunes:duration>
+</item>
+
+</channel>
+</rss>
