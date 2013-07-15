@@ -19,6 +19,18 @@
 <itunes:category text="Technology"/>
 
 <item>
+<title>Interview #1: Nicholas Tollervey - Drogulus</title>
+<itunes:author>Francis Irving</itunes:author>
+<itunes:subtitle>Nicholas Tollervey talks about drogulus, a programmable peer-to-peer data store designed for simplicity, security, openness and fun</itunes:subtitle>
+<itunes:summary>All about peer-to-peer storage, the distributed hash table algorithm, and why it all matters.</itunes:summary>
+<!-- <itunes:image href="http://.episode.jpg" /> -->
+<enclosure url="http://redecentralize.org/podcast/01-ntoll-drogulus.mp4" length="47011215" type="video/mp4" />
+<guid>http://redecentralize.org/podcast/00-ntoll-drogulus.mp4</guid>
+<pubDate>Mon, 15 Jul 2013 22:00:00 GMT</pubDate>
+<itunes:duration>17:23</itunes:duration>
+</item>
+
+<item>
 <title>Just testing</title>
 <itunes:author>Francis Irving</itunes:author>
 <itunes:subtitle>Introducing the podcast</itunes:subtitle>
