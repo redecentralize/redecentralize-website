@@ -24,8 +24,8 @@
 <itunes:subtitle>Nicholas Tollervey talks about drogulus, a programmable peer-to-peer data store designed for simplicity, security, openness and fun</itunes:subtitle>
 <itunes:summary>All about peer-to-peer storage, the distributed hash table algorithm, and why it all matters.</itunes:summary>
 <!-- <itunes:image href="http://.episode.jpg" /> -->
-<enclosure url="http://redecentralize.org/podcast/01-ntoll-drogulus.mp4" length="47011215" type="video/mp4" />
-<guid>http://redecentralize.org/podcast/00-ntoll-drogulus.mp4</guid>
+<enclosure url="http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.mp4" length="47011215" type="video/mp4" />
+<guid>redecentralize.org:00-ntoll-drogulus.mp4</guid>
 <pubDate>Mon, 15 Jul 2013 22:00:00 GMT</pubDate>
 <itunes:duration>17:23</itunes:duration>
 </item>
@@ -36,8 +36,8 @@
 <itunes:subtitle>Introducing the podcast</itunes:subtitle>
 <itunes:summary>I briefly introduce the podcast, and use it to check everything works.</itunes:summary>
 <!-- <itunes:image href="http://.episode.jpg" /> -->
-<enclosure url="http://redecentralize.org/podcast/00-test.mp4" length="2397753" type="video/mp4" />
-<guid>http://redecentralize.org/podcast/00-test.mp4</guid>
+<enclosure url="http://seagrass.goatchurch.org.uk/~francis/00-test.mp4" length="2397753" type="video/mp4" />
+<guid>redecentralize.org:00-test.mp4</guid>
 <pubDate>Fri, 14 Jun 2013 21:00:00 GMT</pubDate>
 <itunes:duration>0:56</itunes:duration>
 </item>
