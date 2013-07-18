@@ -41,12 +41,12 @@
             <h1>Quietly, some geeks are decentralizing the net. Again.</h1>
             <p class="lead">Who are they? Why are they doing it? What new technologies are they using?
             How will this change the world? Each month, we interview one for 15 minutes.</p>
-            <a class="btn btn-large btn-success" href="podcast/feed.rss">Get the podcast</a>
+            <a class="btn btn-large btn-success" id="go-interviews" href="#interviews">Watch the interviews</a>
           </div>
         </div>
 
         <div class="pill-pane" id="interviews">
-          <div class="row-fluid marketing">
+          <div class="row-fluid">
             <div class="span6">
               <h4>#1: Nicholas Tollervey - Drogulus</h4>
               <p>
@@ -63,13 +63,27 @@
               store. In the process he describes how a Distributed
               Hash Tree works, and why he's decentralizing storage.</p>
               <h5>Links</h5>
-              <ul>
-              <li><a href="http://drogul.us/">Drogulus website</a></li>
-              <li><a href="https://github.com/ntoll/drogulus">Github repository</a></li>
-              <li><a href="http://twitter.com/ntoll">@ntoll on Twitter</a></li>
+              <div class="row-fluid">
+                <div class="span6">
+                  <ul>
+                    <li><a href="http://drogul.us/">Drogulus website</a></li>
+                    <li><a href="https://github.com/ntoll/drogulus">Github repository</a></li>
+                  </ul>
+                </div>
+                <div class="span6">
+                  <ul>
+                    <li><a href="http://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf">Kademlia paper</a></li>
+                    <li><a href="http://twitter.com/ntoll">@ntoll on Twitter</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          
+
+          <p>
+            <a class="btn btn-info" href="podcast/feed.rss">Subscribe</a> 
+          </p>
+
         </div>
 
         <div class="pill-pane" id="about">
@@ -87,10 +101,9 @@
           of those projects each month.
           </p>
 
-          <h2>How can I keep up?</p>
-
-          <a href="https://twitter.com/redecentralize" class="twitter-follow-button" data-show-count="false">Follow @redecentralize</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <h2>How can I keep up?</h2>
+          <p>
+            Follow <a href="https://twitter.com/redecentralize">@redecentralize</a> on Twitter.
           </p>
 
           <h2>Who are you?</h2>
@@ -121,6 +134,9 @@
       $('.nav a').on('shown', function (e) {
         window.location.hash = e.target.hash;
       })
+      $('#go-interviews').click(function() {
+        $('.nav a[href="#interviews"]').tab('show');
+      });
     </script>
 
   </body>
