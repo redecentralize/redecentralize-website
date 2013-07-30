@@ -19,6 +19,17 @@
 <itunes:category text="Technology"/>
 
 <item>
+<title>Interview #2: Adam Ierymenko - ZeroTier One</title>
+<itunes:author>Ira Bolychevsky</itunes:author>
+<itunes:summary>Adam Ierymenko talks about ZeroTier One which creates flat, virtual Ethernet networks of almost unlimited size</itunes:summary>
+<!-- <itunes:image href="http://.episode.jpg" /> -->
+<enclosure url="http://seagrass.goatchurch.org.uk/~francis/02-adam-zerotierone.mp4" length="" type="video/mp4" />
+<guid>redecentralize.org:01-adam-zerotierone.mp4</guid>
+<pubDate>Mon, 30 Jul 2013 06:00:00 GMT</pubDate>
+<itunes:duration></itunes:duration>
+</item>
+
+<item>
 <title>Interview #1: Nicholas Tollervey - Drogulus</title>
 <itunes:author>Francis Irving</itunes:author>
 <itunes:summary>Nicholas Tollervey talks about drogulus, a programmable peer-to-peer data store designed for simplicity, security, openness and fun</itunes:summary>
