@@ -1,3 +1,7 @@
+---
+layout: none
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel>
@@ -18,38 +22,20 @@
 <!-- <itunes:image href="http://.jpg" /> -->
 <itunes:category text="Technology"/>
 
-<item>
-<title>Interview #2: Adam Ierymenko - ZeroTier One</title>
-<itunes:author>Ira Bolychevsky</itunes:author>
-<itunes:summary>Adam Ierymenko talks about ZeroTier One which creates flat, virtual Ethernet networks of almost unlimited size</itunes:summary>
-<!-- <itunes:image href="http://.episode.jpg" /> -->
-<enclosure url="http://seagrass.goatchurch.org.uk/~francis/02-adam-zerotierone.mp4" length="" type="video/mp4" />
-<guid>redecentralize.org:01-adam-zerotierone.mp4</guid>
-<pubDate>Mon, 30 Jul 2013 06:00:00 GMT</pubDate>
-<itunes:duration></itunes:duration>
-</item>
+{% for post in site.posts %}
 
 <item>
-<title>Interview #1: Nicholas Tollervey - Drogulus</title>
-<itunes:author>Francis Irving</itunes:author>
-<itunes:summary>Nicholas Tollervey talks about drogulus, a programmable peer-to-peer data store designed for simplicity, security, openness and fun</itunes:summary>
-<!-- <itunes:image href="http://.episode.jpg" /> -->
-<enclosure url="http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.mp4" length="47011215" type="video/mp4" />
-<guid>redecentralize.org:00-ntoll-drogulus.mp4</guid>
-<pubDate>Mon, 15 Jul 2013 22:00:00 GMT</pubDate>
-<itunes:duration>17:23</itunes:duration>
+  <title>{{ post.title }}</title>
+  <itunes:author>{{ post.author }}</itunes:author>
+  <itunes:summary>{{ post.summary }}</itunes:summary>
+  <!-- <itunes:image href="http://.episode.jpg" /> -->
+  <enclosure url="{{ post.url-mp4 }}" length="{{ size-mp4 }}" type="video/mp4" />
+  <guid>{{ post.guid }}</guid>
+  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+  <itunes:duration>{{ post.duration }}</itunes:duration>
 </item>
 
-<item>
-<title>Just testing</title>
-<itunes:author>Francis Irving</itunes:author>
-<itunes:summary>I briefly introduce the podcast, and use it to check everything works.</itunes:summary>
-<!-- <itunes:image href="http://.episode.jpg" /> -->
-<enclosure url="http://seagrass.goatchurch.org.uk/~francis/00-test.mp4" length="2397753" type="video/mp4" />
-<guid>redecentralize.org:00-test.mp4</guid>
-<pubDate>Fri, 14 Jun 2013 21:00:00 GMT</pubDate>
-<itunes:duration>0:56</itunes:duration>
-</item>
+{% endfor %}
 
 </channel>
 </rss>
