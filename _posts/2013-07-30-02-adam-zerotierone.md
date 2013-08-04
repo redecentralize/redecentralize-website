@@ -9,7 +9,6 @@ size-mp4: 47011215
 duration: 36:55
 url-webm: http://seagrass.goatchurch.org.uk/~francis/02-adam-zerotierone.webm
 summary: "Adam Ierymenko talks about ZeroTier One, which creates flat virtual Ethernet networks of almost unlimited size. He describes how this lets people experiment with new ways of using networking."
-guid: redecentralize.org:01-adam-zerotierone.mp4
 poster: /podcast/02-adam-zerotierone.jpeg
 ---
 
