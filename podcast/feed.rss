@@ -26,6 +26,7 @@ layout: none
 
 <item>
   <title>{{ post.title }}</title>
+  <link>http://redecentralize.org{{ post.url }}</link>
   <itunes:author>{{ post.author }}</itunes:author>
   <itunes:summary>{{ post.summary }}</itunes:summary>
   <!-- <itunes:image href="http://.episode.jpg" /> -->
