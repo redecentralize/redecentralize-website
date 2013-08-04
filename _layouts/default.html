@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redecentralize.org &mdash; {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An organisation with a mission to make everything decentralized again">
+    <meta name="author" content="Francis Irving">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <script src="jquery/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="code.js"></script>
+
+    <!-- <link rel="shortcut icon" href="../assets/ico/favicon.png"> -->
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li {% if page.id == 'index' %} class="active" {% endif %} > <a href="index.html" >Home</a></li>
+          <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="interviews.html" >Interviews</a></li>
+          <li {% if page.id == 'about' %} class="active" {% endif %} > <a href="about.html" >About</a></li>
+        </ul>
+        <h3 class="muted">Redecentralize</h3>
+      </div>
+
+      <hr>
+
+      {{ content }}
+
+      <hr>
+
+      <div class="footer">
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script>
+      // Put navigation in URL.
+      // see http://stackoverflow.com/questions/9982043/bootstrap-2-0-tab-with-data-toggle-tab-doesnt-appear-on-navigation-bar
+      $(function () {
+        var activeTab = $('[href=' + location.hash + ']');
+        activeTab && activeTab.tab('show');
+      });
+      $('.nav a').on('shown', function (e) {
+        window.location.hash = e.target.hash;
+      })
+      $('#go-interviews').click(function() {
+        $('.nav a[href="#interviews"]').tab('show');
+      });
+    </script>
+
+  </body>
+</html>
+
