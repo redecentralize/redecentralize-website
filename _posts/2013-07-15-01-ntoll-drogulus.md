@@ -2,7 +2,7 @@
 layout: post
 title: "Interview #1: Nicholas Tollervey - Drogulus"
 date: 2013-07-15 22:00:00
-categories: jekyll update
+categories: podcast
 author: "Francis Irving"
 url-mp4: http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.mp4
 size-mp4: 47011215
@@ -10,7 +10,7 @@ duration: 17:23
 url-webm: http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.webm
 summary: "Nicholas Tollervey talks about drogulus, a programmable peer-to-peer data store designed for simplicity, security, openness and fun"
 guid: redecentralize.org:00-ntoll-drogulus.mp4
-poster: podcast/01-ntoll-drogulus.jpeg
+poster: /podcast/01-ntoll-drogulus.jpeg
 ---
 
 <p><a href="http://ntoll.org">Nicholas Tollervey</a> talks about

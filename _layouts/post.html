@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="span6">
+  <video controls poster="{{ page.poster }}">
+    <source src="{{ page.url-mp4 }}" type="video/mp4" />
+    <source src="{{ page.url-webm }}" type="video/webm" />
+  </video>
+</div>
+<div class="span6">
+  {{ content }}
+</div>
+
