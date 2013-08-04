@@ -1,16 +1,22 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="span6">
-  <video controls poster="{{ page.poster }}">
+  <h2>{{ page.title }}</h2>
+</div>
+
+<div class="span6">
+  <video controls width="100%" poster="{{ page.poster }}">
     <source src="{{ page.url-mp4 }}" type="video/mp4" />
     <source src="{{ page.url-webm }}" type="video/webm" />
   </video>
 </div>
+
 <div class="span6">
+  <p>{{ page.summary }}
+  <span class="muted">{{ page.date | date_to_string }} </span>
+  </p>
   {{ content }}
 </div>
 

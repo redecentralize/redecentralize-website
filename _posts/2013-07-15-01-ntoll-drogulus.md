@@ -1,22 +1,18 @@
 ---
 layout: post
-title: "Interview #1: Nicholas Tollervey - Drogulus"
+title: "#1: Nicholas Tollervey - Drogulus"
 date: 2013-07-15 22:00:00
-categories: podcast
+categories: interviews
 author: "Francis Irving"
 url-mp4: http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.mp4
 size-mp4: 47011215
 duration: 17:23
 url-webm: http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.webm
-summary: "Nicholas Tollervey talks about drogulus, a programmable peer-to-peer data store designed for simplicity, security, openness and fun"
+summary: "Nicholas Tollervey talks about the drogulus, his programmable peer-to-peer data store. In the process he describes how a Distributed Hash Table (DHT) works and what motivated him to start the project."
 guid: redecentralize.org:00-ntoll-drogulus.mp4
 poster: /podcast/01-ntoll-drogulus.jpeg
 ---
 
-<p><a href="http://ntoll.org">Nicholas Tollervey</a> talks about
-the drogulus, his programmable peer-to-peer data store. In the
-process he describes how a Distributed Hash Table (DHT) works and
-what motivated him to start the project.</p>
 
 <h5>Links</h5> 
 <div class="row-fluid">
