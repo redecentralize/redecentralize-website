@@ -1,14 +1,14 @@
 ---
 layout: post
+categories: interviews
+summary: "Adam Ierymenko talks about ZeroTier One, which creates flat virtual Ethernet networks of almost unlimited size. He describes how this lets people experiment with new ways of using networking."
 title: "#2: Adam Ierymenko - ZeroTier One"
 date: 2013-07-30 06:00:00
-categories: interviews
-author: "Ira Bolychevsk"
+author: "Ira Bolychevski"
 url-mp4: http://seagrass.goatchurch.org.uk/~francis/02-adam-zerotierone.mp4
 size-mp4: 47011215
-duration: 36:55
 url-webm: http://seagrass.goatchurch.org.uk/~francis/02-adam-zerotierone.webm
-summary: "Adam Ierymenko talks about ZeroTier One, which creates flat virtual Ethernet networks of almost unlimited size. He describes how this lets people experiment with new ways of using networking."
+duration: 36:55
 poster: /podcast/02-adam-zerotierone.jpeg
 ---
 
