@@ -2,21 +2,29 @@
 layout: default
 ---
 
-<div class="span6">
-  <h2>{{ page.title }}</h2>
+<div class="row">
+
+  <div class="span12">
+    <h2>{{ page.title }}</h2>
+  </div>
+
 </div>
 
-<div class="span6">
-  <video controls width="100%" poster="{{ page.poster }}">
-    <source src="{{ page.url-mp4 }}" type="video/mp4" />
-    <source src="{{ page.url-webm }}" type="video/webm" />
-  </video>
-</div>
+<div class="row">
 
-<div class="span6">
-  <p>{{ page.summary }}
-  <span class="muted">{{ page.date | date_to_string }} </span>
-  </p>
-  {{ content }}
+  <div class="span8">
+    <video controls width="100%" poster="{{ page.poster }}">
+      <source src="{{ page.url-mp4 }}" type="video/mp4" />
+      <source src="{{ page.url-webm }}" type="video/webm" />
+    </video>
+  </div>
+
+  <div class="span4">
+    <p>{{ page.summary }}
+    <span class="muted">{{ page.date | date_to_string }} </span>
+    </p>
+    {{ content }}
+  </div>
+
 </div>
 

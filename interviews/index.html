@@ -6,17 +6,25 @@ id: interviews
 
 {% for post in site.posts %}
 
-<div class="span6" style="padding-bottom: 20px">
-  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-  <p>
-  <a href="{{ post.url }}"><img width="200px" style="float: left; padding-right: 20px" src="{{ post.poster }}"></a>
-  {{ post.summary }}
-  </p>
+<div class="row">
+  <div class="span2"></div>
+  <div class="span8">
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+  </div>
+  <div class="span2"></div>
+</div>
+<div class="row" style="padding-bottom: 20px">
+  <div class="span2"></div>
+  <div class="span4">
+    <a href="{{ post.url }}"><img src="{{ post.poster }}"></a>
+  </div>
+  <div class="span4">
+    {{ post.summary }}
+  </div>
+  <div class="span2"></div>
 </div>
 
 {% endfor %}
 
-<div class="span6">
-<a class="btn btn-primary" href="/podcast/feed.rss"><i class="icon-rss icon-white"></i> Subscribe (RSS)</a> 
-<a class="btn btn-info" href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music icon-white"></i> Subscribe (iTunes)</a> 
-</div>
+
+
