@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: interviews
-summary: "Tony Arcieri talks about Cryptosphere, an open source P2P web application platform."
+summary: "Tony Arcieri talks about Cryptosphere, an open source P2P web application platform. In the process he describes how this can give more privacy and governance control to users of all kinds of network applications."
 title: "#3: Tony Arcieri - Cryptosphere"
 date: 2013-08-07 22:00:00
 author: "Ira Bolychevski"
