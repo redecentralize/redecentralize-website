@@ -13,14 +13,9 @@ poster: /podcast/02-adam-zerotierone.jpeg
 ---
 
 <h5>Links</h5>
-<div class="row">
-  <div class="span12">
-    <ul>
-      <li><a href="https://www.zerotier.com/">ZeroTier website</a></li>
-      <li><a href="https://github.com/zerotier/ZeroTierOne">Github repository</a></li>
-      <li><a href="http://blog.zerotier.com/">ZeroTier blog</a></li>
-      <li><a href="http://adam.ierymenko.name/">Adam's homepage</a></li>
-    </ul>
-  </div>
-</div>
-
+<ul>
+  <li><a href="https://www.zerotier.com/">ZeroTier website</a></li>
+  <li><a href="https://github.com/zerotier/ZeroTierOne">Github repository</a></li>
+  <li><a href="http://blog.zerotier.com/">ZeroTier blog</a></li>
+  <li><a href="http://adam.ierymenko.name/">Adam's homepage</a></li>
+</ul>

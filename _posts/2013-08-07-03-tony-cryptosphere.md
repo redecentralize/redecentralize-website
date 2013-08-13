@@ -13,14 +13,9 @@ poster: /podcast/03-tony-cryptosphere.jpeg
 ---
 
 <h5>Links</h5>
-<div class="row">
-  <div class="span12">
-    <ul>
-      <li><a href="http://cryptosphere.org/">Cryptosphere website</a></li>
-      <li><a href="https://github.com/cryptosphere/cryptosphere">Cryptosphere Github</a></li>
-      <li><a href="https://github.com/celluloid/celluloid">Celluloid Github</a></li>
-      <li><a href="http://tonyarcieri.com/">Tony's homepage</a></li>
-    </ul>
-  </div>
-</div>
-
+<ul>
+  <li><a href="http://cryptosphere.org/">Cryptosphere website</a></li>
+  <li><a href="https://github.com/cryptosphere/cryptosphere">Cryptosphere Github</a></li>
+  <li><a href="https://github.com/celluloid/celluloid">Celluloid Github</a></li>
+  <li><a href="http://tonyarcieri.com/">Tony's homepage</a></li>
+</ul>

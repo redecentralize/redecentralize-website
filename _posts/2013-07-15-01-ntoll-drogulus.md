@@ -13,14 +13,10 @@ poster: /podcast/01-ntoll-drogulus.jpeg
 ---
 
 
-<h5>Links</h5> 
-<div class="row">
-  <div class="span12">
-    <ul>
-      <li><a href="http://drogul.us/">Drogulus website</a></li>
-      <li><a href="https://github.com/ntoll/drogulus">Github repository</a></li>
-      <li><a href="http://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf">Kademlia paper</a></li>
-      <li><a href="http://twitter.com/ntoll">@ntoll on Twitter</a></li>
-    </ul>
-  </div>
-</div>
+<h5>Links</h5>
+<ul>
+  <li><a href="http://drogul.us/">Drogulus website</a></li>
+  <li><a href="https://github.com/ntoll/drogulus">Github repository</a></li>
+  <li><a href="http://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf">Kademlia paper</a></li>
+  <li><a href="http://twitter.com/ntoll">@ntoll on Twitter</a></li>
+</ul>
