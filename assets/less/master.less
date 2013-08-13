@@ -1,0 +1,146 @@
+@import "bootstrap.less";
+
+@nav-bg: #A0E0A9;
+@nav-text: #0E5E55;
+
+body {
+  padding-top: 75px;
+  overflow-y: scroll;
+}
+
+.navbar {
+  background-color: @nav-bg;
+  .navbar-nav > li {
+    > a {
+      color: mix(@nav-text, @nav-bg, 80%);
+      &:hover {
+        color: @nav-text;
+        background-color: mix(@nav-text, @nav-bg, 10%);
+      }
+    }
+    &.open .dropdown-toggle {
+        color: @nav-text;
+        background-color: mix(@nav-text, @nav-bg, 20%);
+    }
+    &.active a {
+      background-color: mix(@nav-text, @nav-bg, 80%);
+    }
+    .icon-caret-down {
+      margin-left: 5px;
+    }
+  }
+  .navbar-toggle {
+    border-color: @nav-text;
+    .icon-bar {
+      background-color: @nav-text;
+    }
+    &:hover {
+      background-color: @nav-text;
+      .icon-bar {
+        background-color: @nav-bg;
+      }
+    }
+  }
+  .navbar-brand {
+    position: relative;
+    padding-top: 11.5px;
+    padding-left: 50px;
+    font-size: @font-size-base*1.2;
+    color: @nav-text;
+    &:hover {
+      color: @nav-text;
+    }
+    span {
+      font-weight: 300;
+    }
+    .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: transparent url(/assets/images/logo.png) 50% 50% no-repeat;
+      width: 40px;
+      height: 50px;
+    }
+  }
+}
+
+hr {
+  border-color: #CCC;
+}
+
+.footer {
+  padding: 20px 0;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-size: 14px !important;
+}
+
+.jumbotron {
+  .make-sm-column(12);
+  h1 {
+    margin-bottom: 30px;
+  }
+  .btn i {
+    font-size: 24px !important;
+    margin-right: 10px;
+  }
+}
+
+.muted {
+  font-weight: 300;
+  color: #999;
+}
+
+.dropdown-menu {
+  border-width: 0;
+  [class^="icon-"],
+  [class*=" icon-"] {
+    margin-right: 5px;
+    text-align: right;
+  }
+}
+
+.listing {
+  .make-row();
+  .item {
+    .make-sm-column(4);
+    position: relative;
+    * {
+      .transition(all 0.2s ease-in);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+      opacity: 0.9;
+    }
+    p {
+      color: #999;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    a {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      span {
+        display: none;
+      }
+    }
+    &:hover {
+      img {
+        opacity: 1;
+      }
+      h4, p {
+        color: #222;
+      }
+      img {
+        .box-shadow(0 0 0 4px @nav-bg);
+      }
+    }
+  }
+}

@@ -2,3 +2,4 @@ podcast/*.mp4
 podcast/*.webm
 _site
 .DS_Store
+node_modules
