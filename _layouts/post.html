@@ -3,35 +3,21 @@ layout: default
 ---
 
 <div class="row">
-
-  <div class="span12">
-    <h2>{{ page.title }}</h2>
-  </div>
-
-</div>
-
-<div class="row">
-
-  <div class="span8">
+  <h1 class="col-sm-12">{{ page.title }}</h1>
+  <div class="col-sm-8">
     <video controls width="100%" poster="{{ page.poster }}">
       <source src="{{ page.url-mp4 }}" type="video/mp4" />
       <source src="{{ page.url-webm }}" type="video/webm" />
     </video>
   </div>
-
-  <div class="span4">
+  <div class="col-sm-4">
     <p>{{ page.summary }}
     <span class="muted">{{ page.date | date_to_string }} </span>
     </p>
     {{ content }}
   </div>
-
 </div>
-
-<div class="row" style="padding-top: 40px">
-  <div class="span8">
-     {% include disqus.ext %}
-  </div>
+<div class="disqus">
+  <hr>
+  {% include disqus.ext %}
 </div>
-
-
