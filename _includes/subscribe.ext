@@ -1,10 +1,6 @@
-<div class="row">
-
-  <div class="span12 text-center">
-    <a class="btn btn-primary" href="/podcast/feed.rss"><i class="icon-rss icon-white"></i> Subscribe (RSS)</a> 
-    <a class="btn btn-info" href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music icon-white"></i> Subscribe (iTunes)</a> 
-    <a class="btn btn-danger" href="http://www.youtube.com/redecentralize"><i class="icon-film icon-white"></i> Subscribe (YouTube)</a> 
-    <a class="btn btn-warning" href="http://t.co/z1zZ16C57Z"><i class="icon-envelope icon-white"></i> Subscribe (Email)</a> 
-  </div>
-
-</div>
+<ul class="dropdown-menu">
+  <li><a href="http://t.co/z1zZ16C57Z"><i class="icon-envelope"></i> Email</a></li>
+  <li><a href="/podcast/feed.rss"><i class="icon-rss"></i> RSS</a></li>
+  <li><a href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music"></i> iTunes</a></li>
+  <li><a href="http://www.youtube.com/redecentralize"><i class="icon-youtube"></i> YouTube</a></li>
+</ul>
