@@ -1,7 +1,7 @@
 <ul class="dropdown-menu">
-  <li><a href="http://t.co/z1zZ16C57Z"><i class="icon-envelope"></i> Email</a></li>
-  <li><a href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music"></i> iTunes</a></li>
-  <li><a href="/podcast/feed.rss"><i class="icon-rss"></i> RSS</a></li>
-  <li><a href="https://twitter.com/redecentralize"><i class="icon-twitter"></i> Twitter</a></li>
-  <li><a href="http://www.youtube.com/redecentralize"><i class="icon-youtube"></i> YouTube</a></li>
+  <li><a target="_blank" href="http://t.co/z1zZ16C57Z"><i class="icon-envelope"></i> Email</a></li>
+  <li><a target="_blank" href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music"></i> iTunes</a></li>
+  <li><a target="_blank" href="/podcast/feed.rss"><i class="icon-rss"></i> RSS</a></li>
+  <li><a target="_blank" href="https://twitter.com/redecentralize"><i class="icon-twitter"></i> Twitter</a></li>
+  <li><a target="_blank" href="http://www.youtube.com/redecentralize"><i class="icon-youtube"></i> YouTube</a></li>
 </ul>
