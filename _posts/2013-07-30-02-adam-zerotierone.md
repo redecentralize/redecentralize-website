@@ -14,8 +14,9 @@ poster: /podcast/02-adam-zerotierone.jpeg
 
 <h5>Links</h5>
 <ul>
-  <li><a href="https://www.zerotier.com/">ZeroTier website</a></li>
-  <li><a href="https://github.com/zerotier/ZeroTierOne">Github repository</a></li>
-  <li><a href="http://blog.zerotier.com/">ZeroTier blog</a></li>
-  <li><a href="http://adam.ierymenko.name/">Adam's homepage</a></li>
+  <li><a href="https://www.zerotier.com/" target="_blank">ZeroTier website</a></li>
+  <li><a href="http://blog.zerotier.com/post/58157836374/op-ed-internet-centralization-is-not-a-conspiracy" target="_blank">Follow up blog post on centralization causes</a></li>
+  <li><a href="https://github.com/zerotier/ZeroTierOne" target="_blank">Github repository</a></li>
+  <li><a href="http://blog.zerotier.com/" target="_blank">ZeroTier blog</a></li>
+  <li><a href="http://adam.ierymenko.name/" target="_blank">Adam's homepage</a></li>
 </ul>
