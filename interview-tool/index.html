@@ -1,0 +1,47 @@
+---
+layout: default
+title: Interview Tool
+id: interview-tool
+---
+
+<script src="http://simplewebrtc.com/latest.js"></script>
+<script src="https://www.webrtc-experiment.com/RecordRTC.js"></script>
+<script type="text/javascript" src="/assets/js/interview.js"></script>
+
+<div class="row">
+    <div class="col-sm-12">
+        <h2>Interview tool
+        <small>WebRTC FTW!</small>
+
+    <span class="pull-right">
+        <a id="start-record" class="btn btn-success">
+            <i class="icon-plus-sign"></i> Start recording
+        </a>
+
+        <a id="stop-record" class="btn btn-danger">
+            <span class="icon-stop"></span> Stop recording
+        </a>
+
+        <a id="save-record" class="btn btn-primary">
+            <i class="icon-ok-circle"></i> Save recording
+        </a>
+    </span>
+
+        </h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+
+
+        <div id="remoteVideo" style="z-index: 1;">
+        </div>
+
+        <video id="localVideo" style="width: 200px; height: 200px; position:absolute; z-index: 2; top:300px; left:453px; opacity: 1;"></video>
+
+
+
+    </div>
+
+</div>
