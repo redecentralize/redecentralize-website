@@ -19,16 +19,18 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top" role="banner">
       <div class="container">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="/" class="navbar-brand"><i class="logo"></i> redecentralize<span>.org</span></a>
-        <div class="nav-collapse collapse">
-          <ul class="nav navbar-nav pull-right">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand"><i class="logo"></i> redecentralize<span>.org</span></a>
+        </div>
+        <div class="navbar-collapse collapse pull-right" role="navigation">
+          <ul class="nav navbar-nav">
             <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/" >Interviews</a></li>
             <li {% if page.id == 'about' %} class="active" {% endif %} > <a href="/about/" >About</a></li>
             <li class="dropdown">

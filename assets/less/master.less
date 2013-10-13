@@ -10,12 +10,14 @@ body {
 
 .navbar {
   background-color: @nav-bg;
+  border-width: 0;
   .navbar-nav > li {
     > a {
       color: mix(@nav-text, @nav-bg, 80%);
-      &:hover {
+      &:hover,
+      &:active {
         color: @nav-text;
-        background-color: mix(@nav-text, @nav-bg, 10%);
+        background-color: mix(@nav-text, @nav-bg, 15%);
       }
     }
     &.open .dropdown-toggle {
@@ -23,6 +25,7 @@ body {
         background-color: mix(@nav-text, @nav-bg, 20%);
     }
     &.active a {
+      color: @body-bg;
       background-color: mix(@nav-text, @nav-bg, 80%);
     }
     .icon-caret-down {
@@ -43,6 +46,7 @@ body {
   }
   .navbar-brand {
     position: relative;
+    margin-left: 0 !important;
     padding-top: 11.5px;
     padding-left: 50px;
     font-size: @font-size-base*1.2;
@@ -77,8 +81,10 @@ hr {
   font-size: 14px !important;
 }
 
-.jumbotron {
-  .make-sm-column(12);
+.container .jumbotron {
+  background-color: @body-bg;
+  padding-left: 20px;
+  padding-right: 20px;
   h1 {
     margin-bottom: 30px;
   }
@@ -107,9 +113,7 @@ hr {
   .item {
     .make-sm-column(4);
     position: relative;
-    * {
-      .transition(all 0.2s ease-in);
-    }
+    margin-bottom: 20px;
     img {
       max-width: 100%;
       border-radius: 5px;
