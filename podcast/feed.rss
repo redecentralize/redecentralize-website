@@ -19,7 +19,7 @@ layout: none
 <itunes:email>francis@flourish.org</itunes:email>
 </itunes:owner>
 
-<!-- <itunes:image href="http://.jpg" /> -->
+<itunes:image href="http://redecentralize.org/assets/images/logo@2x.png" />
 <itunes:category text="Technology"/>
 
 {% for post in site.posts %}
