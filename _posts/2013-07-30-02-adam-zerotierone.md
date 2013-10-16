@@ -5,11 +5,11 @@ summary: "Adam Ierymenko talks about ZeroTier One, which creates flat virtual Et
 title: "#2: Adam Ierymenko - ZeroTier One"
 date: 2013-07-30 06:00:00
 author: "Irina Bolychevsky"
-url-mp4: http://seagrass.goatchurch.org.uk/~francis/02-adam-zerotierone.mp4
-size-mp4: 47011215
-url-webm: http://seagrass.goatchurch.org.uk/~francis/02-adam-zerotierone.webm
+url-mp4: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.mp4
+size-mp4: 99042528
+url-webm: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.webm
 duration: 36:55
-poster: /podcast/02-adam-zerotierone.jpeg
+poster: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.jpg
 ---
 
 <h5>Links</h5>

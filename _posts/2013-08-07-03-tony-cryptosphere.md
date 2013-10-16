@@ -5,11 +5,11 @@ summary: "Tony Arcieri talks about Cryptosphere, an open source P2P web applicat
 title: "#3: Tony Arcieri - Cryptosphere"
 date: 2013-08-07 22:00:00
 author: "Irina Bolychevsky"
-url-mp4: http://seagrass.goatchurch.org.uk/~francis/03-tony-cryptosphere.mp4
+url-mp4: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.mp4
 size-mp4: 89130904
-url-webm: http://seagrass.goatchurch.org.uk/~francis/03-tony-cryptosphere.webm
+url-webm: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.webm
 duration: 33:09
-poster: /podcast/03-tony-cryptosphere.jpeg
+poster: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.jpg
 ---
 
 <h5>Links</h5>

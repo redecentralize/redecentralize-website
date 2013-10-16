@@ -5,11 +5,11 @@ summary: "Nicholas Tollervey talks about the drogulus, his programmable peer-to-
 title: "#1: Nicholas Tollervey - Drogulus"
 date: 2013-07-15 22:00:00
 author: "Francis Irving"
-url-mp4: http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.mp4
+url-mp4: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.mp4
 size-mp4: 47011215
-url-webm: http://seagrass.goatchurch.org.uk/~francis/01-ntoll-drogulus.webm
+url-webm: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.webm
 duration: 17:23
-poster: /podcast/01-ntoll-drogulus.jpeg
+poster: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.jpg
 ---
 
 
