@@ -34,6 +34,7 @@ layout: none
   <guid>http://redecentralize.org{{ post.url }}</guid>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
   <itunes:duration>{{ post.duration }}</itunes:duration>
+  <itunes:explicit>clean</itunes:explicit>
 </item>
 
 {% endfor %}
