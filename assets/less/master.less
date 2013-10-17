@@ -6,10 +6,42 @@
 body {
   padding-top: 75px;
   overflow-y: scroll;
+  background-image: url(/assets/images/bg.png);
+  background-position: 50% 0;
+}
+
+.brand {
+  position: relative;
+  font-size: @font-size-base*1.2;
+  color: @nav-text;
+  padding-left: 50px;
+  span {
+    font-weight: 300;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent url(/assets/images/logo.png) 50% 50% no-repeat;
+    width: 40px;
+    height: 50px;
+  }
+  &.brand-big {
+    padding-left: 90px;
+    line-height: 100px;
+    font-size: @font-size-base*2.4;
+    .logo {
+      background-image: url(/assets/images/logo@2x.png);
+      width: 80px;
+      height: 100px;
+    }
+  }
 }
 
 .navbar {
   background-color: @nav-bg;
+  background-image: url(/assets/images/bg.png);
+  background-position: 50% 0;
   border-width: 0;
   .navbar-nav > li {
     > a {
@@ -44,28 +76,33 @@ body {
       }
     }
   }
-  .navbar-brand {
-    position: relative;
+  .brand {
     margin-left: 0 !important;
     padding-top: 11.5px;
-    padding-left: 50px;
-    font-size: @font-size-base*1.2;
-    color: @nav-text;
     &:hover {
       color: @nav-text;
     }
-    span {
-      font-weight: 300;
-    }
-    .logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: transparent url(/assets/images/logo.png) 50% 50% no-repeat;
-      width: 40px;
-      height: 50px;
-    }
   }
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-default {
+  background-color: @nav-bg;
+  border-color: darken(@nav-bg, 10%);
+  color: @nav-text;
+  &:hover {
+    background-color: darken(@nav-bg, 10%);
+    border-color: darken(@nav-bg, 20%);
+    color: darken(@nav-text, 10%);
+  }
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: @nav-bg;
 }
 
 hr {
@@ -82,15 +119,29 @@ hr {
 }
 
 .container .jumbotron {
-  background-color: @body-bg;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: transparent;
+  padding: 0 20px;
   h1 {
+    font-size: 50px;
     margin-bottom: 30px;
+    font-weight: 600;
   }
-  .btn i {
-    font-size: 24px !important;
-    margin-right: 10px;
+  .lead {
+    font-size: 30px;
+  }
+  .actions {
+    .clearfix;
+    margin-top: 30px;
+    .btn {
+      float: left;
+      font-size: 28px;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      i {
+        font-size: 28px !important;
+        margin-right: 10px;
+      }
+    }
   }
 }
 
@@ -149,5 +200,29 @@ hr {
     &.clear {
       clear: left;
     }
+  }
+}
+
+@media screen and (max-width: @screen-sm-min) {
+  h1 {
+    font-size: 30px;
+  }
+  .container .jumbotron {
+    h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .lead {
+      font-size: 20px;
+    }
+    .actions .btn {
+      font-size: 16px;
+      i {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .container > .navbar-collapse {
+    float: none !important;
   }
 }
