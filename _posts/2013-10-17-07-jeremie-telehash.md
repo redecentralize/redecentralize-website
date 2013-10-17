@@ -4,7 +4,7 @@ categories: interviews
 summary: "Jeremie Miller, creator of Jabber, talks about his new distributed wire protocol, TeleHash. What lessons
 has he learnt about how to make a protocol popular? How does Kademlia work?"
 title: "#6: Jeremie Miller - TeleHash"
-date: 2013-10-17 22:00:00
+date: 2013-10-17 21:00:00
 author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/telehash-with-jeremie-miller.mp4
 size-mp4: 47040573
