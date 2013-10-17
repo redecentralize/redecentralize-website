@@ -9,15 +9,19 @@ layout: none
 
 <title>Redecentralize</title>
 <link>http://redecentralize.org</link>
+
 <language>en-us</language>
+<itunes:explicit>clean</itunes:explicit>
+
 <itunes:subtitle>Quietly, some geeks are decentralizing the net. Again.</itunes:subtitle>
 <itunes:author>Francis Irving</itunes:author>
+
 <itunes:summary>Quietly, some geeks are decentralizing the net. Again. Who are they? Why are they doing it? What new technologies are they using? How will this change the world? Each month, we interview one for 15 minutes.</itunes:summary>
 <description>Quietly, some geeks are decentralizing the net. Again. Who are they? Why are they doing it? What new technologies are they using? How will this change the world? Each month, we interview one for 15 minutes.</description>
 
 <itunes:owner>
-<itunes:name>Francis Irving</itunes:name>
-<itunes:email>francis@flourish.org</itunes:email>
+  <itunes:name>Francis Irving</itunes:name>
+  <itunes:email>francis@flourish.org</itunes:email>
 </itunes:owner>
 
 <itunes:image href="http://redecentralize.org/assets/images/logo@2x.png" />
@@ -35,7 +39,6 @@ layout: none
   <guid>http://redecentralize.org{{ post.url }}</guid>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
   <itunes:duration>{{ post.duration }}</itunes:duration>
-  <itunes:explicit>clean</itunes:explicit>
 </item>
 
 {% endfor %}
