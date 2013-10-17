@@ -30,7 +30,7 @@ layout: none
   <itunes:author>{{ post.author }}</itunes:author>
   <itunes:summary>{{ post.summary }}</itunes:summary>
   <itunes:image href="{{ post.poster}}" /> 
-  <enclosure url="{{ post.url-mp4 }}" length="{{ size-mp4 }}" type="video/mp4" />
+  <enclosure url="{{ post.url-mp4 }}" length="{{ post.size-mp4 }}" type="video/mp4" />
   <guid>http://redecentralize.org{{ post.url }}</guid>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
   <itunes:duration>{{ post.duration }}</itunes:duration>
