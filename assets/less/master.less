@@ -5,6 +5,7 @@
 
 body {
   padding-top: 75px;
+  padding-bottom: 20px;
   overflow-y: scroll;
   background-image: url(/assets/images/bg.png);
   background-position: 50% 0;
@@ -199,6 +200,29 @@ hr {
     }
     &.clear {
       clear: left;
+    }
+  }
+}
+
+.who-are-you {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    .clearfix;
+    margin: 0 0 10px;
+    padding: 0;
+    img {
+      float: left;
+      margin-right: 10px;
+      border-radius: 100px;
+    }
+    strong {
+      display: block;
+      padding-top: 12px;
+    }
+    a:hover img {
+      .box-shadow(0 0 0 4px @nav-bg);
     }
   }
 }

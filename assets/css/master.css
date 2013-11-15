@@ -5545,6 +5545,7 @@ button.close {
 }
 body {
   padding-top: 75px;
+  padding-bottom: 20px;
   overflow-y: scroll;
   background-image: url(/assets/images/bg.png);
   background-position: 50% 0;
@@ -5783,6 +5784,52 @@ hr {
 }
 .listing .item.clear {
   clear: left;
+}
+.who-are-you {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style-type: none;
+}
+.who-are-you li {
+  margin: 0 0 10px;
+  padding: 0;
+}
+.who-are-you li:before,
+.who-are-you li:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.who-are-you li:after {
+  clear: both;
+}
+.who-are-you li:before,
+.who-are-you li:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.who-are-you li:after {
+  clear: both;
+}
+.who-are-you li img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+.who-are-you li strong {
+  display: block;
+  padding-top: 12px;
+}
+.who-are-you li a:hover img {
+  -webkit-box-shadow: 0 0 0 4px #a0e0a9;
+  box-shadow: 0 0 0 4px #a0e0a9;
 }
 @media screen and (max-width: 768px) {
   h1 {
