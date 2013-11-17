@@ -10,12 +10,15 @@ size-mp4: 54074760
 url-webm: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.webm
 duration: 19:56
 poster: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.jpg
----
-
-<h5>Links</h5>
-<ul>
+links: |
   <li><a href="http://www.mailpile.is/" target="_blank">Mailpile site</a></li>
   <li><a href="https://github.com/pagekite/Mailpile" target="_blank">Github repository</a></li>
   <li><a href="https://twitter.com/mailpileteam" target="_blank">@mailpileteam on Twitter</a></li>
   <li><a href="http://bre.klaki.net/" target="_blank">Bjarni's homepage</a></li>
-</ul>
+transcript: |
+  <p><span>Francis Irving:</span> Hello, welcome to redecentralize interview,
+  and today we've got Bjarni Einarsson from Mailpile and he's an open source
+  developer based in Iceland.  He's also done PageKite. So hello, how are
+  you?</p>
+  <p><span>Bjarni Einarsson:</span> Hi, nice to meet you.</p>
+---

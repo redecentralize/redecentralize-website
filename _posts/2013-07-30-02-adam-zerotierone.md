@@ -10,13 +10,11 @@ size-mp4: 99042528
 url-webm: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.webm
 duration: 36:55
 poster: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.jpg
----
-
-<h5>Links</h5>
-<ul>
+links: |
   <li><a href="https://www.zerotier.com/" target="_blank">ZeroTier website</a></li>
   <li><a href="http://blog.zerotier.com/post/58157836374/op-ed-internet-centralization-is-not-a-conspiracy" target="_blank">Follow up blog post on centralization causes</a></li>
   <li><a href="https://github.com/zerotier/ZeroTierOne" target="_blank">Github repository</a></li>
   <li><a href="http://blog.zerotier.com/" target="_blank">ZeroTier blog</a></li>
   <li><a href="http://adam.ierymenko.name/" target="_blank">Adam's homepage</a></li>
-</ul>
+---
+

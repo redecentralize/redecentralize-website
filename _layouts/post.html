@@ -14,6 +14,19 @@ layout: default
     <p>{{ page.summary }}
     <span class="muted">{{ page.date | date_to_string }} </span>
     </p>
-    {{ content }}
+    <h5>Links</h5>
+    <ul>
+      {{ page.links }}
+  </ul>
   </div>
 </div>
+
+{% if page.transcript %}
+  <div class="row transcript">
+    <div class="col-sm-12">
+      <h2>Transcript</h2>
+      {{ page.transcript }}
+    </div>
+  </div>
+{% endif %}
+

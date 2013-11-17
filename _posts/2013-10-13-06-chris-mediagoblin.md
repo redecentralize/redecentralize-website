@@ -10,14 +10,9 @@ size-mp4: 102777956
 url-webm: http://redecentralize.net/video/christopher-webber-with-media-goblin.webm
 duration: 37:14
 poster: http://redecentralize.net/video/christopher-webber-with-media-goblin.jpg
----
-
-<h5>Links</h5>
-<ul>
+links: |
   <li><a href="http://mediagoblin.org/" target="_blank">MediaGoblin site</a></li>
   <li><a href="http://wiki.mediagoblin.org/Live_instances" target="_blank">Use it hosted</a></li>
   <li><a href="https://twitter.com/MediaGoblin" target="_blank">@mediagoblin Twitter</a></li>
   <li><a href="http://dustycloud.org/" target="_blank">Christopher's home page</a></li>
-</ul>
-
-
+---

@@ -10,13 +10,9 @@ size-mp4: 47011215
 url-webm: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.webm
 duration: 17:23
 poster: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.jpg
----
-
-
-<h5>Links</h5>
-<ul>
+links: |
   <li><a href="http://drogul.us/" target="_blank">Drogulus website</a></li>
   <li><a href="https://github.com/ntoll/drogulus" target="_blank">Github repository</a></li>
   <li><a href="http://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf" target="_blank">Kademlia paper</a></li>
   <li><a href="http://twitter.com/ntoll" target="_blank">@ntoll on Twitter</a></li>
-</ul>
+---

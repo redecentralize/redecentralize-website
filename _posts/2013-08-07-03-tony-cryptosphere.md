@@ -10,12 +10,9 @@ size-mp4: 89130904
 url-webm: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.webm
 duration: 33:09
 poster: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.jpg
----
-
-<h5>Links</h5>
-<ul>
+links: |
   <li><a href="http://cryptosphere.org/" target="_blank">Cryptosphere website</a></li>
   <li><a href="https://github.com/cryptosphere/cryptosphere" target="_blank">Cryptosphere Github</a></li>
   <li><a href="https://github.com/celluloid/celluloid" target="_blank">Celluloid Github</a></li>
   <li><a href="http://tonyarcieri.com/" target="_blank">Tony's homepage</a></li>
-</ul>
+---
