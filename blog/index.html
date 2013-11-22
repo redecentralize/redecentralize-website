@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+id: blog
+---
+
+<h1>Blog</h1>
+<div class="listing">
+  {% for post in site.categories['blog'] %}
+    <div class="item{% cycle ' clear', '', '' %}">
+          {{ post.date  | date: "%-d %B %Y" }} - <small>{{ post.author }}</small>
+          <h4>{{ post.title }}</h4>
+          <p>{{ post.summary }}</p>
+          <a href="{{ post.url }}"><span>Read more</span></a>
+    </div>
+  {% endfor %}
+</div>

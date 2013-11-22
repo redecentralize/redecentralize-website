@@ -5,7 +5,7 @@ id: interviews
 ---
 
 <div class="listing">
-  {% for post in site.posts %}
+  {% for post in site.categories['interviews'] %}
     <div class="item{% cycle ' clear', '', '' %}">
       <img src="{{ post.poster }}">
       <h4>{{ post.title }}</h4>

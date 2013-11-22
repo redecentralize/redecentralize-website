@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-1">
+      <br/>
+      <img src="/assets/images/{{page.username}}.jpg"/>
+  </div>
+  <div class="col-md-11">
+    <h1 >{{ page.title }}</h1>
+    <div>
+      <span class="muted">{{ page.date | date_to_string }} - {{ page.author }}</span>
+    </div>
+  </div>
+</div>
+
+<div>
+{{ page.content }}
+</div>
+
