@@ -25,6 +25,9 @@ layout: default
   <div class="row transcript">
     <div class="col-sm-12">
       <h2>Transcript</h2>
+      {% if page.transcript_by %}
+        <p class="muted by">Kindly transcribed by: {{ page.transcript_by }}</p>
+      {% endif %}
       {{ page.transcript }}
     </div>
   </div>
