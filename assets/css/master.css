@@ -5831,6 +5831,12 @@ hr {
   -webkit-box-shadow: 0 0 0 4px #a0e0a9;
   box-shadow: 0 0 0 4px #a0e0a9;
 }
+.transcript span {
+  font-weight: bold;
+}
+.transcript .by {
+  margin-bottom: 25px;
+}
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
@@ -5852,7 +5858,3 @@ hr {
     float: none !important;
   }
 }
-.transcript span {
-  font-weight: bold;
-}
-

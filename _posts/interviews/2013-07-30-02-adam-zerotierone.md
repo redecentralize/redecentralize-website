@@ -16,6 +16,8 @@ links: |
   <li><a href="https://github.com/zerotier/ZeroTierOne" target="_blank">Github repository</a></li>
   <li><a href="http://blog.zerotier.com/" target="_blank">ZeroTier blog</a></li>
   <li><a href="http://adam.ierymenko.name/" target="_blank">Adam's homepage</a></li>
+transcript_by: |
+  <a href="http://www.wetfishmarketing.com" target="_blank">Rob Nightingale</a>
 transcript: |
   <p><span>Irina Bolychevsky:</span> Hello everybody, I’m Irina and today I’m talking to Adam Ierymenko, the creator of ZeroTier One. ZeroTier One is a virtual local area network for unlimited users, so you can bring thousands of people under one wireless connection allowing you to share files or play games. I’m really excited to have Adam here today - Hi Adam!</p>
   <p><span>Adam Ierymenko:</span> Hey! I’m glad to be able to speak with you! So, to talk a little about what ZeroTier One is, it is, as you said, a virtual private network. The sort of one-liner is ‘literal social networking’. So, the idea is, for example, we’re on a Google Hangout right now and if we wanted to we could invite more people - 5, 6, 7 people - and have a big Google Hangout party with a lot of people viewing. ZeroTier One lets you do something like that, but with a virtual local area network, and it lets you do it up to very, very, very large sizes. Right now it’s in alpha.</p>
