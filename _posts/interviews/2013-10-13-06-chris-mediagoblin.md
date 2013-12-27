@@ -16,7 +16,7 @@ links: |
   <li><a href="https://twitter.com/MediaGoblin" target="_blank">@mediagoblin Twitter</a></li>
   <li><a href="http://dustycloud.org/" target="_blank">Christopher's home page</a></li>
 transcript_by: |
-  <a href="dtranscribe@gmail.com" target="_blank">David Hansen</a>
+  <a href="mailto:dtranscribe@gmail.com" target="_blank">David Hansen</a>
 transcript: |
   <p><span>Irina Bolychevsky:</span> Hi everybody! Today we’re talking to Christopher Webber, the founder and lead developer of MediaGoblin, a free-software media publishing platform that anybody can run. Chris, thank yo-you so much for joining us. Why don’t you introduce yourself and tell us a little bit more about MediaGoblin? </p>
   <p><span>Christopher Webber:</span> Sure. So I am Chris Webber. I am the lead developer. I’ve been working on free and open-source software things for some time. I used to work at Creative Commons not too long ago, and before that at the Participatory Culture Foundation. So I’ve been doing these things for a while. But I started MediaGoblin—well, co-started MediaGoblin—with a number of people a number of years ago.</p>
