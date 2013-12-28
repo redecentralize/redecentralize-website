@@ -1,5 +1,5 @@
-redecentralize-website
-======================
+Redecentralize.org website
+==========================
 
 This is the code for the website of redecentralize.org
 
