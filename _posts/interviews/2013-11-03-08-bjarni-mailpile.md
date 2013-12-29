@@ -16,7 +16,7 @@ links: |
   <li><a href="https://twitter.com/mailpileteam" target="_blank">@mailpileteam on Twitter</a></li>
   <li><a href="http://bre.klaki.net/" target="_blank">Bjarni's homepage</a></li>
 transcript_by: |
-  <a href="jan@badrabbit.de" target="_blank">Sally and Rabbit</a>
+    <a href="http://media-creators.blogspot.co.uk/" target="_blank">Sally</a> and <a href="mailto:jan@badrabbit.de" target="_blank">Rabbit</a>
 transcript: 
   <p><span>Francis Irving:</span> Hello, welcome to redecentralize interview, and today we've got Bjarni Einarsson from Mailpile and he's an open source developer based in Iceland. He's also done pagekite, so hello. How are you?</p>
   <p><span>Bjarni Einarsson:</span> Hi, nice to meet you.</p>
