@@ -16,7 +16,7 @@ links: |
   <li><a href="https://github.com/celluloid/celluloid" target="_blank">Celluloid Github</a></li>
   <li><a href="http://tonyarcieri.com/" target="_blank">Tony's homepage</a></li>
 transcript_by: |
-  <a href="dtranscribe@gmail.com" target="_blank">David Hansen</a>
+  <a href="mailto:dtranscribe@gmail.com" target="_blank">David Hansen</a>
 transcript:
   <p><span>Irina Bolychevsky:</span> Hello everybody, and today we are taking to Tony Arcieri, the creator of Cryptosphere. And Cryptosphere is an open-source peer-to-peer web application platform which makes it easy to build decentralized privacy-preserving software so that users can keep control of their own content. Hi Tony!</p>
   <p><span>Tony Arcieri:</span> Hi!</p>
