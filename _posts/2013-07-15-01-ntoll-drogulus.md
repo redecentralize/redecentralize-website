@@ -40,8 +40,7 @@ transcript:
   <p><span>Nicholas:</span> Absolutely. [laugh].</p>
   <p><span>Francis:</span> [laugh].</p>
   <p><span>Nicholas:</span> And they're replicated because it's a very nebulous thing, this distributed hash table, so there are peers joining and leaving the distributed hash table all the time, so part of the algorithm is that values are replicated through the hash table so that, you know, you'd have to get rid of a huge number of nodes to ensure that you got rid of a value.</p>
-  <p><span>Francis:</span> 
-Interviwer Yeah. So I was about to say, so suppose some computers that happen to store either document as saved in the hash table, like important documents to me, and would there be multiple copies of it, and on different people's machines?</p>
+  <p><span>Francis:</span> Yeah. So I was about to say, so suppose some computers that happen to store either document as saved in the hash table, like important documents to me, and would there be multiple copies of it, and on different people's machines?</p>
   <p><span>Nicholas:</span> [nod]. That is correct, yes.</p>
   <p><span>Francis:</span> And then they'd be encrypted, presumably.</p>
   <p><span>Nicholas:</span> The Drogulus only uses cryptography to sign digital assets.</p>
