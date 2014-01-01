@@ -18,7 +18,7 @@ links: |
 transcript_by: |
   <a href="mhr.github.io" target="_blank">mhr</a>
 transcript:
-<p><span>Francis Irving:</span> Who's from the Drogulus project, and he's a technical Python person, and a training musician, and he also used to be a teacher, and he's making the Drogulus, and he's going to tell us all about it. Hello!</p>
+  <p><span>Francis Irving:</span> Who's from the Drogulus project, and he's a technical Python person, and a training musician, and he also used to be a teacher, and he's making the Drogulus, and he's going to tell us all about it. Hello!</p>
   <p><span>Nicholas Tollervey:</span> Hello!</p>
   <p><span>Francis:</span> So what is the Drogulus?</p>
   <p><span>Nicholas:</span> Well, basically the Drogulus is a programmable peer-to-peer data store that I've been working on during my commute to London, my fourteen minute commute in the morning. Basically, what it is, it's a bit of an experiment in peer-to-peer decentralization. It's sort of a place for me to experiment and explore some ideas that have been knocking around in my head for quite a while. So the Drogulus itself is a global, federated, decentralized, open data store that can be programmed by anyone. And we ensure that identity and providence of the people using the Drogulus is ensured by cryptographically signing digital adresses, we use public-key cryptography for that. So being federated, in that the system consists of many independent entities and decentralized, there's no one entity more important than any of the others. It means that users are free from choke points of authority that may be used to control access or usage of the system. Being open.</p>
