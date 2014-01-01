@@ -16,7 +16,7 @@ links: |
   <li><a href="http://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf" target="_blank">Kademlia paper</a></li>
   <li><a href="http://twitter.com/ntoll" target="_blank">@ntoll on Twitter</a></li>
 transcript_by: |
-  <a href="mhr.github.io" target="_blank">mhr</a>
+  <a href="http://mhr.github.io" target="_blank">mhr</a>
 transcript:
   <p><span>Francis Irving:</span> Who's from the Drogulus project, and he's a technical Python person, and a training musician, and he also used to be a teacher, and he's making the Drogulus, and he's going to tell us all about it. Hello!</p>
   <p><span>Nicholas Tollervey:</span> Hello!</p>
