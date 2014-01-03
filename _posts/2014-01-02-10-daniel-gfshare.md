@@ -15,4 +15,5 @@ links: |
   <li><a href="http://www.digital-scurf.org/software/secretfs" target="_blank">Filesystem - secretfs</a></li>
   <li><a href="http://gfk.eatabrick.org/" target="_blank">Securely share over USB</a></li>
   <li><a href="http://ftp-master.debian.org/keys.html" target="_blank">Debian key signing</a></li>
+  <li><a href="http://twitter.com/dsilverstone" target="_blank">@dsilverstone on Twitter</a></li>
 ---
