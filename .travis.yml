@@ -6,4 +6,5 @@ rvm:
 - 1.8.7
 before_install:
 - travis_retry gem install jekyll
+- travis_retry gem install json
 script: jekyll build
