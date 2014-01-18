@@ -542,10 +542,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -554,10 +554,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -5818,7 +5818,7 @@ hr {
 .who-are-you li:after {
   clear: both;
 }
-.who-are-you li img {
+.avatar,.who-are-you li img {
   float: left;
   margin-right: 10px;
   border-radius: 100px;
