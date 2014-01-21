@@ -20,7 +20,7 @@ layout: none
   <title>{{ post.title }}</title>
   <link>http://redecentralize.org{{ post.url }}</link>
   <author>{{ post.author }}</author>
-  <description><![CDATA[{{ post.summary }}]]></description>
+  <description><![CDATA[{{ post.content }}]]></description>
   <guid>http://redecentralize.org{{ post.url }}</guid>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 </item>
