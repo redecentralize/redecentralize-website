@@ -284,6 +284,12 @@ a:focus {
 img {
   vertical-align: middle;
 }
+
+.blogpost img {
+  width:100%;
+  height: 100%;
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
