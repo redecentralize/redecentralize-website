@@ -117,20 +117,7 @@ client to start synchronizing the appropriate directories.
 
 ### ownCloud Documents vs. Google Documents
 
-One of the things I missed most about leaving Google was the
-collaborative features of Google Documents. New in ownCloud 6 is the
-ownCloud Documents app. It gives ownCloud users the ability to
-create and collaboratively edit ODT documents live in a browser.
-Collaboration is as simple as inviting users through sharing a link
-or granting permission to another ownCloud user. Collaborators show
-up in a sidebar. There is no integrated chat feature. The editing
-functions in ownCloud Documents are limited, but they are largely in
-line with the offerings of Google Documents. OwnCloud Documents only
-supports ODT. Although plain text files can be edited in ownCloud,
-they cannot be done so collaboratively. Also, ownCloud Documents
-lacks the ability to handle spreadsheets, presentations, or drawing.
-Some of the features, such an Impress viewer, are available as
-extensions.
+One of the things I missed most about leaving Google was the collaborative features of Google Documents. New in ownCloud 6 is the ownCloud Documents app. It gives ownCloud users the ability to create and collaboratively edit ODT documents live in a browser. Collaboration is as simple as inviting users through sharing a link or granting permission to another ownCloud user. Collaborators show up in a sidebar. There is no integrated chat feature. The editing functions in ownCloud Documents are limited, but they are largely in line with the offerings of Google Documents. OwnCloud Documents only supports ODT. Although plain text files can be edited in ownCloud, they cannot be done so collaboratively. Also, ownCloud Documents lacks the ability to handle spreadsheets, presentations, or drawing. Some of the features, such as an Impress viewer, are available as extensions.
 
 To switch to ownCloud Documents, I didn't have to do a thing. My
 documents were made available to me once I started synchronizing
