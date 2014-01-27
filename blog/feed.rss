@@ -15,11 +15,11 @@ layout: none
 <description>Quietly, some geeks are decentralizing the net. Again. Who are they? Why are they doing it? What new technologies are they using? How will this change the world? Each month, we interview one for 15 minutes.</description>
 
 {% for post in site.categories['blog'] %}
-
+{% assign author = site.authors[post.author] %}
 <item>
   <title>{{ post.title }}</title>
   <link>http://redecentralize.org{{ post.url }}</link>
-  <author>{{ post.author }}</author>
+  <author>{{ author.display_name }}</author>
   <description><![CDATA[{{ post.content }}]]></description>
   <guid>http://redecentralize.org{{ post.url }}</guid>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
