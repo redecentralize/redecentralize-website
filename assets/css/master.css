@@ -285,6 +285,11 @@ img {
   vertical-align: middle;
 }
 
+.item img {
+  width:100%;
+  height: 100%;
+}
+.blogpost { margin-top: 10px; }
 .blogpost img {
   width:100%;
   height: 100%;
@@ -5834,7 +5839,7 @@ hr {
 .who-are-you li:after {
   clear: both;
 }
-.avatar,img {
+.avatar img {
   width: 73px;
   height: 73px;
 }

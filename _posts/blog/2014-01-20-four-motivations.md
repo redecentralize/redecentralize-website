@@ -1,17 +1,16 @@
---- 
+---
 layout: blog
 categories: blog
 summary: "Why are people motivated by... 1) Privacy. 2) Resilience. 3) Competition. 4) Fun"
 title: "4 motivations for redecentralization"
 date: 2014-01-10 21:00:00
-author: "Francis Irving"
-username: "frabcus"
+author: "frabcus"
 ---
 
-While interviewing the people making projects, and talking to all sorts of people, 
+While interviewing the people making projects, and talking to all sorts of people,
 I've found four major different reasons people care about decentralization.
 
-## 1. Privacy 
+## 1. Privacy
 
 This is the most visible and activate motivation - particularly since Snowden
 showed how the economic cost of reading our personal messages just isn't high
@@ -23,7 +22,7 @@ easier to snoop on.
 
 Interview to watch: <a href="http://redecentralize.org/interviews/2013/08/07/03-tony-cryptosphere.html"><i class="icon-film"></i> Cryptosphere</a>
 
-## 2. Resilience 
+## 2. Resilience
 
 Much like privacy a few years ago, there are some people who know our systems
 won't cope with disaster, but it isn't yet an active political issue.
@@ -34,9 +33,9 @@ able to send email to other people in Liverpool.
 
 Interview to watch: <a href="http://redecentralize.org/interviews/2013/08/14/04-paul-serval.html"><i class="icon-film"></i> Serval Project</a>
 
-## 3. Competition 
+## 3. Competition
 
-This is a surprisingly broad motivation. 
+This is a surprisingly broad motivation.
 
 Part of it is large tech companies reducing competition by controlling the stack.
 For example, a proper decentralized marketplace helps artists compete at selling

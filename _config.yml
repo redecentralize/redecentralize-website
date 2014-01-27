@@ -2,3 +2,25 @@ name: Redecentralize
 markdown: redcarpet
 pygments: true
 timezone: Europe/London
+
+authors:
+  frabcus:
+    display_name: Francis Irving
+    picname: frabcus.jpg
+    link: https://twitter.com/frabcus
+  shevski:
+    display_name: Irina Bolychevsky
+    picname: shevski.jpg
+    link: https://twitter.com/shevski
+  rossjones:
+    display_name: Ross Jones
+    picname: rossjones.jpg
+    link: https://twitter.com/rossjones
+  mikedeplume:
+    display_name: Mike Sandford
+    picname: mikedeplume.jpg
+    link: https://twitter.com/mikedeplume
+  dknestaut:
+    display_name: Danny Knestaut
+    picname: dknestaut.jpg
+    link: https://twitter.com/dknestaut

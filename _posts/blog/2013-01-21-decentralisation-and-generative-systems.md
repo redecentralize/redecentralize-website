@@ -4,8 +4,7 @@ categories: blog
 summary: "I went to a Redecentralize meet-up the other day (3rd December, as it happens) and thoroughly enjoyed myself meeting a bunch of people and finding out what they did and how they saw the internet playing out both short and long term. "
 title: "Decentralisation and Generative Systems"
 date: 2014-01-21 08:00:00
-author: "Mike Sandford"
-username: "mikedeplume"
+author: "mikedeplume"
 ---
 
 I went to a Redecentralize meet-up the other day (3rd December, as it happens) and thoroughly enjoyed myself meeting a bunch of people and finding out what they did and how they saw the internet playing out both short and long term. For the long term I heard how the Catholic Church has managed overall organisation, communication and data storage over a very long time, rolling with the technology and using what works, including keeping the older methods where it might be appropriate, or simply where it just doesn't matter and there is no need to change. For more immediate consideration I found a mechanism that used TOR to provide anonymized emails. This mechanism fits into the mail transport layer and uses TOR or the open internet quite transparently, depending on the capability of the mail recipient.

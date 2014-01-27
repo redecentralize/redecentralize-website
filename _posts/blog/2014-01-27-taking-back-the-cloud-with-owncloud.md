@@ -7,12 +7,10 @@ as the heir apparent of Google Reader, I decided to take control and
 end the cycle of shepherding my data from one cloud service to the
 next"
 title: "Taking Back the Cloud with ownCloud"
-author: "Danny Knestaut" 
-username: "dknestaut"
+author: "dknestaut"
 date: 2014-01-27 08:00:00
 
 ---
-## Taking Back the Cloud with ownCloud
 
 When Google announced the retiring of Reader, once again I found
 myself doing the cloud service shuffle. While many looked to Feedly
