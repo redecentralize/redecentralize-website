@@ -9,10 +9,29 @@ id: blog
   {% for post in site.categories['blog'] %}
     {% assign author = site.authors[post.author] %}
     <div class="item{% cycle ' clear', '', '' %}">
-          {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
-          <h4>{{ post.title }}</h4>
-          <p>{{ post.summary }}</p>
-          <a href="{{ post.url }}"><span>Read more</span></a>
+      {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
+      <h4>{{ post.title }}</h4>
+      <p style="color: #000;">
+        {{ post.summary }}
+        <div style="border-top: solid 2px #efefff;border-bottom: solid 2px #efefff; font-size: 0.9em;">
+            <a href="{{post.url}}#disqus_thread" style='display:inline; position:relative;'></a>
+            <a href="{{post.url}}" class="pull-right" style='display:inline; position:relative;'>Read more &raquo;</a>
+        </div>
+
+      </p>
+
     </div>
   {% endfor %}
 </div>
+
+<script type="text/javascript">
+  var disqus_shortname = 'redecentralizedotorg';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+  </script>
