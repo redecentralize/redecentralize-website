@@ -12,7 +12,7 @@ duration: 20:15
 poster: http://redecentralize.net/video/cozy-cloud-with-benjamin-andre.jpg
 links: |
   <li><a href="https://www.cozycloud.cc/" target="_blank">Cozy Cloud - hosted</a></li>
-  <li><a href="https://www.cozy.io/" target="_blank">Cozy.io - self-host</a></li>
+  <li><a href="http://cozy.io/" target="_blank">Cozy.io - self-host</a></li>
   <li><a href="https://github.com/mycozycloud/cozy-setup" target="_blank">Github repository</a></li>
   <li><a href="http://twitter.com/MyCozyCloud" target="_blank">@MyCozyCloud on Twitter</a></li>
 ---
