@@ -3,7 +3,7 @@ layout: post
 categories: interviews
 summary: "Richard Bartlett on decentralizing decision making with Loomio. How can user experience help us govern ourselves? Plus crowdfunding."
 title: "#13: Richard Bartlett - Loomio"
-date: 2014-03-06 20:00:00
+date: 2014-04-08 20:00:00
 author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/loomio-with-richard-bartlett.mp4
 size-mp4: 58444611
