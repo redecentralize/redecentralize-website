@@ -24,5 +24,5 @@ Github supports it automatically, so this keeps things simple.
 This will run a Jekyll server on your local machine, rebuilding the 
 site every time you change a source file.
 
-`LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 jekyll server --watch --port 4343`
+`LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 jekyll server --watch`
 
