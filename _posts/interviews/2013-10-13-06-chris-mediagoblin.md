@@ -8,7 +8,7 @@ author: "Irina Bolychevsky"
 url-mp4: http://redecentralize.net/video/christopher-webber-with-media-goblin.mp4
 size-mp4: 102777956
 url-webm: http://redecentralize.net/video/christopher-webber-with-media-goblin.webm
-duration: 37:14
+duration: "37:14"
 poster: http://redecentralize.net/video/christopher-webber-with-media-goblin.jpg
 links: |
   <li><a href="http://mediagoblin.org/" target="_blank">MediaGoblin site</a></li>

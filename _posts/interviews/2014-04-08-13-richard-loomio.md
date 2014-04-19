@@ -8,7 +8,7 @@ author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/loomio-with-richard-bartlett.mp4
 size-mp4: 58444611
 url-webm: http://redecentralize.net/video/loomio-with-richard-bartlett.webm
-duration: 21:26
+duration: "21:26"
 poster: http://redecentralize.net/video/loomio-with-richard-bartlett.jpg
 links: |
   <li><a href="https://www.loomio.org/" target="_blank">Loomio site</a></li>

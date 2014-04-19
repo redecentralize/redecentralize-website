@@ -8,7 +8,7 @@ author: "Irina Bolychevsky"
 url-mp4: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.mp4
 size-mp4: 99042528
 url-webm: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.webm
-duration: 36:55
+duration: "36:55"
 poster: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.jpg
 links: |
   <li><a href="https://www.zerotier.com/" target="_blank">ZeroTier website</a></li>

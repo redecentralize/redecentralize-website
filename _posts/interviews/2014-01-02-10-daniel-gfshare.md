@@ -8,7 +8,7 @@ author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/gfshare-with-daniel-silverstone.mp4
 size-mp4: 76128850
 url-webm: http://redecentralize.net/video/gfshare-with-daniel-silverstone.webm
-duration: 25:49
+duration: "25:49"
 poster: http://redecentralize.net/video/gfshare-with-daniel-silverstone.jpg
 links: |
   <li><a href="http://manpages.ubuntu.com/manpages/intrepid/man7/gfshare.7.html" target="_blank">gfshare manpage</a></li>

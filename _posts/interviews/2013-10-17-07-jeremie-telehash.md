@@ -9,7 +9,7 @@ author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/telehash-with-jeremie-miller.mp4
 size-mp4: 47040573
 url-webm: http://redecentralize.net/video/telehash-with-jeremie-miller.webm
-duration: 17:19
+duration: "17:19"
 poster: http://redecentralize.net/video/telehash-with-jeremie-miller.jpg
 links: |
   <li><a href="http://telehash.org/" target="_blank">TeleHash site</a></li>

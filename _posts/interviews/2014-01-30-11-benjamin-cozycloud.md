@@ -8,7 +8,7 @@ author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/cozy-cloud-with-benjamin-andre.mp4
 size-mp4: 50964016
 url-webm: http://redecentralize.net/video/cozy-cloud-with-benjamin-andre.webm
-duration: 20:15
+duration: "20:15"
 poster: http://redecentralize.net/video/cozy-cloud-with-benjamin-andre.jpg
 links: |
   <li><a href="https://www.cozycloud.cc/" target="_blank">Cozy Cloud - hosted</a></li>

@@ -8,7 +8,7 @@ author: "Irina Bolychevsky"
 url-mp4: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.mp4
 size-mp4: 89130904
 url-webm: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.webm
-duration: 33:09
+duration: "33:09"
 poster: http://redecentralize.net/video/cryptosphere-with-toni-arcieri.jpg
 links: |
   <li><a href="http://cryptosphere.org/" target="_blank">Cryptosphere website</a></li>

@@ -8,7 +8,7 @@ author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/unhosted-with-michiel-de-jong.mp4
 size-mp4: 70433805
 url-webm: http://redecentralize.net/video/unhosted-with-michiel-de-jong.webm
-duration: 25:58
+duration: "25:58"
 poster: http://redecentralize.net/video/unhosted-with-michiel-de-jong.jpg
 links: |
   <li><a href="https://unhosted.org/" target="_blank">Unhosted site</a></li>

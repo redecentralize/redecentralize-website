@@ -8,7 +8,7 @@ author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.mp4
 size-mp4: 54074760
 url-webm: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.webm
-duration: 19:56
+duration: "19:56"
 poster: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.jpg
 links: |
   <li><a href="http://www.mailpile.is/" target="_blank">Mailpile site</a></li>

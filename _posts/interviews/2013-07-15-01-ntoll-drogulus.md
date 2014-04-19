@@ -8,7 +8,7 @@ author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.mp4
 size-mp4: 47011215
 url-webm: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.webm
-duration: 17:23
+duration: "17:23"
 poster: http://redecentralize.net/video/drogulus-with-nicholas-tollervey.jpg
 links: |
   <li><a href="http://drogul.us/" target="_blank">Drogulus website</a></li>
