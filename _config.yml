@@ -2,6 +2,8 @@ name: Redecentralize
 markdown: redcarpet
 pygments: true
 timezone: Europe/London
+gems:
+  - jekyll-sitemap
 
 authors:
   frabcus:
