@@ -8,4 +8,5 @@ rvm:
 before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install json
+- travis_retry gem install jekyll-sitemap
 script: jekyll build
