@@ -8,7 +8,7 @@ author: "Irina Bolychevsky"
 url-mp4: http://redecentralize.net/video/pinoccio-with-sally-carson.mp4
 size-mp4: 88565800
 url-webm: http://redecentralize.net/video/pinoccio-with-sally-carson.webm
-duration: ""
+duration: "32:10"
 poster: http://redecentralize.net/video/pinoccio-with-sally-carson.jpg
 links: |
   <li><a href="https://pinocc.io/" target="_blank">Pinoccio site</a></li>

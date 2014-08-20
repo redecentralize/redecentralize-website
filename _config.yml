@@ -1,6 +1,6 @@
 name: Redecentralize
 markdown: redcarpet
-pygments: true
+highlighter: true
 timezone: Europe/London
 gems:
   - jekyll-sitemap
