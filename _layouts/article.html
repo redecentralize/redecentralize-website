@@ -1,6 +1,6 @@
 ---
 layout: default
-id: blog
+id: article
 ---
 {% assign author = site.authors[page.author] %}
 <div class="col-sm-8">
@@ -22,7 +22,7 @@ id: blog
     <h2>Recent posts</h2>
 
     <ul class='recent-posts'>
-    {% for post in site.categories['blog'] offset: 0 limit: 10 %}
+    {% for post in site.categories[page.categories.first] offset: 0 limit: 10 %}
       {% if posts.title == page.title %}
       {% else %}
       <li>

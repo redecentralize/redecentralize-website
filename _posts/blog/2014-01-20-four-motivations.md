@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: article
 categories: blog
 summary: "Why are people motivated by... 1) Privacy. 2) Resilience. 3) Competition. 4) Fun"
 title: "4 motivations for redecentralization"
