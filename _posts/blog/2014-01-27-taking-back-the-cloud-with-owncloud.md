@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: article
 categories: blog
 summary: "When Google announced the retiring of Reader, once again I found
 myself doing the cloud service shuffle. While many looked to Feedly

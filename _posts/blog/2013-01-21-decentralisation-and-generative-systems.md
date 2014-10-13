@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: article
 categories: blog
 summary: "I went to a Redecentralize meet-up the other day (3rd December, as it happens) and thoroughly enjoyed myself meeting a bunch of people and finding out what they did and how they saw the internet playing out both short and long term. "
 title: "Decentralisation and Generative Systems"
