@@ -13,6 +13,6 @@ poster: http://redecentralize.net/video/tahoe-lafs-with-zooko-wilcox-ohearn.jpg
 links: |
   <li><a href="https://www.tahoe-lafs.org/trac/tahoe-lafs" target="_blank">Tahoe-LAFS website</a></li>
   <li><a href="https://leastauthority.com/" target="_blank">Commercial company</a></li>
-  <li><a href="https://github.com/tahoe-lafs/tahoe-lafs" target="_blank">Source code</a></li>
+  <li><a href="https://www.youtube.com/watch?v=kLrcsyHqrwQ" target="_blank">Demonstration video</a></li>
   <li><a href="http://en.wikipedia.org/wiki/Zooko's_triangle" target="_blank">Zooko's triangle</a></li>
 ---
