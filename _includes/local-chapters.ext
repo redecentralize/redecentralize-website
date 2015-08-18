@@ -1,3 +1,0 @@
-<ul class="dropdown-menu">
-  <li {% if page.id == 'lisbon' %} class="active" {% endif %} > <a href="/local/lisbon/" >Lisbon</a></li>
-</ul>
