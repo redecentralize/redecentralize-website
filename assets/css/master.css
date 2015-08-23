@@ -683,6 +683,8 @@ pre code {
   padding-left: 0;
   padding-right: 0;
   width: 100% !important;
+  margin-top: -26px;
+  margin-bottom: 0px;
 }
 .container:before,
 .container:after {
