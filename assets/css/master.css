@@ -677,6 +677,13 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+.container-wide {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100% !important;
+}
 .container:before,
 .container:after {
   content: " ";
