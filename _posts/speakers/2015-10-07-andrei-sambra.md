@@ -5,6 +5,6 @@ summary: "Works at MIT/W3C on Small (Linked) Data. Web engineer, OpenSource enth
 title: "Andrei Sambra"
 date: 2015-10-07 22:00:10
 author: "Andrei Sambra"
-poster: http://redecentralize.net/conference/speakers/andreisambra.jpg
+poster: http://redecentralize.org/conference/speakers/andreisambra.jpg
 links:
 ---

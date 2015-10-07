@@ -5,6 +5,6 @@ summary: "Sociotechnologist. Social solutions for technological problems. CTO / 
 title: "Blaine Cook"
 date: 2015-10-07 22:00:05
 author: "Blaine Cook"
-poster: http://redecentralize.net/conference/speakers/blainecook.jpg
+poster: http://redecentralize.org/conference/speakers/blainecook.jpg
 links:
 ---

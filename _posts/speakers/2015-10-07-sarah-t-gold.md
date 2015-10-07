@@ -5,6 +5,6 @@ summary: "Design: emerging technologies & digital infrastructures. @NearNow Fell
 title: "Sarah Gold"
 date: 2015-10-07 22:00:10
 author: "Sarah Gold"
-poster: http://redecentralize.net/conference/speakers/sarahtgold.jpg
+poster: http://redecentralize.org/conference/speakers/sarahtgold.jpg
 links:
 ---

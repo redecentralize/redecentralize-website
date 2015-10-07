@@ -5,6 +5,6 @@ summary: "Maker. Thinker. Product person. @redecentralize founder. Ex @okfn & @c
 title: "Irina Bolychevsky"
 date: 2015-10-07 22:00:10
 author: "Irina Bolychevsky"
-poster: http://redecentralize.net/conference/speakers/irinabolychevsky.jpg
+poster: http://redecentralize.org/conference/speakers/irinabolychevsky.jpg
 links:
 ---

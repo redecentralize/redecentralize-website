@@ -5,6 +5,6 @@ summary: "Calm technology, cyborgs, future of location and mobile. Working on @m
 title: "Amber Case"
 date: 2015-10-07 22:00:04
 author: "Amber Case"
-poster: http://redecentralize.net/conference/speakers/ambercase.jpeg
+poster: http://redecentralize.org/conference/speakers/ambercase.jpeg
 links:
 ---
