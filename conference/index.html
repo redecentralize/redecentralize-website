@@ -30,26 +30,6 @@ id: conference
 		</div>
 	</div>
 </div>
-<div class="jumbotron">
-	<div class="container">
-		<div class="wrap" style="padding-top:0px;padding-bottom:40px;">
-			<div style="text-align:center; padding-bottom:20px;">
-				<h1>Speakers</h1>
-			</div>
-
-			<div class="listing">
-			  {% for post in site.categories['speakers'] %}
-			    <div class="item{% cycle ' clear', '', '' %}">
-			      <img src="{{ post.poster }}">
-			      <h4>{{ post.title }}</h4>
-			      <p>{{ post.summary }}</p>
-			    </div>
-			  {% endfor %}
-			</div>
-
-		</div>
-	</div>
-</div>
 <div class="jumbotron" style="background-color: #a0e0a9; color: #126057;border-radius:0px !important;" link="#126057">
 	<div class="container">
 		<div class="wrap" style="padding-top:40px;padding-bottom:40px;">
