@@ -5,6 +5,6 @@ summary: "I support a decentralized web. Grad student @MIT, friend at the @Berkm
 title: "Nicola Greco"
 date: 2015-10-07 22:00:07
 author: "Nicola Greco"
-poster: http://redecentralize.net/conference/speakers/nicolagreco.jpg
+poster: http://redecentralize.org/conference/speakers/nicolagreco.jpg
 links:
 ---
