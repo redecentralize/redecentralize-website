@@ -58,7 +58,7 @@ id: sessions
 			<h2>Examples of Pre-Submitted Sessions</h2>
 			<p></p>
 <ul>
-<li id="1161"><strong>Mapping the space: Ira & Ross</strong> What's the status of various projecs? Trying things out and creating a wiki/db of alternatives: <a href="https://redecentralize.github.io/alternative-internet/">https://redecentralize.github.io/alternative-internet/</a>. 
+<li id="1161"><strong>Mapping the space: Ira & Ross</strong> What's the status of various projecs? Trying things out and creating a wiki/db of alternatives: <a href="https://redecentralize.github.io/alternative-internet/">https://redecentralize.github.io/alternative-internet/</a>.
 </li>
 <li id="1161"><strong>What does decentralised news look like?: Bill Thompson</strong> "If you tell the kids these days that we had NNTP back in the 1980's they won't believe you..."  Exploring ways to resist platform thinking and centralised news.</li>
 <li><strong>Rethinking interfaces to encourage decentralization: Philip Sheldrake</strong> Centralization talks in terms of users and user interfaces. Decentralization recognises the human with the advent of the human interface (HI). This session presents the hi:project (www.hi-project.org) and its contribution to redecentralization.</li>
@@ -68,20 +68,32 @@ id: sessions
 			</section>
 
 			<section id="speakers" class="speakers speakers-front">
-	<h2>Speakers</h2>
 
-	<ul class="speakers">
-		<li class="speaker"><a class="speaker-name" href="http://twitter.com/@shevski">Irina Bolychevsky</a></li>
-		<li class="speaker"><a class="speaker-name" href="http://twitter.com/@nicolagreco">Nicola Greco</a></li>
-		<li class="speaker"><a class="speaker-name" href="http://twitter.com/@therealdeiu">Andrei Sambra</a></li>
-		<li class="speaker"><a class="speaker-name" href="http://twitter.com/@sheldrake">Philip Sheldrake</a></li>
-		<li class="speaker"><a class="speaker-name" href="http://twitter.com/@bblfish">Henry Story</a></li>
+				<div class="jumbotron">
+					<div class="container">
+						<div class="wrap" style="padding-top:0px;padding-bottom:40px;">
+							<div style="text-align:center; padding-bottom:20px;">
+								<h1>Speakers</h1>
+							</div>
 
-</ul>
-</section>
+							<div class="listing">
+							  {% for post in site.categories['speakers'] %}
+							    <div class="item{% cycle ' clear', '', '' %}">
+							      <img src="{{ post.poster }}">
+							      <h4>{{ post.title }}</h4>
+							      <p>{{ post.summary }}</p>
+							    </div>
+							  {% endfor %}
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</section>
 <!--span class="word1">Myles</span> <span class="word2">Borins</span> </a><span class="company">Signal processing, perceptual audio, and the web audio api</span></span-->
 
-			
+
 		</div>
 	</div>
 </div>
