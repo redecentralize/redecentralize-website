@@ -5,112 +5,141 @@ id: sessions
 ---
 
 <style>
-	.jumbotron {
-		line-height: 1.5 !important; font-size: 120%; 
-	}
+  .jumbotron {
+  line-height: 1.5 !important; font-size: 120%; 
+  }
 
-	/* Icon when the collapsible content is shown */
-	.cfpbtn:after {
-		content: "-";
-		float: right;
-		margin-left: 15px;
-	}
-	/* Icon when the collapsible content is hidden */
-	.cfpbtn.collapsed:after {
-		content: "+";
-	}
+  /* Icon when the collapsible content is shown */
+  .cfpbtn:after {
+  content: "-";
+  float: right;
+  margin-left: 15px;
+  }
+  /* Icon when the collapsible content is hidden */
+  .cfpbtn.collapsed:after {
+  content: "+";
+  }
 </style>
 <div class="jumbotron" style="background-color: #126057; color: white;text-align:center;border-radius:0px !important;" link="white">
-	<div class="container">
-		<div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-			<h1>Redecentralize Conference - taking back the net</h1>
-			<p class="leder">A weekend to learn, connect and make technology that shapes society.</p>
-			<p class="leder"><strong>17-18 October 2015 | London | <a style="color:white;" href="https://twitter.com/search?q=%23redecentralize&amp;src=typd">#redecentralize</a></strong></p>
-		</div>
-	</div>
+  <div class="container">
+    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
+      <h1>Redecentralize Conference - taking back the net</h1>
+      <p class="leder">A weekend to learn, connect and make technology that shapes society.</p>
+      <p class="leder"><strong>17-18 October 2015 | London | <a style="color:white;" href="https://twitter.com/search?q=%23redecentralize&amp;src=typd">#redecentralize</a></strong></p>
+    </div>
+  </div>
 </div>
 <div class="jumbotron">
-	<div class="container">
-		<div class="wrap" style="padding-top  :40px;padding-bottom:40px;">
-       <div style="text-align:center;"><h1>Sessions, Speakers &amp; Schedule</h1></div>
-<p>The Redecentralize Conference schedule is still being constructed--and it will be created by you, as an <a href="https://en.wikipedia.org/wiki/Unconference">unconference</a>/<a href="https://en.wikipedia.org/wiki/BarCamp">BarCamp</a> with some pre-scheduled talks and workshops, plus your pitches and lightning talks. You can propose a session now or pitch a session during the conference itself. Check out a sketch of the schedule below and some of the speakers and sessions who will be at the conference.</p>
-			 <button type="button" class="btn cfpbtn btn-lg btn-info collapsed" data-toggle="collapse" data-target="#cfp">Propose a session</button>
+  <div class="container">
+    <div class="wrap" >
 
-       <div id="cfp" class="collapse" style="text-align:center;"><iframe src="https://docs.google.com/forms/d/1d_0mGbpTj10MbzmEWE_PE1VQDWA_vCW6qjMq945OIZI/viewform?embedded=true" width="100%" height="1090" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-</div>
-<section id="schedule" class="schedule schedule-front">
-			<h2>Schedule</h2>
-			<h3>Saturday</h3>
-<ul>
-<li id="1161">9am - Doors open, coffee and tea</li>
-<li id="1161">9:45am - Welcome</li>
-<li id="1161">10am-5pm - Unconference pitches, talks, sessions, workshops, and lunch</li>
-<li id="1161">5-7pm - Social time</li>
-</ul>
-<h3>Sunday</h3>
-<ul>
-<li id="1161">9am - Doors open, coffee and tea</li>
-<li id="1161">10am-5pm - Unconference pitches, talks, sessions, workshops, and lunch</li>
-<li id="1161">5-5:15pm - Closing, thanks, and next steps</li>
+<section id="speakers" class="speakers speakers-front">
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="wrap" style="padding-top:0px;padding-bottom:40px;">
+	<div style="text-align:center; padding-bottom:20px;">
+	  <h1>Speakers</h1>
+	</div>
+
+	<div class="listing">
+	  {% for post in site.categories['speakers'] %}
+	  <div class="item{% cycle ' clear', '', '', '', '' %}">
+	    <img src="{{ post.poster }}">
+	    <h4>{{ post.title }}</h4>
+	    <p>{{ post.summary }}</p>
+	  </div>
+	  {% endfor %}
+	</div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+    <section id="schedule" class="schedule schedule-front">
+      <h2>Schedule</h2>
+      <h3>Saturday</h3>
+      <ul>
+        <li id="1161">9am - Doors open, coffee and tea</li>
+        <li id="1161">9:45am - Welcome</li>
+        <li id="1161">10am-5pm - Unconference pitches, talks, sessions, workshops, and lunch</li>
+        <li id="1161">5-7pm - Social time</li>
+      </ul>
+      <h3>Sunday</h3>
+      <ul>
+        <li id="1161">9am - Doors open, coffee and tea</li>
+        <li id="1161">10am-5pm - Unconference pitches, talks, sessions, workshops, and lunch</li>
+        <li id="1161">5-5:15pm - Closing, thanks, and next steps</li>
+      </ul>
+    </section>
+
+      <p>The Conference will be a mixture of scheduled sessions, lightning talks, workshops, and a heavy dose of <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">
+          unconference</a>.
+      </p>
+
+      <h2>
+        What will happen on the day?
+      </h2>
+      <p>
+        We'll welcome you in, invite you to enjoy a tasty pastry and beverage, and then introduce the day. Right after that we'll be looking for attendees who want
+        to propose a session to briefly explain what they want to discuss. While that happens, we'll be written down on scruffy post-it notes and added to a
+        schedule on the wall. You can consult the schedule throughout the day to figure out what you want to do next - though you should leave plenty of time for 
+        luxuriating in the serendipity of the hallway track.
+      </p>
+
+      <h2>
+        What if I end up in a session that's boring or I find myself out of my depth? 
+      </h2>
+      <p>
+        Feel free to just get up and leave, moving freely between the spaces at the conference - find
+        someone you don't know and strike up a conversation, or try some live blogging of the event. Conferences are about discovering new things and making
+        new friends, so optimize for that, and don't feel like you have to stay in one place just because of the shedule. (Remember - the schedule is just some
+        post-its on a wall!)
+      </p>
+      <h2>
+        Are there still projectors and powerpoint and chairs? 
+      </h2>
+      <p>
+        Yes! <br />If you have slides that you want to bring to help spark a discussion, or if you have a project you want to demo, jump right in!
+      </p>
+    </div>
+
+
+
+    <section id="schedule" class="schedule schedule-front">
+      <h2>Examples of Pre-Submitted Sessions</h2>
+      <p></p>
+      <ul style="list-style-type: none;">
+	<li id="1161"><strong>Mapping the space: Ira & Ross</strong><p> What's the status of various projecs? Trying things out and creating a wiki/db of alternatives: <a href="https://redecentralize.github.io/alternative-internet/">https://redecentralize.github.io/alternative-internet/</a>.</p>
+        </li>
+        <li><strong>Digital Bill of Rights or How to Survive Digitalised Futures: Eva Pascoe</strong></li>
+        <li id="1161"><strong>What does decentralised news look like?: Bill Thompson</strong> <p>"If you tell the kids these days that we had NNTP back in the 1980's they won't believe you..."  Exploring ways to resist platform thinking and centralised news.</p></li>
+        <li><strong>Rethinking interfaces to encourage decentralization: Philip Sheldrake</strong> <p>Centralization talks in terms of users and user interfaces. Decentralization recognises the human with the advent of the human interface (HI). This session presents the hi:project (www.hi-project.org) and its contribution to redecentralization.</p></li>
+        <li><strong>Decentralised personalisation, or: Why your decentralised service is not sticky: Benjamin Heitmann</strong><p>Let's assume that you can build a decentralised service, which is well engineered and solves a real problem. There is a big chance that it will still be less attractive compared to its mainstream and centralised competitors. 
+
+            Why? Because it will lack the stickiness of centralised services which is caused by social features and personalisation. 
+
+            On current social media sites, personalisation is a commodity, which is to say that it is an expected feature. Yet, almost all state-of-the-art personalisation approaches require centralised data collection. 
+
+            Join me for this talk, in order to learn about why decentralising personalisation is a big and unsolved challenge, and help with brainstorming possible solutions.</p></li>
+        <li><strong>The Distributed Secure Social Web: Henry Story</strong> <p>Redecentralising the Social Web is key to allowing individuals and organisations to co-operate dynamically and efficiently. By allowing people to own their data and link across organisational boundaries one can create a new economy of just-in-time projects, without needing to centralise everything on to the one big brother platform. This means building a web where every person, family or organisation can control their data on their server, specify who can see what, and easily linking to data on other servers. This linked data can then be used to generate dynamic user interfaces that are user friendly. A number of standards have been developed to do this at the W3C over the past 20 years, and are coming together under the <a href="https://github.com/solid/solid-spec">SoLiD project</a>.</p></li>
+        <li><strong>Data ownership in the age of silos: Andrei Sambra, Nicola Greco</strong> <p>This talk aims to introduce a new architecture that will radically change the way Web applications work today, resulting in true data ownership as well as improved privacy. It gives users the freedom to choose where their data resides and who is allowed to access it by decoupling content from the application itself. Because applications are decoupled from the data they produce, users will be able to avoid vendor lock-in by seamlessly switching the apps and personal data storage servers, without losing any data or social connections. Finally, it allows developers to easily innovate by creating new apps or improving current apps, all while reusing existing data that was created by other apps.</p></li>
+        <li><strong>OwnCloud on your Raspberry Pi: Ed Crompton</strong><p></p>Ditch Dropbox and learn the basics you need to set up a file server hosted in your own home at minimal cost.
+
+          This talk is the step by step guide you'll need to turn your out-of-the-box Raspberry Pi into an OwnCloud server to share files from anywhere. 
+
+          Using the Raspian operating system, you'll learn how to install the necessary Free and Open Source software packages to get your file server up and running. You'll also come away with the knowledge required to securely access your server using your own domain name over your home internet connection. In addition we'll look at the basic features of OwnCloud and how you may want to extend it.</p></li>
+<li><strong>Decentralization: Ten Years of Standardization Failure and Our Last Best Hope: Harry Halpin</strong><p>OpenID, the Semantic Web, and now the blockchain. For decades, we've been trying to redecentralize the web, and our efforts have failed to reach widespread adoption. It's time for a new strategy.</p></li>
 </ul>
 </section>
 
-<section id="schedule" class="schedule schedule-front">
-			<h2>Examples of Pre-Submitted Sessions</h2>
-			<p></p>
-<ul style="list-style-type: none;">
-	<li id="1161"><strong>Mapping the space: Ira & Ross</strong><p> What's the status of various projecs? Trying things out and creating a wiki/db of alternatives: <a href="https://redecentralize.github.io/alternative-internet/">https://redecentralize.github.io/alternative-internet/</a>.</p>
-</li>
-<li><strong>Digital Bill of Rights or How to Survive Digitalised Futures: Eva Pascoe</strong></li>
-<li id="1161"><strong>What does decentralised news look like?: Bill Thompson</strong> <p>"If you tell the kids these days that we had NNTP back in the 1980's they won't believe you..."  Exploring ways to resist platform thinking and centralised news.</p></li>
-<li><strong>Rethinking interfaces to encourage decentralization: Philip Sheldrake</strong> <p>Centralization talks in terms of users and user interfaces. Decentralization recognises the human with the advent of the human interface (HI). This session presents the hi:project (www.hi-project.org) and its contribution to redecentralization.</p></li>
-<li><strong>Decentralised personalisation, or: Why your decentralised service is not sticky: Benjamin Heitmann</strong><p>Let's assume that you can build a decentralised service, which is well engineered and solves a real problem. There is a big chance that it will still be less attractive compared to its mainstream and centralised competitors. 
-
-Why? Because it will lack the stickiness of centralised services which is caused by social features and personalisation. 
-
-On current social media sites, personalisation is a commodity, which is to say that it is an expected feature. Yet, almost all state-of-the-art personalisation approaches require centralised data collection. 
-
-Join me for this talk, in order to learn about why decentralising personalisation is a big and unsolved challenge, and help with brainstorming possible solutions.</p></li>
-<li><strong>The Distributed Secure Social Web: Henry Story</strong> <p>Redecentralising the Social Web is key to allowing individuals and organisations to co-operate dynamically and efficiently. By allowing people to own their data and link across organisational boundaries one can create a new economy of just-in-time projects, without needing to centralise everything on to the one big brother platform. This means building a web where every person, family or organisation can control their data on their server, specify who can see what, and easily linking to data on other servers. This linked data can then be used to generate dynamic user interfaces that are user friendly. A number of standards have been developed to do this at the W3C over the past 20 years, and are coming together under the <a href="https://github.com/solid/solid-spec">SoLiD project</a>.</p></li>
-<li><strong>Data ownership in the age of silos: Andrei Sambra, Nicola Greco</strong> <p>This talk aims to introduce a new architecture that will radically change the way Web applications work today, resulting in true data ownership as well as improved privacy. It gives users the freedom to choose where their data resides and who is allowed to access it by decoupling content from the application itself. Because applications are decoupled from the data they produce, users will be able to avoid vendor lock-in by seamlessly switching the apps and personal data storage servers, without losing any data or social connections. Finally, it allows developers to easily innovate by creating new apps or improving current apps, all while reusing existing data that was created by other apps.</p></li>
-<li><strong>OwnCloud on your Raspberry Pi: Ed Crompton</strong><p></p>Ditch Dropbox and learn the basics you need to set up a file server hosted in your own home at minimal cost.
-
-This talk is the step by step guide you'll need to turn your out-of-the-box Raspberry Pi into an OwnCloud server to share files from anywhere. 
-
-Using the Raspian operating system, you'll learn how to install the necessary Free and Open Source software packages to get your file server up and running. You'll also come away with the knowledge required to securely access your server using your own domain name over your home internet connection. In addition we'll look at the basic features of OwnCloud and how you may want to extend it.</p></li>
-<li><strong>Decentralization: Ten Years of Standardization Failure and Our Last Best Hope: Harry Halpin</strong><p>OpenID, the Semantic Web, and now the blockchain. For decades, we've been trying to redecentralize the web, and our efforts have failed to reach widespread adoption. It's time for a new strategy.</p></li>
-</ul>
-			</section>
-
-			<section id="speakers" class="speakers speakers-front">
-
-				<div class="jumbotron">
-					<div class="container">
-						<div class="wrap" style="padding-top:0px;padding-bottom:40px;">
-							<div style="text-align:center; padding-bottom:20px;">
-								<h1>Speakers</h1>
-							</div>
-
-							<div class="listing">
-							  {% for post in site.categories['speakers'] %}
-							    <div class="item{% cycle ' clear', '', '' %}">
-							      <img src="{{ post.poster }}">
-							      <h4>{{ post.title }}</h4>
-							      <p>{{ post.summary }}</p>
-							    </div>
-							  {% endfor %}
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-			</section>
 <!--span class="word1">Myles</span> <span class="word2">Borins</span> </a><span class="company">Signal processing, perceptual audio, and the web audio api</span></span-->
 
 
-		</div>
-	</div>
+</div>
+</div>
 </div>
 
 
