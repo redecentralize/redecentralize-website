@@ -5767,6 +5767,9 @@ hr {
 @media (min-width: 768px) {
   .listing .item {
     float: left;
+    width: 33.33333333%;
+  }
+  .speakers .listing .item {
     width: 20%
   }
 }
