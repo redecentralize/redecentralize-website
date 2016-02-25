@@ -1,5 +1,4 @@
 name: Redecentralize
-markdown: redcarpet
 timezone: Europe/London
 gems:
   - jekyll-sitemap
