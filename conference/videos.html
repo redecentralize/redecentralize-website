@@ -1,0 +1,15 @@
+---
+layout: default
+title: Conference 2015 Videos
+---
+
+<div class="listing">
+  {% for post in site.categories['conf2015'] %}
+    <div class="item{% cycle ' clear', '', '' %}">
+      <img src="{{ post.poster }}">
+      <h4>{{ post.title }}</h4>
+      <p>{{ post.summary }}</p>
+      <a href="{{ post.url }}"><span>Watch now</span></a>
+    </div>
+  {% endfor %}
+</div>
