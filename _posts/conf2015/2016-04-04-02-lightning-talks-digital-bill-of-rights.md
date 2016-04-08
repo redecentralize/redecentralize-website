@@ -7,7 +7,7 @@ date: 2016-04-04 23:00:00
 author: "Francis Irving"
 url-mp4: http://redecentralize.net/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.mp4
 size-mp4: 168685898
-url-webm: http://redecentralize.net/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.mp4
+url-webm: http://redecentralize.net/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.webm
 duration: "53:24"
 poster: http://redecentralize.net/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.jpg
 links: |
