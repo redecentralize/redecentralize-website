@@ -5,11 +5,11 @@ summary: "Adam Ierymenko talks about ZeroTier One, which creates flat virtual Et
 title: "#2: Adam Ierymenko - ZeroTier One"
 date: 2013-07-30 06:00:00
 author: "Irina Bolychevsky"
-url-mp4: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.mp4
+url-mp4: http://something.redecentralize.org/video/zerotierone-with-adam-ierymenko.mp4
 size-mp4: 99042528
-url-webm: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.webm
+url-webm: http://something.redecentralize.org/video/zerotierone-with-adam-ierymenko.webm
 duration: "36:55"
-poster: http://redecentralize.net/video/zerotierone-with-adam-ierymenko.jpg
+poster: http://something.redecentralize.org/video/zerotierone-with-adam-ierymenko.jpg
 links: |
   <li><a href="https://www.zerotier.com/" target="_blank">ZeroTier website</a></li>
   <li><a href="http://blog.zerotier.com/post/58157836374/op-ed-internet-centralization-is-not-a-conspiracy" target="_blank">Follow up blog post on centralization causes</a></li>

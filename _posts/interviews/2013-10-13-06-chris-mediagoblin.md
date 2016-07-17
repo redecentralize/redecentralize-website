@@ -5,11 +5,11 @@ summary: "Christopher Webber talks about Media Goblin, a decentralized media pub
 title: "#6: Christopher Webber - Media Goblin"
 date: 2013-10-13 20:00:00
 author: "Irina Bolychevsky"
-url-mp4: http://redecentralize.net/video/christopher-webber-with-media-goblin.mp4
+url-mp4: http://something.redecentralize.org/video/christopher-webber-with-media-goblin.mp4
 size-mp4: 102777956
-url-webm: http://redecentralize.net/video/christopher-webber-with-media-goblin.webm
+url-webm: http://something.redecentralize.org/video/christopher-webber-with-media-goblin.webm
 duration: "37:14"
-poster: http://redecentralize.net/video/christopher-webber-with-media-goblin.jpg
+poster: http://something.redecentralize.org/video/christopher-webber-with-media-goblin.jpg
 links: |
   <li><a href="http://mediagoblin.org/" target="_blank">MediaGoblin site</a></li>
   <li><a href="http://wiki.mediagoblin.org/Live_instances" target="_blank">Use it hosted</a></li>

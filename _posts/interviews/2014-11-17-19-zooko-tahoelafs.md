@@ -5,11 +5,11 @@ summary: "Zooko Wilcox-O'Hearn, co-founder of Tahoe-LAFS, a distributed cloud st
 title: "#19: Zooko Wilcox-O'Hearn - Tahoe-LAFS"
 date: 2014-11-17 19:00:00
 author: "Francis Irving"
-url-mp4: http://redecentralize.net/video/tahoe-lafs-with-zooko-wilcox-ohearn.mp4
+url-mp4: http://something.redecentralize.org/video/tahoe-lafs-with-zooko-wilcox-ohearn.mp4
 size-mp4: 77339264
-url-webm: http://redecentralize.net/video/tahoe-lafs-with-zooko-wilcox-ohearn.webm
+url-webm: http://something.redecentralize.org/video/tahoe-lafs-with-zooko-wilcox-ohearn.webm
 duration: "28:34"
-poster: http://redecentralize.net/video/tahoe-lafs-with-zooko-wilcox-ohearn.jpg
+poster: http://something.redecentralize.org/video/tahoe-lafs-with-zooko-wilcox-ohearn.jpg
 links: |
   <li><a href="https://www.tahoe-lafs.org/trac/tahoe-lafs" target="_blank">Tahoe-LAFS website</a></li>
   <li><a href="https://leastauthority.com/" target="_blank">Commercial company</a></li>

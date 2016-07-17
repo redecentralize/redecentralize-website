@@ -5,11 +5,11 @@ summary: "Bjarni Rúnar Einarsson talks about Mailpile, a mail client aiming to 
 title: "#8: Bjarni Einarsson - Mailpile"
 date: 2013-11-03 21:00:00
 author: "Francis Irving"
-url-mp4: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.mp4
+url-mp4: http://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.mp4
 size-mp4: 54074760
-url-webm: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.webm
+url-webm: http://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.webm
 duration: "19:56"
-poster: http://redecentralize.net/video/mailpile-with-bjarni-einarsson.jpg
+poster: http://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.jpg
 links: |
   <li><a href="http://www.mailpile.is/" target="_blank">Mailpile site</a></li>
   <li><a href="https://github.com/pagekite/Mailpile" target="_blank">Github repository</a></li>

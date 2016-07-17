@@ -5,11 +5,11 @@ summary: "David Irvine, founder of MaidSafe, which lets you pay for decentralizi
 title: "#15: David Irvine - MaidSafe"
 date: 2014-05-20 20:00:00
 author: "Francis Irving"
-url-mp4: http://redecentralize.net/video/maidsafe-with-david-irvine.mp4
+url-mp4: http://something.redecentralize.org/video/maidsafe-with-david-irvine.mp4
 size-mp4: 65574281
-url-webm: http://redecentralize.net/video/maidsafe-with-david-irvine.webm
+url-webm: http://something.redecentralize.org/video/maidsafe-with-david-irvine.webm
 duration: "23:59"
-poster: http://redecentralize.net/video/maidsafe-with-david-irvine.jpg
+poster: http://something.redecentralize.org/video/maidsafe-with-david-irvine.jpg
 links: |
   <li><a href="http://maidsafe.net/" target="_blank">Maidsafe site</a></li>
   <li><a href="http://www.safecoin.io/" target="_blank">safecoin site</a></li>

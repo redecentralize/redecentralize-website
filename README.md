@@ -33,7 +33,7 @@ Publishing a new interview
 0. Ideally get a transcript ahead of time by emailing the transcript
 person a direct link to the (unlisted) video on Youtube.
 
-1. Make it public on Youtube. Then on redecentralize.net server
+1. Make it public on Youtube. Then on something.redecentralize.org server
 (Ross can give access) 
 
 ```

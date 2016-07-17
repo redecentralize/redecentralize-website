@@ -6,11 +6,11 @@ has he learnt about how to make a protocol popular? How does Kademlia work?"
 title: "#7: Jeremie Miller - TeleHash"
 date: 2013-10-17 21:00:00
 author: "Francis Irving"
-url-mp4: http://redecentralize.net/video/telehash-with-jeremie-miller.mp4
+url-mp4: http://something.redecentralize.org/video/telehash-with-jeremie-miller.mp4
 size-mp4: 47040573
-url-webm: http://redecentralize.net/video/telehash-with-jeremie-miller.webm
+url-webm: http://something.redecentralize.org/video/telehash-with-jeremie-miller.webm
 duration: "17:19"
-poster: http://redecentralize.net/video/telehash-with-jeremie-miller.jpg
+poster: http://something.redecentralize.org/video/telehash-with-jeremie-miller.jpg
 links: |
   <li><a href="http://telehash.org/" target="_blank">TeleHash site</a></li>
   <li><a href="https://github.com/quartzjer/TeleHash" target="_blank">GitHub repo</a></li>

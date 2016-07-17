@@ -5,11 +5,11 @@ summary: "Andrei - SoLID, Nick - Running your own Email, Odvar - Matrix.org, Hug
 title: "2. Lightning Talks + Digital Bill of Rights"
 date: 2016-04-04 23:00:00
 author: "Francis Irving"
-url-mp4: http://redecentralize.net/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.mp4
+url-mp4: http://something.redecentralize.org/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.mp4
 size-mp4: 168685898
-url-webm: http://redecentralize.net/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.webm
+url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.webm
 duration: "53:24"
-poster: http://redecentralize.net/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.jpg
+poster: http://something.redecentralize.org/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.jpg
 links: |
   <li><a href="http://hi-project.org/2015/12/solid-introduction-mit-csails-andrei-sambra/" target="_blank">SoLID</a></li>
   <li><a href="http://symbiosis.bytemark.co.uk/" target="_blank">Symbiosis</a></li>

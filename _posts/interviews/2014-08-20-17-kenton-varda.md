@@ -5,11 +5,11 @@ summary: "Kenton Varda, creator of Protocol Buffers, on his new personal cloud p
 title: "#17: Kenton Varda - Sandstorm"
 date: 2014-08-20 19:00:00
 author: "Francis Irving"
-url-mp4: http://redecentralize.net/video/sandstorm-with-kenton-varda.mp4
+url-mp4: http://something.redecentralize.org/video/sandstorm-with-kenton-varda.mp4
 size-mp4: 56410869
-url-webm: http://redecentralize.net/video/sandstorm-with-kenton-varda.webm
+url-webm: http://something.redecentralize.org/video/sandstorm-with-kenton-varda.webm
 duration: "20:26"
-poster: http://redecentralize.net/video/sandstorm-with-kenton-varda.jpg
+poster: http://something.redecentralize.org/video/sandstorm-with-kenton-varda.jpg
 links: |
   <li><a href="https://sandstorm.io/" target="_blank">Sandstorm site</a></li>
   <li><a href="https://www.indiegogo.com/projects/sandstorm-io-personal-cloud-platform" target="_blank">Fund Sandstorm on Indiegogo</a></li>
