@@ -5769,9 +5769,6 @@ hr {
     float: left;
     width: 33.33333333%;
   }
-  .speakers .listing .item {
-    width: 20%
-  }
 }
 .listing .item img {
   max-width: 100%;
