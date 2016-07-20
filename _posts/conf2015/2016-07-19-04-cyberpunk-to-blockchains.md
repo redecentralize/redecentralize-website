@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: conf2015
-summary: "Vinay Gupta gives the cultural history of blockchain, as it emerges from crypto, thereby explaining where Ethereum is from."
+summary: "Vinay Gupta gives the cultural history of crypto, explaining where Ethereum comes from. Why does the only crypto used so far enable trade? Can we have democratic respresentation for users of decentralized systems?"
 title: "4. Cyperpunk to Blockchains"
 date: 2016-07-19 00:20:00
 author: "Francis Irving"
