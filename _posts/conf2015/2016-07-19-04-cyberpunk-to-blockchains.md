@@ -7,7 +7,7 @@ date: 2016-07-19 00:20:00
 author: "Francis Irving"
 url-mp4: http://something.redecentralize.org/video/redecentralize-conf-2015-4-cyberpunk-to-blockchains-vinay-gupta.mp4
 size-mp4: 76439472
-url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-4-cyberpunk-to-blockchains-vinay-gupta.web
+url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-4-cyberpunk-to-blockchains-vinay-gupta.webm
 duration: "43:43"
 poster: http://something.redecentralize.org/video/redecentralize-conf-2015-4-cyberpunk-to-blockchains-vinay-gupta.jpg
 links: |

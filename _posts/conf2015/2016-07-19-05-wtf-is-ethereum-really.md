@@ -7,7 +7,7 @@ date: 2016-07-19 00:30:00
 author: "Francis Irving"
 url-mp4: http://something.redecentralize.org/video/redecentralize-conf-2015-5-wtf-is-ethereum-really-gavin-wood.mp4
 size-mp4: 73957029
-url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-5-wtf-is-ethereum-really-gavin-wood.web
+url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-5-wtf-is-ethereum-really-gavin-wood.webm
 duration: "30:58"
 poster: http://something.redecentralize.org/video/redecentralize-conf-2015-5-wtf-is-ethereum-really-gavin-wood.jpg
 links: |

@@ -7,7 +7,7 @@ date: 2016-07-19 00:40:00
 author: "Francis Irving"
 url-mp4: http://something.redecentralize.org/video/redecentralize-conf-2015-6-decentralizing-in-the-real-world-jutta.mp4
 size-mp4: 23312134
-url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-6-decentralizing-in-the-real-world-jutta.web
+url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-6-decentralizing-in-the-real-world-jutta.webm
 duration: "30:58"
 poster: http://something.redecentralize.org/video/redecentralize-conf-2015-6-decentralizing-in-the-real-world-jutta.jpg
 links: |
