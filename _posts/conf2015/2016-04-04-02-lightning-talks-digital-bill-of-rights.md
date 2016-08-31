@@ -6,9 +6,7 @@ title: "2. Lightning Talks + Digital Bill of Rights"
 date: 2016-04-04 23:00:00
 author: "Francis Irving"
 url-mp4: http://something.redecentralize.org/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.mp4
-size-mp4: 168685898
 url-webm: http://something.redecentralize.org/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.webm
-duration: "53:24"
 poster: http://something.redecentralize.org/video/redecentralize-conf-2015-2-lightning-talks-digital-bill-of-rights.jpg
 links: |
   <li><a href="http://hi-project.org/2015/12/solid-introduction-mit-csails-andrei-sambra/" target="_blank">SoLID</a></li>
