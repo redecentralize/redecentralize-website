@@ -12,5 +12,5 @@ duration: "25:40"
 poster: http://something.redecentralize.org/video/swellrt-with-pablo-ojanguren.jpg
 links: |
   <li><a href="http://swellrt.org/" target="_blank">SwellRT website</a></li>
-  <li><a href="http://p2pvalue.github.io/swellrt/pad/" target="_blank">Live demo</a></li>
+  <li><a href="http://incubator.apache.org/wave/" target="_blank">Apache Wave</a></li>
 ---
