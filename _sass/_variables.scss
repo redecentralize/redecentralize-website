@@ -8,6 +8,17 @@ $bootstrap-sass-asset-helper: false !default;
 //
 //## Gray and brand colors for use across Bootstrap.
 
+/*
+Color wheel:
+
+https://color.adobe.com/create/color-wheel/?base=2&rule=Complementary&selected=0&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.7,0.21886564690376592,0.516949301135844,1,0.5126652098625227,0.814590304472316,1,0.41266520986252275,0.7765446530474751,0.19483159226647934,0.7,0.14886564690376594,0.46165035971103163,1,0.41266520986252275&swatchOrder=0,1,2,3,4
+*/
+$wheel-1: #B23884;
+$wheel-2: #FF83D0;
+$wheel-3: #FF69C6;
+$wheel-4: #32B226;
+$wheel-5: #76FF69;
+
 $gray-base:              #000 !default;
 $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:              lighten($gray-base, 20%) !default;   // #333
@@ -15,12 +26,11 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 60%) !default;   // #999
 $gray-lighter:           lighten($gray-base, 90%) !default; // #eee
 
-$brand-primary:         #2780E3 !default;
-$brand-success:         #3FB618 !default;
+$brand-primary:         $wheel-1 !default;
+$brand-success:         $wheel-4 !default;
 $brand-info:            #9954BB !default;
 $brand-warning:         #FF7518 !default;
 $brand-danger:          #FF0039 !default;
-
 
 //== Scaffolding
 //

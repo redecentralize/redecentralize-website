@@ -98,7 +98,6 @@ body {
   color: #222;
 }
 .listing .item:hover img {
-  -webkit-box-shadow: 0 0 0 4px #a0e0a9;
   box-shadow: 0 0 0 4px #a0e0a9;
 }
 .listing .item.clear {
@@ -161,7 +160,6 @@ body {
   padding-top: 12px;
 }
 .who-are-you li a:hover img {
-  -webkit-box-shadow: 0 0 0 4px #a0e0a9;
   box-shadow: 0 0 0 4px #a0e0a9;
 }
 .transcript span {
@@ -180,3 +178,20 @@ body {
   -webkit-border-radius: 60px; /* Saf3+, Chrome */
   border-radius: 60px; /* Opera 10.5, IE 9 */
 }
+
+.callout-a {
+  background-color: $wheel-1; 
+  color: white;
+  text-align:center;
+}
+.callout-b {
+  background-color: $wheel-2; 
+  color: white;
+  text-align:center;
+}
+.callout-c {
+  background-color: $wheel-4; 
+  color: white;
+  text-align:center;
+}
+
