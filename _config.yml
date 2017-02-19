@@ -2,6 +2,8 @@ name: Redecentralize
 timezone: Europe/London
 gems:
   - jekyll-sitemap
+sass:
+  sass_dir: _sass
 
 authors:
   frabcus:
