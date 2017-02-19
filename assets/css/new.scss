@@ -75,7 +75,7 @@ body {
   opacity: 0.9;
 }
 .listing .item p {
-  color: #999;
+  color: #222;
   font-size: 16px;
   font-weight: 300;
 }
@@ -95,7 +95,7 @@ body {
 }
 .listing .item:hover h4,
 .listing .item:hover p {
-  color: #222;
+  color: #000;
 }
 .listing .item:hover img {
   box-shadow: 0 0 0 4px #a0e0a9;
