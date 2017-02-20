@@ -24,6 +24,21 @@ body {
   margin-top: -1px;
 }
 
+#mc_embed_signup .mc-field-group {
+  display: inline-block;
+}
+#mc_embed_signup .email {
+  display: inline-block;
+  width: 20em;
+}
+#mc_embed_signup .clear {
+  display: inline-block;
+}
+#mc_embed_signup .btn {
+  display: inline-block;
+  margin-top: -5px;
+}
+
 .vote-button {
   background-color: $wheel-1;
 }
