@@ -27,6 +27,12 @@ body {
 .actions {
   margin-top: 32px;
 }
+.vote-button {
+  background-color: $wheel-1;
+}
+.results-button {
+  background-color: #000;
+}
 
 .listing {
   margin-left: -15px;
