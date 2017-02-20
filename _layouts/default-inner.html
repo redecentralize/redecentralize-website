@@ -36,14 +36,14 @@
 	<div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-		<li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/" >Interviews</a></li>
-		<li {% if page.id == 'conference' %} class="active" {% endif %} > <a href="/conference/" >Conference</a></li>
+		<li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >Radar</a></li>
 	    </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community<i class="icon-caret-down"></i></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <i class="icon-caret-down"></i></a>
               <ul class="dropdown-menu">
+		  <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/" >Interviews</a></li>
+		  <li {% if page.id == 'conference' %} class="active" {% endif %} > <a href="/conference/" >Conference</a></li>
                   <li> <a href="https://github.com/redecentralize/organize/wiki" target="_blank">Wiki</a></li>
-		  <li> <a href="http://t.co/z1zZ16C57Z">Newsletter</a>
                   <li> <a href="https://groups.google.com/forum/#!forum/redecentralize" target="_blank">Discussion list</a></li>
               </ul>
             </li>
