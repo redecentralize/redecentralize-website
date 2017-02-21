@@ -31,13 +31,22 @@ id: radar
 <div class="col-md-8">
   <h2>Radar app directory</h2>
 
-	{% for entry in site.radar %}
+	{% for entry in site.radar reversed %}
 	  <div class="radar-listing">
 	    <img src="/assets/images/radar/{{ entry.icon }}">
 	    <h2>
 		  <a href="{{ entry.url }}">{{ entry.title }}</a>
 			{% if entry.status == "use" %} 
-			  <span class="label label-info">Try</span></h2>
+			  <span class="label label-info">Use</span>
+			{% endif %}
+			{% if entry.status == "try" %} 
+			  <span class="label label-primary">Try</span>
+			{% endif %}
+			{% if entry.status == "share" %} 
+			  <span class="label label-success">Share</span>
+			{% endif %}
+			{% if entry.status == "hold" %} 
+			  <span class="label label-warning">Hold</span>
 			{% endif %}
 		</h2>
 	    <p>{{ entry.intro }}</p>

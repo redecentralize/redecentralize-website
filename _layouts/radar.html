@@ -11,8 +11,17 @@ layout: default
       <h1>
           {{ page.title }}
           {% if page.status == "use" %} 
-            <span class="label label-info">Try</span></h2>
+            <span class="label label-info">Use</span>
           {% endif %}
+          {% if page.status == "try" %} 
+            <span class="label label-primary">Try</span>
+          {% endif %}
+	  {% if entry.status == "share" %} 
+	    <span class="label label-success">Share</span>
+	  {% endif %}
+	  {% if entry.status == "hold" %} 
+	    <span class="label label-warning">Hold</span>
+	  {% endif %}
       </h1>
       <p class="lead">{{ page.intro }}</p>
       <p><b>Good things:</b> {{ page.good }}</p>
@@ -21,7 +30,7 @@ layout: default
 
       <p class="lead"><a href="{{ page.appurl }}">{{ page.title }} home page &raquo;</a></p>
 
-      <div class="date">Entry made {{ page.date | date: "%-d %b %Y"}}</div>
+      <div class="date">Entry last reviewed {{ page.date | date: "%-d %b %Y"}}</div>
     </div>
   </div>
 
