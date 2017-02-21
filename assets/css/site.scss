@@ -24,6 +24,8 @@ body {
   margin-top: -1px;
 }
 
+/* Home page */
+
 #mc_embed_signup .mc-field-group {
   display: inline-block;
 }
@@ -53,6 +55,12 @@ body {
 }
 .results-button {
   background-color: #000;
+}
+
+/* Interviews page */
+
+.subscribe a {
+  white-space: nowrap;
 }
 
 .listing {
@@ -140,6 +148,8 @@ body {
   padding: 0;
 }
 
+/* About page */
+
 .who-are-you {
   margin: 0 0 20px 0;
   padding: 0;
@@ -206,6 +216,12 @@ body {
   border-radius: 60px; /* Opera 10.5, IE 9 */
 }
 
+#about-video {
+  margin-top: 8px;
+}
+
+/* Conference page */
+
 .callout-a {
   background-color: $wheel-1; 
   color: white;
@@ -222,9 +238,7 @@ body {
   text-align:center;
 }
 
-#about-video {
-  margin-top: 8px;
-}
+/* Radar page */
 
 .radar-listing img {
   height: 64px;
