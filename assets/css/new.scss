@@ -38,6 +38,9 @@ body {
   display: inline-block;
   margin-top: -5px;
 }
+#radar_entry_sidebar #mc_embed_signup .btn {
+  margin-top: 10px;
+}
 
 .vote-button {
   background-color: $wheel-1;
@@ -216,3 +219,27 @@ body {
 #about-video {
   margin-top: 8px;
 }
+
+.radar-listing img {
+  height: 64px;
+  float: left;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+.radar-listing span.label {
+  margin-left: 2px;
+}
+
+.radar-entry img {
+  height: 88px;
+  float: left;
+  margin-right: 16px;
+  margin-top: 2px;
+}
+.radar-entry span.label {
+  margin-left: 6px;
+}
+.radar-entry .date {
+  color: $gray-light;
+}
+

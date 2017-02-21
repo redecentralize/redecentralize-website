@@ -4,7 +4,10 @@ gems:
   - jekyll-sitemap
 sass:
   sass_dir: _sass
-
+collections:
+  radar:
+    output: true
+    permalink: /radar/:title
 authors:
   frabcus:
     display_name: Francis Irving

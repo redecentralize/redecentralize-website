@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div><a href="/radar">&laquo; Redecentralize Radar home</a></div>
+
+<div class="row">
+  <div class="col-md-8">
+    <div class="radar-entry">
+      <img src="/assets/images/radar/{{ page.icon }}">
+      <h1>
+          {{ page.title }}
+          {% if page.status == "use" %} 
+            <span class="label label-info">Try</span></h2>
+          {% endif %}
+      </h1>
+      <p class="lead">{{ page.intro }}</p>
+      <p><b>Good things:</b> {{ page.good }}</p>
+      <p><b>Bad things:</b> {{ page.bad }}</p>
+      <p><b>Future promise:</b> {{ page.future }}</p>
+
+      <p class="lead"><a href="{{ page.appurl }}">{{ page.title }} home page &raquo;</a></p>
+
+      <div class="date">Entry made {{ page.date | date: "%-d %b %Y"}}</div>
+    </div>
+  </div>
+
+  <div class="col-md-4" id="radar_entry_sidebar">
+    <h2>What's this directory?</h2>
+
+    <p>Redecentralize Radar is a directory of
+    applications which are private and resilient.
+    </p>
+  
+    <p>We can email you whenever an app becomes good enough to use.
+    </p>
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+	<input type="email" value="" name="EMAIL" class="email input-md" id="mce-EMAIL" placeholder="Email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-md btn-primary"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+
+
+  </div>
+
+</div>
+

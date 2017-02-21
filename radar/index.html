@@ -30,6 +30,20 @@ id: radar
 <div class="row">
 <div class="col-md-8">
   <h2>Radar app directory</h2>
+
+	{% for entry in site.radar %}
+	  <div class="radar-listing">
+	    <img src="/assets/images/radar/{{ entry.icon }}">
+	    <h2>
+		  <a href="{{ entry.url }}">{{ entry.title }}</a>
+			{% if entry.status == "use" %} 
+			  <span class="label label-info">Try</span></h2>
+			{% endif %}
+		</h2>
+	    <p>{{ entry.intro }}</p>
+	  </div>
+	{% endfor %}
+
 </div>
 
 <div class="col-md-4">
