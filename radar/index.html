@@ -28,70 +28,74 @@ id: radar
 </div>
 
 <div class="row">
-<div class="col-md-8">
-  <h2>Radar app directory</h2>
+  <div class="col-md-8">
+	<h2>Radar app directory</h2>
 
-	{% for entry in site.radar reversed %}
-	  <div class="radar-listing">
-	    <img src="/assets/images/radar/{{ entry.icon }}">
-	    <h2>
-		  <a href="{{ entry.url }}">{{ entry.title }}</a>
-			{% if entry.status == "use" %} 
-			  <span class="label label-info">Use</span>
-			{% endif %}
-			{% if entry.status == "try" %} 
-			  <span class="label label-primary">Try</span>
-			{% endif %}
-			{% if entry.status == "share" %} 
-			  <span class="label label-success">Share</span>
-			{% endif %}
-			{% if entry.status == "hold" %} 
-			  <span class="label label-warning">Hold</span>
-			{% endif %}
-		</h2>
-	    <p>{{ entry.intro }}</p>
-	  </div>
-	{% endfor %}
+	  {% for entry in site.radar reversed %}
+		<div class="radar-listing">
+		  <img src="/assets/images/radar/{{ entry.icon }}">
+		  <h2>
+			<a href="{{ entry.url }}">{{ entry.title }}</a>
+			  {% if entry.status == "use" %} 
+				<span class="label label-info">Use</span>
+			  {% endif %}
+			  {% if entry.status == "try" %} 
+				<span class="label label-primary">Try</span>
+			  {% endif %}
+			  {% if entry.status == "share" %} 
+				<span class="label label-success">Share</span>
+			  {% endif %}
+			  {% if entry.status == "hold" %} 
+				<span class="label label-warning">Hold</span>
+			  {% endif %}
+		  </h2>
+		  <p>{{ entry.intro }}</p>
+		</div>
+	  {% endfor %}
 
-</div>
+  </div>
 
-<div class="col-md-4">
+  <div class="col-md-4">
 
-<h2>What is "good enough"?</h2>
+  <h2>What is "good enough"?</h2>
 
-<h2><span class="label label-primary">Try</span></h2>
+	<h2><span class="label label-primary">Try</span></h2>
 
-<p>This app looks really promising. It's not
-just a tech demo &mdash; it's got a good user interface
-and support too. If you're interested in a
-decentralized internet, try it out, and report bugs.
-</p>
+	<p>This app looks really promising. It's not
+	just a tech demo &mdash; it's got a good user interface
+	and support too. If you're interested in a
+	decentralized internet, try it out, and report bugs.
+	</p>
 
-<h2><span class="label label-info">Use</span></h2>
+	<h2><span class="label label-info">Use</span></h2>
 
-<p>This app is great to use day to day, and many
-people do so. It is more private and more resilient
-than alternatives. Using it will help create a more
-competitive market.
-</p>
+	<p>This app is great to use day to day, and many
+	people do so. It is more private and more resilient
+	than alternatives. Using it will help create a more
+	competitive market.
+	</p>
 
-<h2><span class="label label-success">Share</span></h2>
+	<h2><span class="label label-success">Share</span></h2>
 
-<p>This app is not only strategically important
-for decentralization, it competes extremely well
-against alternatives that your friends already use.
-Tell them about it.
-</p>
+	<p>This app is not only strategically important
+	for decentralization, it competes extremely well
+	against alternatives that your friends already use.
+	Tell them about it.
+	</p>
 
-<h2><span class="label label-warning">Hold</span></h2>
+	<h2><span class="label label-warning">Hold</span></h2>
 
-<p>This app is a great idea, and uses an innovative 
-new technology. However, it isn't ready to use yet. 
-Help it get better!
-</p.
+	<p>This app is a great idea, and built on good
+	decentralizing technology. However, it isn't ready 
+	to use yet. Help the user experience get better 
+	first!
+	</p>
 
-</p>
-</div>
+	<p style="margin-top: 24px;">
+		<a href="https://www.thoughtworks.com/radar">
+		Thanks to the inspiring ThoughtWorks Radar</a>
+	</p>
+  </div>
 </div>
 
 
