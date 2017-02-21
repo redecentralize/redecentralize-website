@@ -29,14 +29,20 @@ body {
 }
 #mc_embed_signup .email {
   display: inline-block;
-  width: 20em;
+  width: 98%;
+  max-width: 448px;
 }
 #mc_embed_signup .clear {
   display: inline-block;
 }
 #mc_embed_signup .btn {
   display: inline-block;
-  margin-top: -5px;
+    margin-top: 2px;
+}
+@media (min-width: 631px) {
+  #mc_embed_signup .btn {
+    margin-top: -5px;
+  }
 }
 #radar_entry_sidebar #mc_embed_signup .btn {
   margin-top: 10px;
