@@ -133,7 +133,7 @@ body {
   color: #000;
 }
 .listing .item:hover img {
-  box-shadow: 0 0 0 4px #a0e0a9;
+  box-shadow: 0 0 0 4px $wheel-4;
 }
 .listing .item.clear {
   clear: left;
@@ -197,7 +197,7 @@ body {
   padding-top: 12px;
 }
 .who-are-you li a:hover img {
-  box-shadow: 0 0 0 4px #a0e0a9;
+  box-shadow: 0 0 0 4px $wheel-4;
 }
 .transcript span {
   font-weight: bold;
