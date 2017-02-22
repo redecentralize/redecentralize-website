@@ -111,7 +111,7 @@ body {
 }
 .listing .item p {
   color: #222;
-  font-size: 16px;
+  font-size: $font-size-base;
   font-weight: 300;
 }
 .listing .item a {
@@ -262,4 +262,7 @@ body {
 .radar-entry .date {
   color: $gray-light;
 }
-
+.radar-rss {
+  margin-top: 32px;
+  font-size: $font-size-large;
+}
