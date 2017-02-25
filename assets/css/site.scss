@@ -32,17 +32,18 @@ body {
 #mc_embed_signup .email {
   display: inline-block;
   width: 98%;
-  max-width: 448px;
+  max-width: 438px;
 }
 #mc_embed_signup .clear {
   display: inline-block;
 }
 #mc_embed_signup .btn {
-  display: inline-block;
-    margin-top: 2px;
+  display: block;
+  margin-top: 2px;
 }
-@media (min-width: 631px) {
+@media (min-width: 652px) {
   #mc_embed_signup .btn {
+    display: inline;
     margin-top: -5px;
   }
 }
