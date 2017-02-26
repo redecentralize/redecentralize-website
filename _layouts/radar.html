@@ -16,10 +16,10 @@ layout: default
           {% if page.status == "try" %} 
             <span class="label label-primary">Try</span>
           {% endif %}
-	  {% if entry.status == "share" %} 
+	  {% if page.status == "share" %} 
 	    <span class="label label-success">Share</span>
 	  {% endif %}
-	  {% if entry.status == "hold" %} 
+	  {% if page.status == "hold" %} 
 	    <span class="label label-warning">Hold</span>
 	  {% endif %}
       </h1>
