@@ -27,6 +27,22 @@ site every time you change a source file.
 `LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 jekyll server --watch`
 
 
+Adding a new entry to Radar
+===========================
+
+1. Create it in `_radar`, include the app's icon in `assets/images/radar`.
+
+2. Deploy that by pushing to Github.
+
+3. Tweet out to people, e.g. https://twitter.com/redecentralize/status/840249882048909312
+
+4. Send out a MailChimp mailing, by copying the last one. Putting a good picture from the app's graphics or community at the top is important!
+
+5. Schedule Tweets on Hootsuite for the next week or so.
+
+6. Announce on #redecentralize:matrix.org and Redecentralize Slack.
+
+
 Publishing a new interview
 ==========================
 
