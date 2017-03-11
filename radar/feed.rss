@@ -3,7 +3,7 @@ layout: null
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss version="2.0">
 
 <channel>
 
@@ -27,7 +27,14 @@ layout: null
 <item>
   <title>{{ entry.title }}</title>
   <link>http://redecentralize.org{{ entry.url }}</link>
-  <description>{{ entry.intro }}</description>
+  <description><![CDATA[
+      <p class="lead">{{ entry.intro }}</p>
+      <p><b>Good things:</b> {{ entry.good }}</p>
+      <p><b>Bad things:</b> {{ entry.bad }}</p>
+      <p><b>Future promise:</b> {{ entry.future }}</p>
+
+      <p class="lead"><a href="{{ entry.appurl }}">{{ entry.title }} home page &raquo;</a></p>
+    ]]></description>
   <!-- http://redecentralize.orgr/assets/images/radar/{{ entry.icon}}" -->
   <guid>http://redecentralize.org{{ entry.url }}</guid>
   <pubDate>{{ entry.date | date_to_rfc822 }}</pubDate>
