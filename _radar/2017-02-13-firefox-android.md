@@ -3,7 +3,7 @@ layout: radar
 categories: radar
 status: use
 title: "Firefox Android"
-intro: "Firefox Android is worth using everyday as a mobile web browser."
+intro: "Firefox Android is worth using every day as a mobile web browser."
 appurl: "https://www.mozilla.org/en-US/firefox/android/"
 good: "Respects your privacy by protecting you from trackers. Can install plugins, such as advert blockers and video downloaders."
 bad: "Some plugins don't work. Some people find it slow on some phones, but it is much better than when you last tried it."
