@@ -3,7 +3,7 @@ layout: radar
 categories: radar
 status: try
 title: "Syncthing"
-intro: "Syncthing is worth trying as a replacement for file synchronization."
+intro: "Syncthing is worth trying for file synchronization."
 appurl: "https://syncthing.net/"
 good: "Sends updates to changed files directly between your devices, no cloud service needed. Flexible, can connect any directory to any directory. Free."
 bad: "Installation awkward on desktop. No iOS version at all. Simple but confusing user interface. Sometimes devices can't find each other."
