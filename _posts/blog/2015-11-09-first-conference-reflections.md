@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: blog
-summary: "A quick writeup of the first redecentralize conference from 2015"
+summary: "A quick writeup and overview of the first redecentralize conference from 2015. Written for the FLOSS newsletter in Nov 2015, reproduced here in its former glory"
 title: "First Conference Reflections"
 date: 2015-11-09
 author: "shevski"
