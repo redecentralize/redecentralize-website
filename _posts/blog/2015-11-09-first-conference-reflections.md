@@ -12,6 +12,9 @@ Last month we organised the first [Redecentralize.org conference](http://redecen
 The topic? Technology that shapes society.
 
 The challenge? Alternatives to monopolies. Mass privacy, security and an equal open web which represents the interests of its users.
+
+![discussion session](https://user-images.githubusercontent.com/1260289/42830477-7459b3a4-89e3-11e8-9a3a-748c59b81976.jpg)
+
 We had a fantastic venue and breakfast, courtesy of [ThoughtWorks](https://www.thoughtworks.com/)  along with delicious ethical food and Saturday drinks sponsored by the excellent  [FLOSS](http://www.flossuk.org/) and [Ethereum](https://ethereum.org/)  folks. 
 
 The conference was attended by a really lovely group of people and mix of projects. Everything from protocols to user friendly self hosting apps and products to community movements to data ownership platforms to standards.
@@ -48,3 +51,5 @@ Lastly, we had a lot of great sessions that were not about specific technologies
 
 There was more, much more and this is just my snapshot. Watch the #redecentralize tag on twitter,  [sign up to the newsletter](http://redecentralize.us7.list-manage1.com/subscribe?u=e695b0ee388925f96abc28c36&id=8718aeab17)  and  [discussion list](https://github.com/redecentralize/swarm/wiki/Email-list)  and get involved in taking back the net! 
 
+![day1 schedule](https://user-images.githubusercontent.com/1260289/42830475-741c2002-89e3-11e8-827d-f248d03c6d15.jpg)
+![day2 schedule](https://user-images.githubusercontent.com/1260289/42830476-743dc3ec-89e3-11e8-80ac-5e723237c8e4.jpg)
