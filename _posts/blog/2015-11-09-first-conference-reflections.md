@@ -7,6 +7,8 @@ date: 2015-11-09
 author: "shevski"
 ---
 
+
+
 Last month we organised the first [Redecentralize.org conference](http://redecentralize.org/conference)! A full weekend, held in London with invited speakers and projects, all scheduled and planned [unconference](https://en.wikipedia.org/wiki/Unconference) style to get discussions, collaborations and ideas going. 
 
 The topic? Technology that shapes society.
