@@ -7,10 +7,11 @@
 
 body {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.navbar + .container { 
-  padding-top: 32px; 
+.navbar + .container {
+  padding-top: 32px;
   /* height: 64px; */
 }
 
@@ -224,17 +225,17 @@ body {
 /* Conference page */
 
 .callout-a {
-  background-color: $wheel-1; 
+  background-color: $wheel-1;
   color: white;
   text-align:center;
 }
 .callout-b {
-  background-color: $wheel-4; 
+  background-color: $wheel-4;
   color: white;
   text-align:center;
 }
 .callout-c {
-  background-color: $wheel-3; 
+  background-color: $wheel-3;
   color: white;
   text-align:center;
 }
