@@ -185,14 +185,16 @@ body {
 .who-are-you li:after {
   clear: both;
 }
-.avatar img {
+img.avatar {
   width: 73px;
   height: 73px;
 }
-.avatar,.who-are-you li img {
+.avatar, .who-are-you li img {
+  border-radius: 100px;
+}
+.who-are-you li img {
   float: left;
   margin-right: 10px;
-  border-radius: 100px;
 }
 .who-are-you li strong {
   display: block;
@@ -270,6 +272,55 @@ body {
   font-size: $font-size-large;
 }
 
+aside.pull-right {
+  background-color: #eee;
+  box-sizing: border-box;
+  border: 1em solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+  aside.pull-right {
+    max-width: 40%;
+  }
+}
+@media screen and (max-width: 550px) {
+  aside.pull-right {
+    display: none;
+    //max-width: 100%;
+    //clear: both;
+    //float: none !important;
+  }
+}
+
+.blogpost-header {
+  display: flex;
+
+  img {
+    flex: 0;
+    margin: 1em;
+  }
+  > div {
+    flex: 1;
+
+    h1 {
+      //font-family: serif;
+      font-size: 35px;
+    }
+  }
+}
+
+.blogpost {
+  margin-top: 2em;
+  line-height: 1.8em;
+  font-size: 15px;
+  //font-family: serif;
+  box-sizing: border-box;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.blogpost {
+  margin-bottom: 15px;
+}
 .blogpost img {
   max-width: 100%;
 }
