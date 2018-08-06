@@ -3,13 +3,10 @@ layout: default
 id: article
 ---
 {% assign author = site.authors[page.author] %}
-<div class="col-sm-8">
-  <div class="col-sm-2">
-      <br/>
-      <img src="/assets/images/avatars/{{author.picname}}" class="avatar"/>
-  </div>
+<div class="blogpost-header col-sm-8">
+  <img src="/assets/images/avatars/{{author.picname}}" class="avatar"/>
 
-  <div class="col-sm-10">
+  <div>
     <h1>{{ page.title }}</h1>
     <div>
       <span class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></span>
@@ -18,8 +15,8 @@ id: article
   </div>
 </div>
 
-<div class="col-sm-4 pull-right">
-    <h2>Recent posts</h2>
+<aside class="col-sm-4 pull-right">
+    <h3>Recent posts</h3>
 
     <ul class='recent-posts'>
     {% for post in site.categories[page.categories.first] offset: 0 limit: 10 %}
@@ -33,37 +30,37 @@ id: article
     {% endfor %}
     </ul>
 
-</div>
+</aside>
 
 <div class="col-sm-8 blogpost ">
     {{ content }}
 </div>
 
-<div class="col-sm-8 blogpost ">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        var disqus_shortname = 'redecentralizedotorg';
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<!--<div class="col-sm-8 blogpost ">-->
+    <!--<div id="disqus_thread"></div>-->
+    <!--<script type="text/javascript">-->
+        <!--var disqus_shortname = 'redecentralizedotorg';-->
+        <!--(function() {-->
+            <!--var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;-->
+            <!--dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';-->
+            <!--(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);-->
+        <!--})();-->
+    <!--</script>-->
+    <!--<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+    <!--<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>-->
 
-</div>
+<!--</div>-->
 
-</div>
+<!--</div>-->
 
-<script type="text/javascript">
-  var disqus_shortname = 'redecentralizedotorg';
+<!--<script type="text/javascript">-->
+  <!--var disqus_shortname = 'redecentralizedotorg';-->
 
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());
-  </script>
+  <!--/* * * DON'T EDIT BELOW THIS LINE * * */-->
+  <!--(function () {-->
+      <!--var s = document.createElement('script'); s.async = true;-->
+      <!--s.type = 'text/javascript';-->
+      <!--s.src = '//' + disqus_shortname + '.disqus.com/count.js';-->
+      <!--(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);-->
+  <!--}());-->
+  <!--</script>-->
