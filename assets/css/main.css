@@ -1,0 +1,294 @@
+/* Colors: 
+blue #00F5FF;
+green #03fd67;
+purple #FF26E4;
+red #ED0000;
+yellow #FFF90D;
+Russian violet #2F1847;
+bleen #02fba5;
+dark bleen #02895A;
+orange: #F6511D;
+*/
+
+body {
+  	font-weight: 300;
+  	font-family: 'Roboto', sans-serif;
+  	color: #2F1847;
+	background-color: #2F1847;
+  }
+
+body a {
+	color: #FF26E4;
+
+}
+
+p {
+	font-size: 1rem;
+}
+
+h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 2.0rem;
+}
+
+footer {
+	background-color: none;
+	color: white;
+}
+
+header {
+	height: 100vh;
+	min-height: 500px;
+	position: relative;
+	z-index: 100;
+	top: 50px;
+}
+
+header {
+	border: none;
+}
+
+
+.btn {
+	background-color: #d81e5b;
+	color: white;
+	margin-bottom: 20px;
+	font-size: 0.8rem;
+}
+
+.im {
+	border-radius: 3px;
+}
+
+
+
+hr.haar-l {
+	border: 0;
+    height: 40px;
+    width: 10vw;
+    background: none;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    margin-left: 90vw;
+}
+
+
+hr.haar-nav {
+	border: 0;
+    height: 0px;
+    width: 100vw;
+    background: white;
+    margin: 0 auto;
+}
+
+
+hr.haar-fijn {
+	border: 0;
+    height: 15px;
+    width: 100vw;
+    background: #a4036f;
+    margin: 0 auto;
+}
+
+hr.haar-fijn-3 {
+	border: 0;
+    height: 12px;
+    width: 10vw;
+    background: #FFF90D;
+    margin-left: 3%;
+}
+
+hr.haar-fijn-2 {
+	border: 0;
+    height: 12px;
+    width: 10vw;
+    background: #FF26E4;
+    margin-left: 3%;	
+}
+
+hr.haar-fijn-4 {
+	border: 0;
+    height: 12px;
+    width: 10vw;
+    background: #00F5FF;
+    margin-left: 3%;
+}
+
+
+.bg-medium {
+	background-color: #fbfaf9;
+	color: #2F1847;
+	border: none;
+
+}
+
+.bg-mission {
+	background-color: #fbfaf9;
+   	height: 90px;
+   	margin-top: 45px;
+    color: #2F1847;
+	border: none;
+}
+
+.bg-green {
+	background-image: linear-gradient(to top,rgba(6, 195, 146, 0.95),rgba(6, 195, 146, 0.95)), url("../image/lion_2.png");
+	background-size: 1400px;
+	color: white;
+}
+
+.bg-green a {
+	color: white;
+}
+
+.bg-dark {
+	background-image: linear-gradient(to bottom,rgba(47, 24, 71, 0.8), rgba(47, 24, 71, 0.8)), url("../image/lion_2.png");
+/*	background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../image/lion_2.png");*/
+    background-size: 1400px;
+	border: none;
+	color: white;
+	font-weight: 400;
+}
+
+.bg-dark a {
+	color: white;
+	font-weight: 600;
+}
+
+
+.bg-first {
+	color: black;
+	background-image: linear-gradient(to top,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../image/lion_2.png");
+	background-size: 1400px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	margin-bottom: 0;
+}
+
+.bgbody {
+	background-color: #edfef5;
+}
+
+.bgbody_start {
+	background-color: white;
+}
+
+.blox h1 {
+	position: absolute;
+	height: 200px;
+	top: -50px;
+	left:0;
+	font-size: 10.5rem;
+	color: #fbfaf9;
+	font-weight: 600;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+
+.bg-dark strong {
+	color: #FBFF12;
+}
+
+.lab {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+}
+	
+.lab p {
+	font-weight: 600;
+	font-size: 10.5rem;
+	/*color: rgba(2, 251, 165, 1.0);*/
+	color: #fbfaf9;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+
+.float-right {
+	float: right;
+}
+
+.border {
+	border: none;
+}
+
+
+.elem-margin {
+	padding-bottom: 80px;
+}
+
+
+.footer-elem{
+	margin: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #cbd2d0;
+}
+
+
+.icon-fa {
+	color: white;
+}
+
+
+.nav-item {
+	background-color: #fbfaf9;
+/*	background-color: #F7B267;*/
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: right;
+	font-weight: 400;
+	font-size: 0.9rem;
+	z-index: 200;
+}
+
+.nav-item a {
+	/*color: #d81e5b;*/
+	color: #2F1847;
+}
+
+
+.contact-align {
+	text-align: center;
+}
+
+.contact {
+	padding-top: 1%;
+	margin-bottom: 2%;
+}
+
+
+
+@media screen and (max-width: 920px) {
+	.elem-margin {
+		padding-bottom: 40px;
+	}
+
+
+	.blox h1 {
+		font-size: 4rem;
+		top:0;
+	}
+
+	.lab p {
+		font-size: 4rem;
+		bottom:0;
+	}
+
+	.contact {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.bg-black {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+
