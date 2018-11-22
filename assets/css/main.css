@@ -14,7 +14,7 @@ body {
   	font-weight: 300;
   	font-family: 'Roboto', sans-serif;
   	color: #2F1847;
-	background-color: #2F1847;
+	background-color: white;
   }
 
 body a {
@@ -52,6 +52,17 @@ header {
 	border: none;
 }
 
+.btn-header {
+	background-color: red;
+	color: white;
+	padding: 30px;
+	margin: 10vw;
+	font-size: 1.3rem;
+	font-weight: 500;
+	width: 5vw;
+	height: 5vh;
+	border-radius: 3vw;
+}
 
 .btn {
 	background-color: #d81e5b;
@@ -64,6 +75,18 @@ header {
 	border-radius: 3px;
 }
 
+.mega_header h1{
+	font-weight: 600;
+	font-size: 4.0rem;
+}
+
+.mega-header p{
+	font-weight: 500;
+}
+
+.become-patron-button {
+	width: 500px;
+}
 
 
 hr.haar-l {
@@ -237,8 +260,6 @@ hr.haar-fijn-4 {
 
 
 .nav-item {
-	background-color: #fbfaf9;
-/*	background-color: #F7B267;*/
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -246,11 +267,16 @@ hr.haar-fijn-4 {
 	font-weight: 400;
 	font-size: 0.9rem;
 	z-index: 200;
+	background-color: black;
+}
+
+.nav-item img {
+	max-width: 5%;
 }
 
 .nav-item a {
-	/*color: #d81e5b;*/
-	color: #2F1847;
+	color: white;
+	background-color: black;
 }
 
 
