@@ -3,22 +3,29 @@ layout: default
 id: articles
 ---
 
-<h1>Blog</h1>
-<div class="listing">
-  {% for post in site.categories[page.category] %}
-    {% assign author = site.authors[post.author] %}
-    <div class="col-md-9 blogpost">
-      {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
-      <h4>{{ post.title }}</h4>
-      <p style="color: #000;">
-        {{ post.summary }}
-        <div>
-            <!--<a href="{{post.url}}#disqus_thread" style='display:inline; position:relative;'></a>-->
-            <a href="{{post.url}}"  style='display:inline; position:relative;'>Read more &raquo;</a>
-        </div>
+
+<div class="bg-medium">
+  <section id="volunteer" class="container py4 px4">
+    <div class="clearfix mxn2">
+      <div class="col-12 mx-auto">
+        <h1 class="responsive-h1 caps py3">Blog</h1>
+          <div class="blogfeed">
+            {% for post in site.categories[page.category] %}
+            {% assign author = site.authors[post.author] %}
+            <div class="blogpost">
+              {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
+            <a href="{{post.url}}"  style='display:inline; position:relative;'><h4 class="responsive-h4 caps">{{ post.title }}</h4></a>
+            <p style="color: #000;">
+            {{ post.summary }}  <a href="{{post.url}}"  style='display:inline; position:relative;'>Read more &raquo;</a>
+          <br/>
+          <br/>
       </p>
     </div>
   {% endfor %}
+</div>
+</div>
+</div>
+</section>
 </div>
 
 <!--<script type="text/javascript">-->

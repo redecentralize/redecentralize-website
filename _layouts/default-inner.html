@@ -14,9 +14,9 @@
 
     <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="/assets/css/main.css" rel="stylesheet">
     <link href="https://unpkg.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet">
     <link href="/assets/css/utility-headings.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100' rel='stylesheet' type='text/css'>
 
     <link rel="alternate" type="application/rss+xml" href="/blog/feed.rss" title="Redecentralize blog RSS"/>
@@ -41,7 +41,7 @@
       <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
       <div class="relative">
         <a href="#!" class="btn py2 m0">Projects &#9662;</a>
-        <div data-details class="absolute right-0 nowrap black bg-white rounded" style="min-width:128px">
+        <div data-details class="absolute right-0 nowrap white bg-none rounded" style="min-width:128px">
           <ul class="h5 list-reset mb0">
             <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/" >Founder Interviews</a></li>
                 <li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >App Radar</a></li>
@@ -54,7 +54,7 @@
       <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
       <div class="relative">
         <a href="#!" class="btn py2 m0">Get Involved &#9662;</a>
-        <div data-details class="absolute right-0 nowrap black bg-white rounded" style="min-width:128px">
+        <div data-details class="absolute right-0 nowrap white bg-none rounded" style="min-width:128px">
           <ul class="h5 list-reset mb0">
             <li> <a href="https://github.com/redecentralize/organize/issues" target="_blank">Help organize</a></li>
             <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
@@ -70,7 +70,7 @@
       <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
       <div class="relative">
         <a href="#!" class="btn py2 m0">Resources &#9662;</a>
-        <div data-details class="absolute right-0 nowrap black bg-white rounded" style="min-width:128px">
+        <div data-details class="absolute right-0 nowrap white bg-none rounded" style="min-width:128px">
           <ul class="h5 list-reset mb0">
             <li {% if page.id == 'about' %} class="active" {% endif %} > <a href="/about/" >About</a></li>
                 <li {% if page.id == 'blog' %} class="active" {% endif %} > <a href="/blog/" >Blog</a></li>
@@ -91,6 +91,16 @@
 }
 </style>
     {{ content }}
+ 
+  <div class="bg-black white">
+    <footer>
+      <div class="center pt4 mt0">
+        <p style="font-size:0.8rem">Copyleft 2018 - Redecentralize</p>
+      </div>
+    </footer>
+  </div>
+
+
 
 <script type="text/javascript">
   var Disclosure = function(el, options) {
