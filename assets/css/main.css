@@ -136,6 +136,25 @@ hr.haar-fijn-2 {
     margin-left: 3%;	
 }
 
+
+hr.haar-fijn-5 {
+	border: 0;
+    height: 12px;
+    width: 10vw;
+    background: #FF26E4;
+    margin-left: 0%;
+    margin-bottom: 5%;	
+}
+
+hr.haar-fijn-6 {
+	border: 0;
+    height: 12px;
+    width: 10vw;
+    background: #FFF90D;
+    margin-left: 0%;
+    margin-bottom: 5%;	
+}
+
 hr.haar-fijn-4 {
 	border: 0;
     height: 12px;
@@ -150,6 +169,12 @@ hr.haar-fijn-4 {
 	color: #2F1847;
 	border: none;
 
+}
+
+.bg-medium-dark {
+	background-color: #f5eef5;
+	color: #2F1847;
+	border: none;
 }
 
 .bg-mission {
