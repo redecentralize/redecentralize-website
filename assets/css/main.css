@@ -13,7 +13,7 @@ orange: #F6511D;
 body {
   	font-weight: 400;
   	font-family: 'Roboto', sans-serif;
-  	color: #2F1847;
+  	color: white;
 	background-color: black;
   }
 
@@ -31,8 +31,8 @@ h2, h3, h4, h5 {
 }
 
 h1 {
-	font-weight: 600;
-	font-size: 2.0rem;
+	font-weight: 500;
+	font-size: 1.3rem;
 }
 
 footer {
@@ -66,10 +66,15 @@ header {
 }
 
 .btn {
-	background-color: #d81e5b;
+	background-color: rgb(135,23,121);
 	color: white;
 	margin-bottom: 20px;
 	font-size: 0.8rem;
+}
+
+.dropdown {
+	padding: 5px;
+	background-color: black;
 }
 
 .im {
@@ -160,7 +165,7 @@ hr.haar-fijn-4 {
 }
 
 .bg-green {
-	background-image: linear-gradient(to top,rgba(6, 195, 146, 0.95),rgba(6, 195, 146, 0.95)), url("/assets/images/lion_2.png");
+	background-image: linear-gradient(to top,rgb(135,23,121, 0.9),rgb(135,23,121, 0.9)), url("/assets/images/lion_2.png");
 	background-size: 1400px;
 	color: white;
 }
@@ -264,6 +269,7 @@ hr.haar-fijn-4 {
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
+	height: 55px;
 	text-align: right;
 	font-weight: 300;
 	z-index: 200;
@@ -290,6 +296,27 @@ hr.haar-fijn-4 {
 	margin-bottom: 2%;
 }
 
+/*Badges*/
+
+.bg-pink {
+	background-color: pink;
+	color: white;
+}
+
+.bg-yellow {
+	background-color: gold;
+	color: white;
+}
+
+.bg-purple {
+	background-color: purple;
+	color: white;
+}
+
+.bg-blue {
+	background-color: violet;
+	color: white;
+}
 
 
 @media screen and (max-width: 920px) {

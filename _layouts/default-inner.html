@@ -41,11 +41,12 @@
       <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
       <div class="relative">
         <a href="#!" class="btn py2 m0">Projects &#9662;</a>
-        <div data-details class="absolute right-0 nowrap white bg-none rounded" style="min-width:128px">
+        <div data-details class="absolute dropdown right-0 nowrap white bg-none rounded" style="min-width:124px">
           <ul class="h5 list-reset mb0">
-            <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/" >Founder Interviews</a></li>
+            <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/">Founder Interviews</a></li>
                 <li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >App Radar</a></li>
                 <li> <a href="https://github.com/redecentralize/alternative-internet" target="_blank">Alternative Internet</a></li>
+                <li {% if page.id == 'conference' %} class="active py2" {% endif %} > <a href="/conference/" >2015 Conference</a></li>
           </ul>
         </div>
       </div>
@@ -54,7 +55,7 @@
       <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
       <div class="relative">
         <a href="#!" class="btn py2 m0">Get Involved &#9662;</a>
-        <div data-details class="absolute right-0 nowrap white bg-none rounded" style="min-width:128px">
+        <div data-details class="absolute dropdown right-0 nowrap white bg-none rounded" style="min-width:124px">
           <ul class="h5 list-reset mb0">
             <li> <a href="https://github.com/redecentralize/organize/issues" target="_blank">Help organize</a></li>
             <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
@@ -69,14 +70,7 @@
     <div id="account-menu" class="inline-block" data-disclosure>
       <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
       <div class="relative">
-        <a href="#!" class="btn py2 m0">Resources &#9662;</a>
-        <div data-details class="absolute right-0 nowrap white bg-none rounded" style="min-width:128px">
-          <ul class="h5 list-reset mb0">
-            <li {% if page.id == 'about' %} class="active" {% endif %} > <a href="/about/" >About</a></li>
-                <li {% if page.id == 'blog' %} class="active" {% endif %} > <a href="/blog/" >Blog</a></li>
-                <li {% if page.id == 'conference' %} class="active" {% endif %} > <a href="/conference/" >2015 Conference</a></li>
-          </ul>
-        </div>
+        <a class="btn py2 m0" href="/blog/" >Blog</a>
       </div>
     </div>
   </div>
