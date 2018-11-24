@@ -49,6 +49,10 @@ header {
 	border: none;
 }
 
+.video {
+	height: 450px;
+}
+
 .btn-header {
 	background-color: #871779;
 	color: white;
