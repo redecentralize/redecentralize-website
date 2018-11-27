@@ -7,7 +7,7 @@ date: 2018-11-27
 author: "shevski"
 ---
 
-# [Our fundraiser is now LIVE. Support & spread the word!](https://www.patreon.com/redecentralize)
+# [Our fundraiser is now LIVE! Please support & spread the word!](https://www.patreon.com/redecentralize)
 
 
 ## MISSION
