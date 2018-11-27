@@ -2,7 +2,7 @@
 layout: article
 categories: blog
 summary: "Here's out plan for the next 12 months. Conference, meetups, research and more. Help fund us on patreon to make it happen!"
-title: "Our plan for the next 12 months!"
+title: "Our plan for the next 12 months"
 date: 2018-11-27
 author: "shevski"
 ---
