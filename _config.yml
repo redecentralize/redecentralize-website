@@ -39,4 +39,4 @@ authors:
     link: https://twitter.com/michieldejong
 
 exclude:
-  - "vendor/*.html"
+- "vendor/*.html"
