@@ -43,6 +43,39 @@ header {
 	display: flex; 
 }
 
+/*.title_bg {
+	padding-left: 15%;
+	padding-right: 6px;
+	border-radius: 1px;
+	margin: -15%;
+}
+
+.title_bg_black {
+	color: white;
+	background-color: black;
+}
+
+.title_bg_pink {
+	color: white;
+	background-color: #f00699;
+
+}
+
+.title_bg_green {
+	color: white;
+	background-color: #0dab76;
+}
+
+.title_bg_white {
+	color: #0dab76;
+	background-color: white;
+}
+
+
+.title_bg_yellow {
+	color: white;
+	background-color: #FFF90D;
+}*/
 
 .video {
 	height: 450px;
@@ -129,27 +162,39 @@ hr.haar-fijn {
 }
 
 hr.haar-fijn-3 {
+	background: #FFF90D;
 	border: 0;
-    height: 12px;
-    width: 10vw;
-    background: #FFF90D;
-    margin-left: 3%;
+  	height: 1.5vw;
+    width: 5.5vw;
+	border-radius: 1.5vw;
+	margin-left: 3%;
 }
 
 hr.haar-fijn-2 {
-	border: 0;
-    height: 12px;
-    width: 10vw;
-    background: #f00699;
-    margin-left: 3%;	
+	background: #f00699;
+    border: 0;
+    height: 1.5vw;
+    width: 5.5vw;
+	border-radius: 1.5vw;
+	margin-left: 3%;	
 }
 
 hr.haar-fijn-20 {
+	background: #0dab76;
 	border: 0;
-    height: 12px;
-    width: 10vw;
-    background: #018e42;
-    margin-left: 3%;	
+  	height: 1.5vw;
+    width: 5.5vw;
+	border-radius: 1.5vw;
+	margin-left: 3%;	
+}
+
+hr.haar-header {
+	background: #0dab76;
+	border: 0;
+  	height: 1.5vw;
+    width: 5.5vw;
+	border-radius: 1.5vw;
+	margin-left: 40vw;	
 }
 
 
@@ -202,7 +247,7 @@ hr.haar-fijn-4 {
 }
 
 .bg-green {
-	background-image: linear-gradient(to top,rgb(13,171,118, 0.95),rgb(13,171,118, 0.95)), url("/assets/images/lion_2.png");
+	background-image: linear-gradient(to top,rgb(13,171,118, 0.95),rgb(13,171,118, 0.95)), url("/assets/images/water_pattern.jpg");
 	background-size: 1400px;
 	color: white;
 }
@@ -212,7 +257,7 @@ hr.haar-fijn-4 {
 }
 
 .bg-dark {
-	background-image: linear-gradient(to bottom,rgba(59, 30, 104, 0.9), rgba(59, 30, 104, 0.9)),  url("/assets/images/lion_2.png");
+	background-image: linear-gradient(to bottom,rgba(59, 30, 104, 0.95), rgba(59, 30, 104, 0.95)),  url("/assets/images/water_pattern.jpg");
     background-size: 1400px;
 	border: none;
 	color: white;
@@ -390,10 +435,10 @@ hr.haar-fijn-4 {
 
 
 @media screen and (max-width: 920px) {
-	.team {
+/*	.team {
 		height: 400px;
 		margin: 20px;
-	}
+	}*/
 
 	.elem-margin {
 		padding-bottom: 40px;
@@ -411,9 +456,9 @@ hr.haar-fijn-4 {
 	font-size: 1.0rem;
 	width: 200px;
 	height: 200px;
-}
+	}
 
-.nav-item {
+	.nav-item {
 	width: 100%;
 	padding-left: 0%;
 	padding-right: 0%;
@@ -422,7 +467,7 @@ hr.haar-fijn-4 {
 	font-weight: 300;
 	z-index: 200;
 	background-color: black;
-}
+	}
 
 
 	.blox h1 {
@@ -445,4 +490,7 @@ hr.haar-fijn-4 {
 		padding-bottom: 80px;
 	}
 }
+
+
+	
 
