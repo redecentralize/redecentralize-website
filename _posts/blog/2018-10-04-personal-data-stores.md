@@ -7,8 +7,6 @@ date: 2018-10-04
 author: "shevski"
 ---
 
-# Are Personal Data Stores about to become the NEXT BIG THING?
-
 Written by [Irina](https://twitter.com/shevski) and [Simon Worthington](https://twitter.com/51M0NW).
 
 ![Personal Data Store providers we assessed](/assets/images/posts/pds.jpg)
