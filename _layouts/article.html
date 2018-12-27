@@ -2,20 +2,24 @@
 layout: default
 id: article
 ---
+
 {% assign author = site.authors[page.author] %}
-<div class="blogpost-header col-sm-8">
-  <img src="/assets/images/avatars/{{author.picname}}" class="avatar"/>
 
-  <div>
-    <h1>{{ page.title }}</h1>
-    <div>
-      <span class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></span>
-      <a class="muted pull-right" href="{{page.url}}#disqus_thread"></a>
-    </div>
+<section class="container px4 py4">
+  <div class="clearfix mxn4">
+
+   <div class="sm-col sm-col-8 px4 py1">
+    <span class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></span>
+    <a class="muted right" href="{{page.url}}#disqus_thread"></a>
+      {{ content }}
+
+
+      <img src="/assets/images/avatars/{{author.picname}}" class="circle"/>
+      <br/>
+     <p>By: <a href="{{author.link}}">{{ author.display_name }}</a></p>
   </div>
-</div>
 
-<aside class="col-sm-4 pull-right">
+  <div class="sm-col sm-col-4 px4 py1 right">
     <h3>Recent posts</h3>
 
     <ul class='recent-posts'>
@@ -30,11 +34,8 @@ id: article
     {% endfor %}
     </ul>
 
-</aside>
-
-<div class="col-sm-8 blogpost ">
-    {{ content }}
 </div>
+</section>
 
 <!--<div class="col-sm-8 blogpost ">-->
     <!--<div id="disqus_thread"></div>-->

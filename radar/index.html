@@ -4,39 +4,47 @@ title: Radar
 id: radar
 ---
 
-<div class="row">
-  <div class="col-md-8">
-	<h1>Redecentralize Radar app directory</h1>
+ <section class="container py4 bg-white">
+   <div class="clearfix mxn2">
+   	 <div class="col-12 mx-auto">
+		<h1 class="h1-responsive mt4">Redecentralize Radar app directory</h1>
+		<hr class="haar-fijn-5">
+		<div class="sm-col sm-col-6 px0 py0">
+	
 
-	  {% for entry in site.radar reversed %}
-		<div class="radar-listing">
-		  <img src="/assets/images/radar/{{ entry.icon }}">
-		  <h2>
+	{% for entry in site.radar reversed %}
+	<div class="clearfix mxn3">
+		<div class="col-11 mx-auto">
+		  <img class="sm-col sm-col-2 py3 px1" src="/assets/images/radar/{{ entry.icon }}">
+		 </div>
+		  <div class="sm-col-right sm-col-9 py2 right">
+		  
+		  <h3 class="responsive-h3 caps">
 			  {% if entry.status == "use" %} 
-				<span class="label label-info">Use</span>
+				<span class="inline-block bg-pink white p1 rounded">Use</span>
 			  {% endif %}
 			  {% if entry.status == "try" %} 
-				<span class="label label-primary">Try</span>
+				<span class="inline black bg-blue white p1 rounded">Try</span>
 			  {% endif %}
 			  {% if entry.status == "share" %} 
-				<span class="label label-success">Share</span>
+				<span class="inline black bg-yellow white p1 rounded">Share</span>
 			  {% endif %}
 			  {% if entry.status == "hold" %} 
-				<span class="label label-warning">Hold</span>
+				<span class="inline black bg-orange p1 rounded">Hold</span>
 			  {% endif %}
-			<a href="{{ entry.url }}">{{ entry.title }}</a>			  
-		  </h2>
-		  <p>{{ entry.intro }} 
+			<a class="" href="{{ entry.url }}">{{ entry.title }}</a>			  
+		  </h3>
+		  <p class="">{{ entry.intro }} 
 			<span class="listing-date">{{ entry.date | date: "%-d %b %Y"}}</span>
 		  </p>
 		</div>
+	</div>
 	  {% endfor %}
 
-  </div>
+</div>
+ <div class="sm-col sm-col-5 px4 ml4 py1 right">
 
-  <div class="col-md-4">
-
-	<h1>Sign up</h1>
+	<h1 class="responsive-h1">Sign up</h1>
 
 	<p class="lead">
 	   We'll email you when a new decentralized app gets good enough to try, use or share. 
@@ -60,9 +68,9 @@ id: radar
 	  <a target="_blank" href="/radar/feed.rss"><i class="icon-rss"></i> RSS feed</a>
 	</p>
 
-	<h1>What is "good enough"?</h1>
+	<h1 class="responsive-h1">What is "good enough"?</h1>
 
-	<h2><span class="label label-primary">Try</span></h2>
+	<h3><span class="inline black bg-blue white p1 rounded">Try</span></h3>
 
 	<p>This app looks really promising. It's not
 	just a tech demo &mdash; it's got a good user interface
@@ -70,7 +78,7 @@ id: radar
 	decentralized internet, try it out, and report bugs.
 	</p>
 
-	<h2><span class="label label-info">Use</span></h2>
+	<h3><span class="inline-block bg-pink white p1 rounded">Use</span></h3>
 
 	<p>This app is great to use day to day, and many
 	people do so. It is more private and more resilient
@@ -78,7 +86,7 @@ id: radar
 	competitive market.
 	</p>
 
-	<h2><span class="label label-success">Share</span></h2>
+	<h3><span class="inline black bg-yellow white p1 rounded">Share</span></h3>
 
 	<p>This app is not only strategically important
 	for decentralization, it competes extremely well
@@ -114,7 +122,7 @@ id: radar
 		<a href="https://www.thoughtworks.com/radar">
 		Thanks to the inspiring ThoughtWorks Radar</a>
 	</p>
-  </div>
 </div>
+</section>
 
 

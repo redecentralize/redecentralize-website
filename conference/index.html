@@ -4,168 +4,163 @@ title: Conference 2015
 id: conference
 ---
 
-<style>
-  .jumbotron {
-  line-height: 1.5 !important; font-size: 120%;
-  }
-</style>
 
 <script src='https://js.tito.io/v1' async></script>
-<div class="jumbotron callout-a" link="white">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <!-- <img src="/assets/images/rdc15.png" width="300"/> -->
-      <h1>Redecentralize Conference 2015 <br>taking back the net</h1>
+
+<div class="bgbody">
+  <div class="bg-green">
+    <section id="volunteer" class="container py4 px4 mega_header">
+      <div class="clearfix mxn2">
+         <div class="col-10 mx-auto">
+          <h1>Redecentralize Conference 2015 <br>Taking back the net</h1>
       <p class="leder">A weekend to learn, connect and make technology that shapes society.</p>
       <p class="leder"><strong>17-18 October 2015 | London | <a style="color:white;" href="https://twitter.com/search?q=%23redecentralize&amp;src=typd">#redecentralize</a></strong></p>
-      
-    </div>
+        </div>
+      </div>
+  </section>
   </div>
-</div>
-<div class="jumbotron">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <div style="text-align:center; padding-bottom:20px;">
-	<h1>Videos of sessions</h1>
-      </div>
-      <div class="listing">
-	{% for post in site.categories['conf2015'] %}
-	  <div class="item{% cycle ' clear', '', '' %}">
-	    <img src="{{ post.poster }}">
-	    <h4>{{ post.title }}</h4>
-	    <p>{{ post.summary }}</p>
-	    <a href="{{ post.url }}"><span>Watch now</span></a>
-	  </div>
-	{% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
-<div class="jumbotron callout-b" link="#126057">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <div style="text-align:center; padding-bottom:20px;">
-	<h1>What is it?</h1>
-      </div>
-      <p>
-	The Redecentralize conference brings together people working on
-	<a href="https://en.wikipedia.org/wiki/Decentralization" target="_blank" style="text-decoration: underline;">decentralization</a>
-	projects with others outside the movement - to drive adoption and sustainability of decentralized alternatives.
-	We'll be showcasing projects, looking at open strategies, marketing, design and business models.</p>
-    </div>
-  </div>
-</div>
-<div class="jumbotron">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <div style="text-align:center; padding-bottom:20px;">
-	<h1>When &amp; where?</h1>
-      </div>
-      <p>Dates are 17th &amp; 18th October &#8212; in London, UK</p>
-      <p><strong>Venue:</strong> <a href="https://www.google.co.uk/maps/place/ThoughtWorks+Ltd./@51.51309,-0.133702,15z/data=!4m2!3m1!1s0x0:0x59e536907dbbdd96?sa=X&ved=0CGIQ_BIwC2oVChMIiozy9JzAyAIVijwUCh33YQJ7">ThoughtWorks, 76 Wardour Street London, W1F 0UR</a/></p>
 
-</div>
-</div>
-</div>
 
-<div class="jumbotron callout-c" link="white">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <div style="text-align:center; padding-bottom:20px;">
-	<h1>Who should come?</h1>
+<div class="bgbody">
+  <div class="bg-medium">
+    <section id="volunteer" class="container py4 px4">
+      <div class="clearfix mxn2">
+        <div class="col-10 mx-auto">
+          <h1 class="responsive-h1 caps">Videos of sessions</h1>
+          <hr class="haar-fijn-5">
+        </div>
       </div>
-      <div style="text-align:center;">
-	<strong>
-	  <ul class="list-inline">
-	    <li> People working on decentralized/open/private projects!</li>
-	    <li>Product managers</li>
-	    <li>Designers</li>
-	    <li>Academics</li>
-	    <li>Lawyers</li>
-	    <li>Developers</li>
-	    <li>Entrepreneurs</li>
-	    <li>Journalists</li>
-	    <li>Brand &amp; Marketing specialists</li>
-	  </ul>
-	</strong>
+          
+            {% for post in site.categories['conf2015'] %}
+            <div class="clearfix mxn3">
+              <div class="col-10 mx-auto">
+            <img class="sm-col sm-col-4 py3 px1"  src="{{ post.poster }}">
+          </div>
+           <div class="sm-col-right sm-col-7 py2 right">
+             <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+              <p>{{ post.summary }}</p>
+              <a href="{{ post.url }}"><span>Watch now</span></a>
+            </div>
+          </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
-    </div>
+  </section>
   </div>
-</div>
 
-<div class="jumbotron">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <div style="text-align:center; padding-bottom:20px;">
-	<h1>Why is this important?</h1>
+
+  <div class="bg-grey">
+    <section id="volunteer" class="container py4 px4">
+      <div class="clearfix mxn2">
+         <div class="col-10 mx-auto">
+          <h1 class="responsive-h2 caps">About</h1>
+          <hr class="haar-fijn-6">
+          <p> The Redecentralize conference brings together people working on <a href="https://en.wikipedia.org/wiki/Decentralization" target="_blank" style="text-decoration: underline;">decentralization</a> projects with others outside the movement - to drive adoption and sustainability of decentralized alternatives. We'll be showcasing projects, looking at open strategies, marketing, design and business models.</p>
+
+          <h3 class="responsive-h3 caps mt4">When &amp; where?</h3>
+          <p>Dates are 17th &amp; 18th October &#8212; in London, UK</p>
+          <p><strong>Venue:</strong> <a href="https://www.google.co.uk/maps/place/ThoughtWorks+Ltd./@51.51309,-0.133702,15z/data=!4m2!3m1!1s0x0:0x59e536907dbbdd96?sa=X&ved=0CGIQ_BIwC2oVChMIiozy9JzAyAIVijwUCh33YQJ7">ThoughtWorks, 76 Wardour Street London, W1F 0UR</a></p>
+
+          <h3 class="responsive-h3 caps mt4">Who should come?</h3>
+          <div style="text-align:left;">
+          <ul class="list-inline">
+            <li> People working on decentralized/open/private projects!</li>
+            <li>Product managers</li>
+            <li>Designers</li>
+            <li>Academics</li>
+            <li>Lawyers</li>
+            <li>Developers</li>
+            <li>Entrepreneurs</li>
+            <li>Journalists</li>
+            <li>Brand &amp; Marketing specialists</li>
+          </ul>
+         </div>
+
+        <h3 class="responsive-h3 caps mt4">Why is this important?</h3>
+        <p>When the web was created, it was open, free and decentralized. Anyone could share information and connect. Now it's home to vast monopolies. Many people's primary internet experience is limited to facebook. Even email runs on proprietary platforms.</p>
+        <p>We lack genuine choice and the freedom to disagree with their terms and conditions. It is time to push back and build alternatives... and ensure a future with competition, innovation, resilience, open standards and privacy.</p>
+
+        </div>
       </div>
-      <p>When the web was created, it was open, free and decentralized. Anyone could share information and connect. Now it's home to vast monopolies. Many people's primary internet experience is limited to facebook. Even email runs on proprietary platforms.</p>
-      <p>We lack genuine choice and the freedom to disagree with their terms and conditions. It is time to push back and build alternatives... and ensure a future with competition, innovation, resilience, open standards and privacy.</p>
-    </div>
+  </section>
   </div>
-</div>
 
-<div class="jumbotron callout-b" link="white">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <div style="text-align:center;"><h1>Get involved!</h1></div>
-      <p>
-	Redecentralize Conference is run and organised by a fittingly decentralized group of volunteers.
+  <div class="bg-green">
+    <section id="volunteer" class="container py4 px4">
+      <div class="clearfix mxn2">
+         <div class="col-10 mx-auto">
+          <h1 class="responsive-h2 caps">Get involved</h1>
+         <p>
+  Redecentralize Conference is run and organised by a fittingly decentralized group of volunteers.
       </p>
       <p>
-	This year's event is being organised by:
-	<a href="http://twitter.com/shevski" style="color:white !important;text-decoration: underline;" link="white">@shevski</a>,
-	<a href="http://twitter.com/thatdavidmiller" style="color:white !important;text-decoration: underline;" link="white">@thatdavidmiller</a>,
-	<a href="http://twitter.com/ntoll" style="color:white !important;text-decoration: underline;" link="white">@ntoll</a>,
-	<a href="http://twitter.com/willschiller" style="color:white !important;text-decoration: underline;" link="white">@willschiller</a>,
-	<a href="http://twitter.com/frabcus" style="color:white !important;text-decoration: underline;" link="white">@frabcus</a>,
-	<a href="http://twitter.com/refset" style="color:white !important;text-decoration: underline;" link="white">@refset</a>,
-	<a href="http://twitter.com/blaine" style="color:white !important;text-decoration: underline;" link="white">@blaine</a> and
-	<a href="http://twitter.com/jospoortvliet" style="color:white !important;text-decoration: underline;" link="white">@jospoortvliet</a>
-	(so far!)
+  This year's event is being organised by:
+  <a href="http://twitter.com/shevski" style="color:white !important;text-decoration: underline;" link="white">@shevski</a>,
+  <a href="http://twitter.com/thatdavidmiller" style="color:white !important;text-decoration: underline;" link="white">@thatdavidmiller</a>,
+  <a href="http://twitter.com/ntoll" style="color:white !important;text-decoration: underline;" link="white">@ntoll</a>,
+  <a href="http://twitter.com/willschiller" style="color:white !important;text-decoration: underline;" link="white">@willschiller</a>,
+  <a href="http://twitter.com/frabcus" style="color:white !important;text-decoration: underline;" link="white">@frabcus</a>,
+  <a href="http://twitter.com/refset" style="color:white !important;text-decoration: underline;" link="white">@refset</a>,
+  <a href="http://twitter.com/blaine" style="color:white !important;text-decoration: underline;" link="white">@blaine</a> and
+  <a href="http://twitter.com/jospoortvliet" style="color:white !important;text-decoration: underline;" link="white">@jospoortvliet</a>
+  (so far!)
       </p>
       <p>
-	Fancy helping? Reach out to the team via <a href="mailto:hello@redecentralize.org" style="color:white !important;text-decoration: underline;" link="white">hello@redecentralize.org</a>, email the mailing list or
-	<a href="https://github.com/redecentralize" style="color:white !important;text-decoration: underline;" link="white">make a PR</a> :)
+  Fancy helping? Reach out to the team via <a href="mailto:hello@redecentralize.org" style="color:white !important;text-decoration: underline;" link="white">hello@redecentralize.org</a>, email the mailing list or
+  <a href="https://github.com/redecentralize" style="color:white !important;text-decoration: underline;" link="white">make a PR</a>
       </p>
+        </div>
+      </div>
+  </section>
+  </div>
+
+
+
+<div class="bg-medium">
+    <section id="volunteer" class="container py4 px4">
+      <div class="clearfix mxn2">
+         <div class="col-10 mx-auto">
+          <h1 class="responsive-h1 caps">Code of conduct</h1>
+          <hr class="haar-fijn-5">
+
+       <p>
+        Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
+      </p>
+      </div>
     </div>
+    </section>
   </div>
 </div>
 
-<div class="jumbotron">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <div style="text-align:center;"><h3>Generously supported by...</h1></div>
-<div style="margin:20px;padding:20px;">
-  <div style="text-align:center;">
-    <span style="padding:20px;">
-      <a href="https://www.thoughtworks.com">
-	<img width=192px src="tw-logo.png"></img>
-      </a>
-    </span>
-    <span style="padding:20px;">
-      <a href="http://www.flossuk.org/">
-	<img height=77px src="flossuk.png"></img>
-      </a>
-    </span>
-    <span style="padding:20px;">
-      <a href="https://www.ethereum.org">
-	<img height=77px src="ethereum.png"></img>
-      </a>
-    </span>
-  </div>
-</div>
-</div>
-</div>
-</div>
+ <div class="bg-black white">
+    <section id="volunteer" class="container py4 px4">
+        <div class="clearfix mxn2 bg-white">
+         <div class="col-10 mx-auto">
+          <h1 class="responsive-h1 caps black py4">Supporters</h1>
+        
+        <div class="sm-col sm-col-4 py0 px3">
+          <a href="https://www.thoughtworks.com">
+          <img src="tw-logo.png" max-width="50px"></img>
+          </a>
+        </div>
 
-<div class="jumbotron callout-a" link="white">
-  <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
-      <h3>Code Of Conduct</h3>
-      <p>
-	Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
-      </p>
+        <div class="sm-col sm-col-4 py0 px3">
+          <a href="http://www.flossuk.org/">
+          <img  src="flossuk.png" max-width="50px"></img>
+          </a>
+        </div>
+
+        <div class="sm-col sm-col-4 py0 px3 right">
+          <a href="https://www.ethereum.org">
+          <img src="ethereum.png" max-width="50px" ></img>
+          </a>
+        </div>
+
+      </div>
     </div>
+  </section>
   </div>
-</div>
+
+
+
