@@ -106,6 +106,21 @@ header {
 	font-size: 0.8rem;
 }
 
+
+.btn-news {
+	background-color: #f00699;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1rem;
+	font-weight: 400;
+	width: 3vw;
+	height: 3vh;
+	border-radius: 3vw;
+}
+
 .dropdown {
 	padding: 5px;
 	background-color: black;
