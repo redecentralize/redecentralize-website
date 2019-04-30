@@ -18,25 +18,25 @@ layout: default
     </video>
   </div>
   <div class="col-sm-4">
-    <p>{{ page.summary }}
-    <span class="muted">{{ page.date | date_to_string }} </span>
+    <p>
+      {{ page.summary }}
+      <span class="muted">{{ page.date | date_to_string }}</span>
     </p>
     <h5>Links</h5>
     <ul>
       {{ page.links }}
-  </ul>
+    </ul>
   </div>
 </div>
 
 {% if page.transcript %}
-  <div class="row transcript">
-    <div class="col-sm-8">
-      <h2>Transcript</h2>
-      {% if page.transcript_by %}
-        <p class="muted by">Kindly transcribed by: {{ page.transcript_by }}</p>
-      {% endif %}
-      {{ page.transcript }}
-    </div>
+<div class="row transcript">
+  <div class="col-sm-8">
+    <h2>Transcript</h2>
+    {% if page.transcript_by %}
+    <p class="muted by">Kindly transcribed by: {{ page.transcript_by }}</p>
+    {% endif %}
+    {{ page.transcript }}
   </div>
+</div>
 {% endif %}
-

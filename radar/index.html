@@ -4,125 +4,132 @@ title: Radar
 id: radar
 ---
 
- <section class="container py4 bg-white">
-   <div class="clearfix mxn2">
-   	 <div class="col-12 mx-auto">
-		<h1 class="h1-responsive mt4">Redecentralize Radar app directory</h1>
-		<hr class="haar-fijn-5">
-		<div class="sm-col sm-col-6 px0 py0">
-	
+<section class="container py4 bg-white">
+  <div class="clearfix mxn2">
+    <div class="col-12 mx-auto">
+      <h1 class="h1-responsive mt4">Redecentralize Radar app directory</h1>
+      <hr class="haar-fijn-5"/>
+      <div class="sm-col sm-col-6 px0 py0">
 
-	{% for entry in site.radar reversed %}
-	<div class="clearfix mxn3">
-		<div class="col-11 mx-auto">
-		  <img class="sm-col sm-col-2 py3 px1" src="/assets/images/radar/{{ entry.icon }}">
-		 </div>
-		  <div class="sm-col-right sm-col-9 py2 right">
-		  
-		  <h3 class="responsive-h3 caps">
-			  {% if entry.status == "use" %} 
-				<span class="inline-block bg-pink white p1 rounded">Use</span>
-			  {% endif %}
-			  {% if entry.status == "try" %} 
-				<span class="inline black bg-blue white p1 rounded">Try</span>
-			  {% endif %}
-			  {% if entry.status == "share" %} 
-				<span class="inline black bg-yellow white p1 rounded">Share</span>
-			  {% endif %}
-			  {% if entry.status == "hold" %} 
-				<span class="inline black bg-orange p1 rounded">Hold</span>
-			  {% endif %}
-			<a class="" href="{{ entry.url }}">{{ entry.title }}</a>			  
-		  </h3>
-		  <p class="">{{ entry.intro }} 
-			<span class="listing-date">{{ entry.date | date: "%-d %b %Y"}}</span>
-		  </p>
-		</div>
-	</div>
-	  {% endfor %}
+        {% for entry in site.radar reversed %}
+        <div class="clearfix mxn3">
+          <div class="col-11 mx-auto">
+            <img class="sm-col sm-col-2 py3 px1" src="/assets/images/radar/{{ entry.icon }}"/>
+          </div>
+          <div class="sm-col-right sm-col-9 py2 right">
 
-</div>
- <div class="sm-col sm-col-5 px4 ml4 py1 right">
+            <h3 class="responsive-h3 caps">
+              {% if entry.status == "use" %}
+              <span class="inline-block bg-pink white p1 rounded">Use</span>
+              {% endif %}
+              {% if entry.status == "try" %}
+              <span class="inline black bg-blue white p1 rounded">Try</span>
+              {% endif %}
+              {% if entry.status == "share" %}
+              <span class="inline black bg-yellow white p1 rounded">Share</span>
+              {% endif %}
+              {% if entry.status == "hold" %}
+              <span class="inline black bg-orange p1 rounded">Hold</span>
+              {% endif %}
+              <a class="" href="{{ entry.url }}">{{ entry.title }}</a>
+            </h3>
+            <p class="">
+              {{ entry.intro }}
+              <span class="listing-date">{{ entry.date | date: "%-d %b %Y"}}</span>
+            </p>
+          </div>
+        </div>
+        {% endfor %}
 
-	<h1 class="responsive-h1">Sign up</h1>
+      </div>
+      <div class="sm-col sm-col-5 px4 ml4 py1 right">
 
-	<p class="lead">
-	   We'll email you when a new decentralized app gets good enough to try, use or share. 
-	</p>
+        <h1 class="responsive-h1">Sign up</h1>
 
-	<!-- Begin MailChimp Signup Form -->
-	<div id="mc_embed_signup">
-	<form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-		<div id="mc_embed_signup_scroll">
-		
-		<input type="email" value="" name="EMAIL" class="email input-lg" id="mce-EMAIL" placeholder="Email address" required>
-		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""></div>
-		<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary"></div>
-		</div>
-	</form>
-	</div>
-	<!--End mc_embed_signup-->
+        <p class="lead">
+          We'll email you when a new decentralized app gets good enough to try, use or share.
+        </p>
 
-	<p class="radar-rss">
-	  <a target="_blank" href="/radar/feed.rss"><i class="icon-rss"></i> RSS feed</a>
-	</p>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
 
-	<h1 class="responsive-h1">What is "good enough"?</h1>
+              <input type="email" value="" name="EMAIL" class="email input-lg" id="mce-EMAIL" placeholder="Email address" required/>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""/></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary"/></div>
+            </div>
+          </form>
+        </div>
+        <!--End mc_embed_signup-->
 
-	<h3><span class="inline black bg-blue white p1 rounded">Try</span></h3>
+        <p class="radar-rss">
+          <a target="_blank" href="/radar/feed.rss"><i class="icon-rss"></i> RSS feed</a>
+        </p>
 
-	<p>This app looks really promising. It's not
-	just a tech demo &mdash; it's got a good user interface
-	and support too. If you're interested in a
-	decentralized internet, try it out, and report bugs.
-	</p>
+        <h1 class="responsive-h1">What is "good enough"?</h1>
 
-	<h3><span class="inline-block bg-pink white p1 rounded">Use</span></h3>
+        <h3><span class="inline black bg-blue white p1 rounded">Try</span></h3>
 
-	<p>This app is great to use day to day, and many
-	people do so. It is more private and more resilient
-	than alternatives. Using it will help create a more
-	competitive market.
-	</p>
+        <p>
+          This app looks really promising. It's not
+          just a tech demo &mdash; it's got a good user interface
+          and support too. If you're interested in a
+          decentralized internet, try it out, and report bugs.
+        </p>
 
-	<h3><span class="inline black bg-yellow white p1 rounded">Share</span></h3>
+        <h3><span class="inline-block bg-pink white p1 rounded">Use</span></h3>
 
-	<p>This app is not only strategically important
-	for decentralization, it competes extremely well
-	against alternatives that your friends already use.
-	Tell them about it.
-	</p>
+        <p>
+          This app is great to use day to day, and many
+          people do so. It is more private and more resilient
+          than alternatives. Using it will help create a more
+          competitive market.
+        </p>
 
-<!--
-	<h2><span class="label label-warning">Hold</span></h2>
+        <h3><span class="inline black bg-yellow white p1 rounded">Share</span></h3>
 
-	<p>This app is a great idea, and is built on technology
-	important to decentralization. However, it either isn't
-	easy enough to use yet, or it is too centralized.
-	</p>
--->
-	
-<!--	<h2>How are they judged?</h2>
+        <p>
+          This app is not only strategically important
+          for decentralization, it competes extremely well
+          against alternatives that your friends already use.
+          Tell them about it.
+        </p>
 
-	<p>There's no rigid criteria, it's an editorial call. These are some key factors:
+        <!--
+        <h2><span class="label label-warning">Hold</span></h2>
 
-    <ul>
-    <li>Product has shipped</li>
-    <li>Home page has clear description of what it is in a way any consumer might understand</li>
-    <li>Working Android and iOS apps available</li>
-    <li>Actually installs and runs and does its job relatively easily</li>
-    <li>There's a small community using it day to day for real</li>
-    <li>It's actually useful</li>
-    <li>It feels good quality</li>
-    <li>It's actually decentralized</li>
-	</ul> -->
+        <p>
+          This app is a great idea, and is built on technology
+          important to decentralization. However, it either isn't
+          easy enough to use yet, or it is too centralized.
+        </p>
+        -->
 
-	<p style="margin-top: 24px;">
-		<a href="https://www.thoughtworks.com/radar">
-		Thanks to the inspiring ThoughtWorks Radar</a>
-	</p>
-</div>
+        <!--
+        <h2>How are they judged?</h2>
+
+        <p>
+          There's no rigid criteria, it's an editorial call. These are some key factors:
+        </p>
+        <ul>
+          <li>Product has shipped</li>
+          <li>Home page has clear description of what it is in a way any consumer might understand</li>
+          <li>Working Android and iOS apps available</li>
+          <li>Actually installs and runs and does its job relatively easily</li>
+          <li>There's a small community using it day to day for real</li>
+          <li>It's actually useful</li>
+          <li>It feels good quality</li>
+          <li>It's actually decentralized</li>
+        </ul> -->
+
+        <p style="margin-top: 24px;">
+          <a href="https://www.thoughtworks.com/radar">
+            Thanks to the inspiring ThoughtWorks Radar
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
-
-

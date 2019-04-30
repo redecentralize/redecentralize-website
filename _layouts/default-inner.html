@@ -1,90 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="google-site-verification" content="SslreymzxZXYc1zIgjvt-3sXg0IQcfI8CxgvXIN0VYA" />
-    {% if page.title == "Home" %}
-      <title>Redecentralize.org</title>
-    {% else %}
-      <title>{{ page.title }}{% if page.collection == "radar" %} Review{% endif %} &mdash; Redecentralize.org</title>
-    {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="An organisation with a mission to make everything decentralized again">
-    <meta name="author" content="Francis Irving">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="google-site-verification" content="SslreymzxZXYc1zIgjvt-3sXg0IQcfI8CxgvXIN0VYA" />
+  {% if page.title == "Home" %}
+  <title>Redecentralize.org</title>
+  {% else %}
+  <title>{{ page.title }}{% if page.collection == "radar" %} Review{% endif %} &mdash; Redecentralize.org</title>
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="An organisation with a mission to make everything decentralized again"/>
+  <meta name="author" content="Francis Irving"/>
 
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="https://unpkg.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet">
-    <link href="/assets/css/main.css" rel="stylesheet">
-      <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100' rel='stylesheet' type='text/css'>
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'/>
+  <link href="https://unpkg.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet"/>
+  <link href="/assets/css/main.css" rel="stylesheet"/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100' rel='stylesheet' type='text/css'/>
 
-    <link rel="alternate" type="application/rss+xml" href="/blog/feed.rss" title="Redecentralize blog RSS"/>
-    <link rel="alternate" type="application/rss+xml" href="/radar/feed.rss" title="Redecentralize Radar RSS"/>
-    <link rel="alternate" type="application/rss+xml" href="/podcast/feed.rss" title="Redecentralize interviews RSS"/>
+  <link rel="alternate" type="application/rss+xml" href="/blog/feed.rss" title="Redecentralize blog RSS"/>
+  <link rel="alternate" type="application/rss+xml" href="/radar/feed.rss" title="Redecentralize Radar RSS"/>
+  <link rel="alternate" type="application/rss+xml" href="/podcast/feed.rss" title="Redecentralize interviews RSS"/>
 
+  <script src="/assets/js/disclosure.js"></script>
 
-    <script src="/assets/js/disclosure.js"></script>
+  <link rel="shortcut icon" href="/assets/images/logo-square-large.png"/>
+</head>
 
-    <link rel="shortcut icon" href="/assets/images/logo-square-large.png">
-  </head>
-
-  <body>
-
+<body>
   <div class="clearfix mxn0 white nav-item fixed top-0">
-     <div class="left">
-      <img class="left" src="/assets/images/logo-square-large.png">
-     <a href="/" class="btn py2 caps left"><img src="" alt=""> Redecentralize</a>
-  </div>
-  <div class="right">
-    <div id="account-menu" class="inline-block" data-disclosure>
-      <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
-      <div class="relative">
-        <a href="#!" class="btn py2 m0">Projects &#9662;</a>
-        <div data-details class="absolute dropdown right-0 nowrap white bg-none rounded" style="min-width:124px">
-          <ul class="h5 list-reset mb0">
-            <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/">Founder Interviews</a></li>
-                <li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >App Radar</a></li>
-                <li> <a href="https://github.com/redecentralize/alternative-internet" target="_blank">Alternative Internet</a></li>
-                <li {% if page.id == 'conference' %} class="active py2" {% endif %} > <a href="/conference/" >2015 Conference</a></li>
-          </ul>
+    <div class="left">
+      <img class="left" src="/assets/images/logo-square-large.png"/>
+      <a href="/" class="btn py2 caps left"><img src="" alt=""/> Redecentralize</a>
+    </div>
+    <div class="right">
+      <div id="account-menu" class="inline-block" data-disclosure>
+        <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
+        <div class="relative">
+          <a href="#!" class="btn py2 m0">Projects &#9662;</a>
+          <div data-details class="absolute dropdown right-0 nowrap white bg-none rounded" style="min-width:124px">
+            <ul class="h5 list-reset mb0">
+              <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/">Founder Interviews</a></li>
+              <li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >App Radar</a></li>
+              <li> <a href="https://github.com/redecentralize/alternative-internet" target="_blank">Alternative Internet</a></li>
+              <li {% if page.id == 'conference' %} class="active py2" {% endif %} > <a href="/conference/" >2015 Conference</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="account-menu" class="inline-block" data-disclosure>
+        <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
+        <div class="relative">
+          <a href="#!" class="btn py2 m0">Get Involved &#9662;</a>
+          <div data-details class="absolute dropdown right-0 nowrap white bg-none rounded" style="min-width:124px">
+            <ul class="h5 list-reset mb0">
+              <li> <a href="https://github.com/redecentralize/organize/issues" target="_blank">Help organize</a></li>
+              <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
+              <li> <a href="https://github.com/redecentralize/organize/wiki" target="_blank">Wiki</a></li>
+              <li> <a href="https://adhoc.group/*redecentralize" target="_blank">Discussion list</a></li>
+              <li> <a href="https://github.com/redecentralize/organize/wiki/Local-Groups" target="_blank">Local groups</a></li>
+              <li> <a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="account-menu" class="inline-block" data-disclosure>
+        <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
+        <div class="relative">
+          <a class="btn py2 m0" href="/blog/" >Blog</a>
         </div>
       </div>
     </div>
-    <div id="account-menu" class="inline-block" data-disclosure>
-      <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
-      <div class="relative">
-        <a href="#!" class="btn py2 m0">Get Involved &#9662;</a>
-        <div data-details class="absolute dropdown right-0 nowrap white bg-none rounded" style="min-width:124px">
-          <ul class="h5 list-reset mb0">
-            <li> <a href="https://github.com/redecentralize/organize/issues" target="_blank">Help organize</a></li>
-            <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
-            <li> <a href="https://github.com/redecentralize/organize/wiki" target="_blank">Wiki</a></li>
-            <li> <a href="https://adhoc.group/*redecentralize" target="_blank">Discussion list</a></li>
-            <li> <a href="https://github.com/redecentralize/organize/wiki/Local-Groups" target="_blank">Local groups</a></li>
-            <li> <a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div id="account-menu" class="inline-block" data-disclosure>
-      <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
-      <div class="relative">
-        <a class="btn py2 m0" href="/blog/" >Blog</a>
-      </div>
+    <div class="clearfix sm-hide"></div>
+    <div class="overflow-hidden px2">
     </div>
   </div>
-  <div class="clearfix sm-hide"></div>
-  <div class="overflow-hidden px2">
-  </div>
-</div>
-<style>
-/* Responsive positioning extension example */
-/*@media (max-width:40em) {
+  <style>
+  /* Responsive positioning extension example */
+  /*@media (max-width:40em) {
   .xs-left-0 { left: 0 }
-}*/
-</style>
-    {{ content }}
- 
+  }*/
+  </style>
+  {{ content }}
+
   <div class="bg-black white">
     <footer>
       <div class="center pt4 mt0">
@@ -93,9 +91,7 @@
     </footer>
   </div>
 
-
-
-<script type="text/javascript">
+  <script type="text/javascript">
   var Disclosure = function(el, options) {
     el.isActive = false;
     el.details = el.querySelectorAll('[data-details]');
@@ -129,9 +125,7 @@
 
   for (var i = 0; i < disclosures.length; i++) {
     disclosures[i] = new Disclosure(disclosures[i]);
-}
-</script>
-<!-- End Piwik Code -->
-
-  </body>
+  }
+  </script>
+</body>
 </html>
