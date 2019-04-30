@@ -1,6 +1,6 @@
 name: Redecentralize
 timezone: Europe/London
-gems:
+plugins:
   - jekyll-sitemap
 collections:
   radar:
