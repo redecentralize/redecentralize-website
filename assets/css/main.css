@@ -32,48 +32,9 @@ header {
   position: relative;
   z-index: 100;
   top: 50px;
-}
-
-header {
   border: none;
   display: flex;
 }
-
-/*
-.title_bg {
-  padding-left: 15%;
-  padding-right: 6px;
-  border-radius: 1px;
-  margin: -15%;
-}
-
-.title_bg_black {
-  color: white;
-  background-color: black;
-}
-
-.title_bg_pink {
-  color: white;
-  background-color: #f00699;
-
-}
-
-.title_bg_green {
-  color: white;
-  background-color: #0dab76;
-}
-
-.title_bg_white {
-  color: #0dab76;
-  background-color: white;
-}
-
-
-.title_bg_yellow {
-  color: white;
-  background-color: #FFF90D;
-}
-*/
 
 .video {
   height: 450px;
@@ -123,10 +84,6 @@ header {
   background-color: black;
 }
 
-.im {
-  border-radius: 3px;
-}
-
 .mega_header h1 {
   font-weight: 600;
   font-size: 4.0rem;
@@ -136,29 +93,6 @@ header {
   font-weight: 500;
   font-size: 1.2rem;
   text-align: center;
-}
-
-.become-patron-button {
-  width: 500px;
-  background-color: #d81e5b;
-}
-
-hr.haar-l {
-  border: 0;
-  height: 40px;
-  width: 10vw;
-  background: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 90vw;
-}
-
-hr.haar-nav {
-  border: 0;
-  height: 0;
-  width: 100vw;
-  background: white;
-  margin: 0 auto;
 }
 
 hr.haar-fijn {
@@ -222,30 +156,8 @@ hr.haar-fijn-6 {
   margin-bottom: 5%;
 }
 
-hr.haar-fijn-4 {
-  border: 0;
-  height: 12px;
-  width: 10vw;
-  background: #00f5ff;
-  margin-left: 3%;
-}
-
 .bg-medium {
   background-color: #fbfaf9;
-  color: #2f1847;
-  border: none;
-}
-
-.bg-medium-dark {
-  background-color: #f5eef5;
-  color: #2f1847;
-  border: none;
-}
-
-.bg-mission {
-  background-color: #fbfaf9;
-  height: 90px;
-  margin-top: 45px;
   color: #2f1847;
   border: none;
 }
@@ -278,46 +190,8 @@ hr.haar-fijn-4 {
   background-color: #f1f1f1;
 }
 
-.bgbody {
-  background-color: #edfef5;
-}
-
-.bgbody_start {
-  background-color: white;
-}
-
-.blox h1 {
-  position: absolute;
-  height: 200px;
-  top: -50px;
-  left: 0;
-  font-size: 10.5rem;
-  color: #fbfaf9;
-  font-weight: 600;
-  margin-top: 0;
-  padding-top: 0;
-}
-
 .bg-dark strong {
   color: #fbff12;
-}
-
-.lab {
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-}
-
-.lab p {
-  font-weight: 600;
-  font-size: 10.5rem;
-  /* color: rgba(2, 251, 165, 1.0); */
-  color: #fbfaf9;
-  font-family: 'Maven Pro', sans-serif;
-}
-
-.float-right {
-  float: right;
 }
 
 .border {
@@ -326,17 +200,6 @@ hr.haar-fijn-4 {
 
 .elem-margin {
   padding-bottom: 80px;
-}
-
-.footer-elem {
-  margin: 0;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  color: #cbd2d0;
-}
-
-.icon-fa {
-  color: white;
 }
 
 .nav-item {
@@ -361,10 +224,6 @@ hr.haar-fijn-4 {
   background-color: black;
 }
 
-.contact-align {
-  text-align: center;
-}
-
 .contact {
   padding-top: 1%;
   margin-bottom: 2%;
@@ -382,55 +241,12 @@ hr.haar-fijn-4 {
   color: white;
 }
 
-.bg-purple {
-  background-color: purple;
-  color: white;
-}
-
 .bg-blue {
   background-color: violet;
   color: white;
 }
 
-.img-ira {
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/shevski.jpg");
-  background-size: 100px;
-}
-
-.team h3 {
-  font-weight: 700;
-}
-
-.team {
-  color: #20063b;
-  padding: 0;
-  height: 220px;
-  margin: 0 auto;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-.team-img {
-  height: 20vh;
-  width: 20vh;
-  /* padding: 50px; */
-  background-repeat: no-repeat;
-  /* border-radius: 75px; */
-}
-
-.img-anouk {
-  /* background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4)), url("../anouk.jpg"); */
-  background-size: 100px;
-}
-
 @media screen and (max-width: 920px) {
-  /*
-  .team {
-    height: 400px;
-    margin: 20px;
-  }
-  */
-
   .elem-margin {
     padding-bottom: 40px;
   }
@@ -458,16 +274,6 @@ hr.haar-fijn-4 {
     font-weight: 300;
     z-index: 200;
     background-color: black;
-  }
-
-  .blox h1 {
-    font-size: 4rem;
-    top: 0;
-  }
-
-  .lab p {
-    font-size: 4rem;
-    bottom: 0;
   }
 
   .contact {
