@@ -10,7 +10,7 @@ id: article
 
     <div class="sm-col sm-col-8 px4 py1">
       <span class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></span>
-      <a class="muted right" href="{{page.url}}#disqus_thread"></a>
+
       {{ content }}
 
       <img src="/assets/images/avatars/{{author.picname}}" class="circle"/>
@@ -35,32 +35,3 @@ id: article
 
     </div>
   </section>
-
-<!--<div>-->
-    <!--<div id="disqus_thread"></div>-->
-    <!--<script type="text/javascript">-->
-        <!--var disqus_shortname = 'redecentralizedotorg';-->
-        <!--(function() {-->
-            <!--var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;-->
-            <!--dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';-->
-            <!--(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);-->
-        <!--})();-->
-    <!--</script>-->
-    <!--<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
-    <!--<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>-->
-
-<!--</div>-->
-
-<!--</div>-->
-
-<!--<script type="text/javascript">-->
-  <!--var disqus_shortname = 'redecentralizedotorg';-->
-
-  <!--/* * * DON'T EDIT BELOW THIS LINE * * */-->
-  <!--(function () {-->
-      <!--var s = document.createElement('script'); s.async = true;-->
-      <!--s.type = 'text/javascript';-->
-      <!--s.src = '//' + disqus_shortname + '.disqus.com/count.js';-->
-      <!--(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);-->
-  <!--}());-->
-  <!--</script>-->
