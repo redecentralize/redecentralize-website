@@ -22,17 +22,17 @@ id: conf2015
 </style>
 <div class="jumbotron" style="background-color: #126057; color: white;text-align:center;border-radius:0px !important;" link="white">
   <div class="container">
-    <div class="wrap" style="padding-top:40px;padding-bottom:40px;">
+    <div style="padding-top:40px;padding-bottom:40px;">
       <h1>Redecentralize Conference 2015<br/>taking back the net</h1>
-      <p class="leder">A weekend to learn, connect and make technology that shapes society.</p>
-      <p class="leder"><strong>17-18 October 2015 | London | <a style="color:white;" href="https://twitter.com/search?q=%23redecentralize&amp;src=typd">#redecentralize</a></strong></p>
+      <p>A weekend to learn, connect and make technology that shapes society.</p>
+      <p><strong>17-18 October 2015 | London | <a style="color:white;" href="https://twitter.com/search?q=%23redecentralize&amp;src=typd">#redecentralize</a></strong></p>
     </div>
   </div>
 </div>
 
-<div class="listing">
+<div>
   {% for post in site.categories['conf2015'] %}
-  <div class="item{% cycle ' clear', '', '' %}">
+  <div>
     <img src="{{ post.poster }}"/>
     <h4>{{ post.title }}</h4>
     <p>{{ post.summary }}</p>

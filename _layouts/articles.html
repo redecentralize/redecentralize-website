@@ -7,15 +7,15 @@ id: articles
   <section id="volunteer" class="container py4 px4">
     <div class="clearfix mxn2">
       <div class="col-10 mx-auto">
-        <h1 class="responsive-h1 caps pt4 mt4">Blog</h1>
+        <h1 class="caps mt4">Blog</h1>
         <hr class="haar-fijn-5"/>
-        <div class="blogfeed">
+        <div>
           {% for post in site.categories[page.category] %}
           {% assign author = site.authors[post.author] %}
-          <div class="blogpost">
+          <div>
             {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
             <a href="{{post.url}}"  style='display:inline; position:relative;'>
-              <h4 class="responsive-h4 caps">{{ post.title }}</h4>
+              <h4 class="caps">{{ post.title }}</h4>
             </a>
             <p style="color: #000;">
               {{ post.summary }}

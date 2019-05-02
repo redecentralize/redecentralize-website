@@ -30,7 +30,7 @@ id: interviews
     <div class="col-12 mx-auto">
       {% for post in site.categories['interviews'] %}
       <div class="sm-col sm-col-4 px3 py1 video">
-        <div class="item{% cycle ' clear', '', '' %}">
+        <div>
           <a href="{{ post.url }}">
             <img class="rounded" src="{{ post.poster }}"/>
           </a>

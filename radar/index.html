@@ -4,12 +4,29 @@ title: Radar
 id: radar
 ---
 
+<style>
+  .bg-pink {
+    background-color: pink;
+    color: white;
+  }
+
+  .bg-yellow {
+    background-color: gold;
+    color: white;
+  }
+
+  .bg-blue {
+    background-color: violet;
+    color: white;
+  }
+</style>
+
 <section class="container py4 bg-white">
   <div class="clearfix mxn2">
     <div class="col-12 mx-auto">
-      <h1 class="h1-responsive mt4">Redecentralize Radar app directory</h1>
+      <h1 class="mt4">Redecentralize Radar app directory</h1>
       <hr class="haar-fijn-5"/>
-      <div class="sm-col sm-col-6 px0 py0">
+      <div class="sm-col sm-col-6">
 
         {% for entry in site.radar reversed %}
         <div class="clearfix mxn3">
@@ -18,7 +35,7 @@ id: radar
           </div>
           <div class="sm-col-right sm-col-9 py2 right">
 
-            <h3 class="responsive-h3 caps">
+            <h3 class="caps">
               {% if entry.status == "use" %}
               <span class="inline-block bg-pink white p1 rounded">Use</span>
               {% endif %}
@@ -35,7 +52,7 @@ id: radar
             </h3>
             <p class="">
               {{ entry.intro }}
-              <span class="listing-date">{{ entry.date | date: "%-d %b %Y"}}</span>
+              <span>{{ entry.date | date: "%-d %b %Y"}}</span>
             </p>
           </div>
         </div>
@@ -44,7 +61,7 @@ id: radar
       </div>
       <div class="sm-col sm-col-5 px4 ml4 py1 right">
 
-        <h1 class="responsive-h1">Sign up</h1>
+        <h1>Sign up</h1>
 
         <p class="lead">
           We'll email you when a new decentralized app gets good enough to try, use or share.
@@ -52,23 +69,23 @@ id: radar
 
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
-          <form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
 
-              <input type="email" value="" name="EMAIL" class="email input-lg" id="mce-EMAIL" placeholder="Email address" required/>
+              <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address" required/>
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""/></div>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary"/></div>
+              <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"/></div>
             </div>
           </form>
         </div>
         <!--End mc_embed_signup-->
 
-        <p class="radar-rss">
+        <p>
           <a target="_blank" href="/radar/feed.rss"><i class="icon-rss"></i> RSS feed</a>
         </p>
 
-        <h1 class="responsive-h1">What is "good enough"?</h1>
+        <h1>What is "good enough"?</h1>
 
         <h3><span class="inline black bg-blue white p1 rounded">Try</span></h3>
 
@@ -98,7 +115,7 @@ id: radar
         </p>
 
         <!--
-        <h2><span class="label label-warning">Hold</span></h2>
+        <h2>Hold</h2>
 
         <p>
           This app is a great idea, and is built on technology

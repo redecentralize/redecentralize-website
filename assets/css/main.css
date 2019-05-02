@@ -230,23 +230,6 @@ hr.haar-fijn-6 {
   margin-bottom: 2%;
 }
 
-/* Badges */
-
-.bg-pink {
-  background-color: pink;
-  color: white;
-}
-
-.bg-yellow {
-  background-color: gold;
-  color: white;
-}
-
-.bg-blue {
-  background-color: violet;
-  color: white;
-}
-
 @media screen and (max-width: 920px) {
   .elem-margin {
     padding-bottom: 40px;
