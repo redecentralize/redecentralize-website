@@ -8,8 +8,9 @@ id: article
 <section class="container px4 py4">
   <div class="clearfix mxn4">
 
+    <h1>{{ page.title }}</h1>
     <div class="sm-col sm-col-8 px4 py1">
-      <span class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></span>
+      <p class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></p>
 
       {{ content }}
 
