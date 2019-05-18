@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Everyone pitches sessions for the second day of the unconference."
 title: "8. Day Two Unconference Pitches"

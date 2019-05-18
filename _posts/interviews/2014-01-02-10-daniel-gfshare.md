@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Daniel Silverstone, creator of gfshare, on how we can safely keep our (decentralized!) digital keys and coins. Split them up into pieces, such that, say, any 2 of the 3 pieces can reconstruct the original."
 title: "#10: Daniel Silverstone - gfshare"

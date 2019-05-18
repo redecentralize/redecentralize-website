@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "dr electronic max @emax talks about PIES - Personal Information Environments, and keeping data for a lifetime."
 title: "3. Keeping Data for 80 Years (PIES)"

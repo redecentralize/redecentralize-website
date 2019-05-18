@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Sam Patterson describes decentralized marketplace OpenBazaar. He's cofounder of OB1, a company made on top of OpenBazaar. How to have competitive middlemen, peer-to-peer dispute resolution and build using IPFS."
 title: "#21: Sam Patterson - OpenBazaar"

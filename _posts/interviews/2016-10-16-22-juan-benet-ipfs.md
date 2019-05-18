@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Juan Benet, founder of Protocol Labs, describes the InterPlanetary File System, a decentralized content distribution protocol. What ways are there to fund protocol development?"
 title: "#22: Juan Benet - IPFS"

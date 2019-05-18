@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Christopher Webber talks about Media Goblin, a decentralized media publishing platform. How can we have a federated alternative to services like Flickr, YouTube and SoundCloud?"
 title: "#6: Christopher Webber - Media Goblin"

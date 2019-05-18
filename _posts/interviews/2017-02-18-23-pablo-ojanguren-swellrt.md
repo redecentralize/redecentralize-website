@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Pablo Ojanguren talks about SwellRT, a real-time framework for making decentralized apps. It is based on the Apache Wave protocol."
 title: "#23: Pablo Ojanguren - SwellRT"

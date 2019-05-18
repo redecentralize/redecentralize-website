@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Gavin Wood, co-founder of Ethereum, a distributed social contract platform. What kind of apps can be built on a block chain? How can this enable financial scrutiny?"
 title: "#18: Gavin Wood - Ethereum"

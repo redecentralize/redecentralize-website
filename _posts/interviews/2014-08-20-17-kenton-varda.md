@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Kenton Varda, creator of Protocol Buffers, on his new personal cloud platform Sandstorm. How can we get more open source web apps?"
 title: "#17: Kenton Varda - Sandstorm"

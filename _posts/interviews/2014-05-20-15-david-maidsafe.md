@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "David Irvine, founder of MaidSafe, which lets you pay for decentralizing storage, computation and bandwidth using a cryptocurrency. Why do this, and how will the economics work?"
 title: "#15: David Irvine - MaidSafe"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Sally Carson talks about Pinoccio, an Internet of Things platform which uses mesh networking. How can it be made easy to use? Can we build a decentralized global sensor network?"
 title: "#16: Sally Carson - Pinoccio"

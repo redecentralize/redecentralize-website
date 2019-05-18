@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Nicholas Tollervey talks about the drogulus, his programmable peer-to-peer data store. In the process he describes how a Distributed Hash Table (DHT) works and what motivated him to start the project."
 title: "#1: Nicholas Tollervey - Drogulus"

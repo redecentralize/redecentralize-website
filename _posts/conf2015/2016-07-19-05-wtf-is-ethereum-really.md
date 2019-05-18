@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Gavin Wood explains what Ethereum is, including its unusual properties as a singular, global computer."
 title: "5. WTF Is Ethereum Really?"

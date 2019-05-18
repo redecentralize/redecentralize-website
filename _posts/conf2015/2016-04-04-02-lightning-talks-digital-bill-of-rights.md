@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Andrei - SoLID, Nick - Running your own Email, Odvar - Matrix.org, Hugh - CClite and blockchains, Tristan - Cozy Cloud, Christoph - Cloudfleet.io, Blaine - Formats and standards, Eva - Digital Bill of Rights / Cybersalon"
 title: "2. Lightning Talks + Digital Bill of Rights"

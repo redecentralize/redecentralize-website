@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Nikolai for calling it 'decent'; Mick on research questions; Hugh on community currency in a box; Richard Pope on an open replacement for Google Now; Tim Retout on open mail and spam; Co-operative ownership of Internet services."
 title: "9. Day Two Lightning Talks"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Ira introduces the Redecentralize Conference 2015, and then everyone pitches sessions that they want to happen."
 title: "1. Intro and Pitches"

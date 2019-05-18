@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Richard Bartlett on decentralizing decision making with Loomio. How can user experience help us govern ourselves? Plus crowdfunding."
 title: "#13: Richard Bartlett - Loomio"

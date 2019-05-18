@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Aral Balkan, founder of Indie Phone, talks both about what motivates him to build a decentralized smartphone, and how starting with a great user experience is key to mass adoption."
 title: "#14: Aral Balkan - Indie Phone"
