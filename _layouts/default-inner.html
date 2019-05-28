@@ -24,53 +24,48 @@
 </head>
 
 <body>
-  <div class="clearfix white nav-item fixed top-0">
+  <nav>
     <div class="left">
-      <img class="left" src="/assets/images/logo-square-large.png"/>
-      <a href="/" class="btn py2 caps left"><img src="" alt=""/> Redecentralize</a>
+      <a href="/" class="top-level-nav caps">
+      <img
+        src="/assets/images/logo-square-large.png"
+        style="height: 2em; vertical-align: middle; margin-right: 1em;"
+      />
+        Redecentralize
+      </a>
     </div>
     <div class="right">
-      <div class="inline-block" data-disclosure>
-        <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
-        <div class="relative">
-          <a href="#!" class="btn py2 m0">Projects &#9662;</a>
-          <div data-details class="absolute dropdown right-0 nowrap white rounded" style="min-width:124px">
-            <ul class="h5 list-reset mb0">
-              <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/">Founder Interviews</a></li>
-              <li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >App Radar</a></li>
-              <li> <a href="https://github.com/redecentralize/alternative-internet" target="_blank">Alternative Internet</a></li>
-              <li {% if page.id == 'conference' %} class="active py2" {% endif %} > <a href="/conference/" >2015 Conference</a></li>
-            </ul>
-          </div>
+      <div class="relative" data-disclosure>
+        <a class="top-level-nav">Projects &#9662;</a>
+        <div data-details class="dropdown" style="min-width:124px">
+          <ul>
+            <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/">Founder Interviews</a></li>
+            <li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >App Radar</a></li>
+            <li> <a href="https://github.com/redecentralize/alternative-internet" target="_blank">Alternative Internet</a></li>
+            <li {% if page.id == 'conference' %} class="active" {% endif %} > <a href="/conference/" >2015 Conference</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="relative" data-disclosure>
+        <a class="top-level-nav">Get Involved &#9662;</a>
+        <div data-details class="dropdown" style="min-width:124px">
+          <ul>
+            <li> <a href="https://github.com/redecentralize/organize/issues" target="_blank">Help organize</a></li>
+            <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
+            <li> <a href="https://github.com/redecentralize/organize/wiki" target="_blank">Wiki</a></li>
+            <li> <a href="https://adhoc.group/*redecentralize" target="_blank">Discussion list</a></li>
+            <li> <a href="https://github.com/redecentralize/organize/wiki/Local-Groups" target="_blank">Local groups</a></li>
+            <li> <a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
+          </ul>
         </div>
       </div>
       <div class="inline-block" data-disclosure>
-        <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
         <div class="relative">
-          <a href="#!" class="btn py2 m0">Get Involved &#9662;</a>
-          <div data-details class="absolute dropdown right-0 nowrap white rounded" style="min-width:124px">
-            <ul class="h5 list-reset mb0">
-              <li> <a href="https://github.com/redecentralize/organize/issues" target="_blank">Help organize</a></li>
-              <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
-              <li> <a href="https://github.com/redecentralize/organize/wiki" target="_blank">Wiki</a></li>
-              <li> <a href="https://adhoc.group/*redecentralize" target="_blank">Discussion list</a></li>
-              <li> <a href="https://github.com/redecentralize/organize/wiki/Local-Groups" target="_blank">Local groups</a></li>
-              <li> <a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="inline-block" data-disclosure>
-        <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
-        <div class="relative">
-          <a class="btn py2 m0" href="/blog/" >Blog</a>
+          <a class="top-level-nav" href="/blog/">Blog</a>
         </div>
       </div>
     </div>
-    <div class="clearfix sm-hide"></div>
-    <div class="overflow-hidden px2">
-    </div>
-  </div>
+  </nav>
 
   {{ content }}
 
