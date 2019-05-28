@@ -270,3 +270,24 @@ hr.haar-fijn-6 {
     padding-bottom: 80px;
   }
 }
+
+.radar-label {
+  display: inline-block;
+  padding: .5rem;
+  border-radius: 3px;
+}
+
+.radar-label-try {
+  background-color: violet;
+  color: white;
+}
+
+.radar-label-use {
+  background-color: pink;
+  color: white;
+}
+
+.radar-label-share {
+  background-color: gold;
+  color: white;
+}

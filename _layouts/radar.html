@@ -2,26 +2,25 @@
 layout: default
 ---
 
-<div><a href="/radar">&laquo; Redecentralize Radar app directory</a></div>
-
-<div>
-  <div>
-    <div>
-      <img src="/assets/images/radar/{{ page.icon }}"/>
+<section class="container py4 bg-white">
+  <div><a href="/radar">&laquo; Redecentralize Radar app directory</a></div>
+  <div class="clearfix col-12 mx-auto">
+      <div class="sm-col sm-col-6">
       <h1>
-        {{ page.title }}
+        <img
+          style="height: 88px; margin-right: 16px; vertical-align: middle; float: left;"
+          src="/assets/images/radar/{{ page.icon }}"
+        />
         {% if page.status == "use" %}
-        <span>Use</span>
+        <span class="radar-label radar-label-use">Use</span>
         {% endif %}
         {% if page.status == "try" %}
-        <span>Try</span>
+        <span class="radar-label radar-label-try">Try</span>
         {% endif %}
         {% if page.status == "share" %}
-        <span>Share</span>
+        <span class="radar-label radar-label-share">Share</span>
         {% endif %}
-        {% if page.status == "hold" %}
-        <span>Hold</span>
-        {% endif %}
+        {{ page.title }}
       </h1>
       <p class="lead">{{ page.intro }}</p>
       <p><b>Good things:</b> {{ page.good }}</p>
@@ -32,28 +31,27 @@ layout: default
 
       <div>Entry reviewed {{ page.date | date: "%-d %b %Y"}}</div>
     </div>
-  </div>
 
-  <div id="radar_entry_sidebar">
-    <h2>What's this directory?</h2>
+    <div class="sm-col sm-col-5 px4 ml4 py1 right">
+      <h2>What's this directory?</h2>
 
-    <p>Redecentralize Radar is a directory of applications which are private and resilient.</p>
+      <p>Redecentralize Radar is a directory of applications which are private and resilient.</p>
 
-    <p>We can email you whenever we review an app.</p>
+      <p>We can email you whenever we review an app.</p>
 
-    <!-- Begin MailChimp Signup Form -->
-    <div id="mc_embed_signup">
-      <form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
 
-          <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address" required>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""></div>
-          <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
-        </div>
-      </form>
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""></div>
+            <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
     </div>
-    <!--End mc_embed_signup-->
-
   </div>
-</div>
+</section>

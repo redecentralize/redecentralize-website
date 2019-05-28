@@ -4,23 +4,6 @@ title: Radar
 id: radar
 ---
 
-<style>
-  .bg-pink {
-    background-color: pink;
-    color: white;
-  }
-
-  .bg-yellow {
-    background-color: gold;
-    color: white;
-  }
-
-  .bg-blue {
-    background-color: violet;
-    color: white;
-  }
-</style>
-
 <section class="container py4 bg-white">
   <div class="clearfix mxn2">
     <div class="col-12 mx-auto">
@@ -37,16 +20,13 @@ id: radar
 
             <h3 class="caps">
               {% if entry.status == "use" %}
-              <span class="inline-block bg-pink white p1 rounded">Use</span>
+              <span class="radar-label radar-label-use">Use</span>
               {% endif %}
               {% if entry.status == "try" %}
-              <span class="inline black bg-blue white p1 rounded">Try</span>
+              <span class="radar-label radar-label-try">Try</span>
               {% endif %}
               {% if entry.status == "share" %}
-              <span class="inline black bg-yellow white p1 rounded">Share</span>
-              {% endif %}
-              {% if entry.status == "hold" %}
-              <span class="inline black bg-orange p1 rounded">Hold</span>
+              <span class="radar-label radar-label-share">Share</span>
               {% endif %}
               <a class="" href="{{ entry.url }}">{{ entry.title }}</a>
             </h3>
@@ -87,7 +67,7 @@ id: radar
 
         <h1>What is "good enough"?</h1>
 
-        <h3><span class="inline black bg-blue white p1 rounded">Try</span></h3>
+        <h3><span class="radar-label radar-label-try">Try</span></h3>
 
         <p>
           This app looks really promising. It's not
@@ -96,7 +76,7 @@ id: radar
           decentralized internet, try it out, and report bugs.
         </p>
 
-        <h3><span class="inline-block bg-pink white p1 rounded">Use</span></h3>
+        <h3><span class="radar-label radar-label-use">Use</span></h3>
 
         <p>
           This app is great to use day to day, and many
@@ -105,7 +85,7 @@ id: radar
           competitive market.
         </p>
 
-        <h3><span class="inline black bg-yellow white p1 rounded">Share</span></h3>
+        <h3><span class="radar-label radar-label-share">Share</span></h3>
 
         <p>
           This app is not only strategically important
@@ -113,16 +93,6 @@ id: radar
           against alternatives that your friends already use.
           Tell them about it.
         </p>
-
-        <!--
-        <h2>Hold</h2>
-
-        <p>
-          This app is a great idea, and is built on technology
-          important to decentralization. However, it either isn't
-          easy enough to use yet, or it is too centralized.
-        </p>
-        -->
 
         <!--
         <h2>How are they judged?</h2>
