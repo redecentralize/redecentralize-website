@@ -8,7 +8,7 @@ id: article
 <section class="container">
   <h1>{{ page.title }}</h1>
   <div class="clearfix mxn3">
-    <main class="sm-col sm-col-8 px3 py1">
+    <main class="md-col md-col-8 px3 py1">
       <p class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></p>
 
       {{ content }}
@@ -18,7 +18,7 @@ id: article
       <p>By: <a href="{{author.link}}">{{ author.display_name }}</a></p>
     </main>
 
-    <aside class="sm-col-right sm-col-4 px3 py1">
+    <aside class="md-col-right md-col-4 px3 py1">
       <h1 class="h3">Recent posts</h1>
 
       <ul class='recent-posts'>
