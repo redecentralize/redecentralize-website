@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<section class="container py4 bg-white">
-  <div><a href="/radar">&laquo; Redecentralize Radar app directory</a></div>
-  <div class="clearfix col-12 mx-auto">
-      <div class="sm-col sm-col-6">
+<div class="container">
+  <a href="/radar">&laquo; Redecentralize Radar app directory</a>
+  <div class="clearfix mxn3">
+    <main class="sm-col sm-col-7 px3">
       <h1>
         <img
           style="height: 88px; margin-right: 16px; vertical-align: middle; float: left;"
@@ -30,9 +30,9 @@ layout: default
       <p class="lead"><a href="{{ page.appurl }}">{{ page.title }} home page &raquo;</a></p>
 
       <div>Entry reviewed {{ page.date | date: "%-d %b %Y"}}</div>
-    </div>
+    </main>
 
-    <div class="sm-col sm-col-5 px4 ml4 py1 right">
+    <aside class="sm-col-right sm-col-5 px3 py3">
       <h2>What's this directory?</h2>
 
       <p>Redecentralize Radar is a directory of applications which are private and resilient.</p>
@@ -50,8 +50,8 @@ layout: default
             <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
           </div>
         </form>
-      </div>
+      </aside>
       <!--End mc_embed_signup-->
     </div>
   </div>
-</section>
+</div>

@@ -1,19 +1,19 @@
 @import '/assets/fonts/roboto/roboto.css';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
-  color: white;
-  background-color: black;
 }
 
-body a {
+a {
   color: #3b1ecc;
   font-weight: 500;
-}
-
-p {
-  font-size: 1rem;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -24,40 +24,25 @@ footer {
   background-color: black;
   color: white;
   padding: 40px;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 header {
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh-24px);
+  height: 100vh;
   min-height: 500px;
-  position: relative;
-  z-index: 100;
-  top: 50px;
-  border: none;
   display: flex;
 }
 
-.video {
-  height: 450px;
+.container {
+  box-sizing: content-box;
+  padding: 4rem;
 }
 
-.header_box {
-  top: 20%;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.btn-header {
-  background-color: #0dab76;
-  color: white;
-  padding: 30px;
-  margin: 10vw;
-  font-size: 1.3rem;
-  font-weight: 500;
-  width: 5vw;
-  height: 5vh;
-  border-radius: 3vw;
+.container.single-column {
+  max-width: 50rem;
 }
 
 .btn {
@@ -65,20 +50,28 @@ header {
   color: white;
   margin-bottom: 20px;
   font-size: .8rem;
+  border-radius: 3px;
+}
+
+.btn-header {
+  background-color: #0dab76;
+  color: white;
+  font-weight: 600;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
 }
 
 .btn-news {
   background-color: #f00699;
   color: white;
-  padding: 10px;
-  margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 1rem;
-  font-weight: 400;
-  width: 3vw;
-  height: 3vh;
-  border-radius: 3vw;
+  border-radius: 20px;
+}
+
+.mega_header {
+  padding: 2rem 1rem;
+  max-width: 48rem;
+  margin: auto;
 }
 
 .mega_header h1 {
@@ -92,70 +85,28 @@ header {
   text-align: center;
 }
 
-hr.haar-fijn {
-  border: 0;
+hr {
   height: 15px;
+  width: 100px;
+  border-radius: 15px;
+  margin: 1.5rem 0;
+}
+
+hr.hr-magenta {
   background: #f00699;
-  margin: 0 auto;
 }
 
-hr.haar-fijn-3 {
-  background: #fff90d;
-  border: 0;
-  height: 1.5vw;
-  width: 5.5vw;
-  border-radius: 1.5vw;
-  margin-left: 3%;
-}
-
-hr.haar-fijn-2 {
-  background: #f00699;
-  border: 0;
-  height: 1.5vw;
-  width: 5.5vw;
-  border-radius: 1.5vw;
-  margin-left: 3%;
-}
-
-hr.haar-fijn-20 {
+hr.hr-greenish {
   background: #0dab76;
-  border: 0;
-  height: 1.5vw;
-  width: 5.5vw;
-  border-radius: 1.5vw;
-  margin-left: 3%;
 }
 
-hr.haar-header {
-  background: #0dab76;
-  border: 0;
-  height: 1.5vw;
-  width: 5.5vw;
-  border-radius: 1.5vw;
-}
-
-hr.haar-fijn-5 {
-  border: 0;
-  height: 12px;
-  width: 10vw;
-  background: #ff26e4;
-  margin-left: 0%;
-  margin-bottom: 5%;
-}
-
-hr.haar-fijn-6 {
-  border: 0;
-  height: 12px;
-  width: 10vw;
+hr.hr-yellow {
   background: #fff90d;
-  margin-left: 0%;
-  margin-bottom: 5%;
 }
 
 .bg-medium {
   background-color: #fbfaf9;
   color: #2f1847;
-  border: none;
 }
 
 .bg-green {
@@ -171,31 +122,16 @@ hr.haar-fijn-6 {
 .bg-dark {
   background-image: linear-gradient(to bottom, rgba(59, 30, 104, 0.95), rgba(59, 30, 104, 0.95)), url("/assets/images/water_pattern.jpg");
   background-size: 1400px;
-  border: none;
   color: white;
-  font-weight: 400;
 }
 
 .bg-dark a {
   color: white;
-  font-weight: 600;
 }
 
 .bg-grey {
   color: #300124;
   background-color: #f1f1f1;
-}
-
-.bg-dark strong {
-  color: #fbff12;
-}
-
-.border {
-  border: none;
-}
-
-.elem-margin {
-  padding-bottom: 80px;
 }
 
 nav {
@@ -238,7 +174,7 @@ nav a.top-level-nav {
   cursor: pointer;
   color: white;
   display: inline-block;
-  padding: 0.2em 1em;
+  padding: 0.2rem 1rem;
   font-weight: 700;
 }
 
@@ -262,42 +198,14 @@ nav .dropdown ul {
   margin-bottom: 0;
 }
 
-.contact {
-  padding-top: 1%;
-  margin-bottom: 2%;
-}
-
 @media screen and (max-width: 920px) {
-  .elem-margin {
-    padding-bottom: 40px;
-  }
-
   .mega_header h1 {
     font-weight: 600;
-    font-size: 1.2rem;
-  }
-
-  .btn-header {
-    color: white;
-    padding: 10px;
-    margin: 5px;
-    font-size: 1.0rem;
-    width: 200px;
-    height: 200px;
+    font-size: 2rem;
   }
 
   nav {
     padding: 0;
-  }
-
-  .contact {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .bg-black {
-    padding-top: 80px;
-    padding-bottom: 80px;
   }
 }
 

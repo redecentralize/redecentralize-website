@@ -4,31 +4,23 @@ id: articles
 ---
 
 <div class="bg-medium">
-  <section class="container py4 px4">
-    <div class="clearfix mxn2">
-      <div class="col-10 mx-auto">
-        <h1 class="caps mt4">Blog</h1>
-        <hr class="haar-fijn-5"/>
-        <div>
-          {% for post in site.categories[page.category] %}
-          {% assign author = site.authors[post.author] %}
-          <div>
-            {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
-            <a href="{{post.url}}"  style='display:inline; position:relative;'>
-              <h4 class="caps">{{ post.title }}</h4>
-            </a>
-            <p style="color: #000;">
-              {{ post.summary }}
-              <a href="{{post.url}}"  style='display:inline; position:relative;'>
-                Read more &raquo;
-              </a>
-              <br/>
-              <br/>
-            </p>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
+  <section class="container single-column">
+    <h1 class="caps">{{page.title}}</h1>
+    <hr class="hr-magenta"/>
+    {% for post in site.categories[page.category] %}
+    {% assign author = site.authors[post.author] %}
+    <div class="py2">
+      {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
+      <a href="{{post.url}}">
+        <h2 class="h4 caps">{{ post.title }}</h2>
+      </a>
+      <p>
+        {{ post.summary }}
+        <a href="{{post.url}}">
+          Read more &raquo;
+        </a>
+      </p>
     </div>
+    {% endfor %}
   </section>
 </div>

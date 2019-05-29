@@ -5,11 +5,10 @@ id: article
 
 {% assign author = site.authors[page.author] %}
 
-<section class="container px4 py4">
-  <div class="clearfix mxn4">
-
-    <h1>{{ page.title }}</h1>
-    <div class="sm-col sm-col-8 px4 py1">
+<section class="container">
+  <h1>{{ page.title }}</h1>
+  <div class="clearfix mxn3">
+    <main class="sm-col sm-col-8 px3 py1">
       <p class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></p>
 
       {{ content }}
@@ -17,10 +16,10 @@ id: article
       <img src="/assets/images/avatars/{{author.picname}}" class="circle"/>
       <br/>
       <p>By: <a href="{{author.link}}">{{ author.display_name }}</a></p>
-    </div>
+    </main>
 
-    <div class="sm-col sm-col-4 px4 py1 right">
-      <h3>Recent posts</h3>
+    <aside class="sm-col-right sm-col-4 px3 py1">
+      <h1 class="h3">Recent posts</h1>
 
       <ul class='recent-posts'>
         {% for post in site.categories[page.categories.first] offset: 0 limit: 10 %}
@@ -33,7 +32,6 @@ id: article
         {% endif %}
         {% endfor %}
       </ul>
-
-    </div>
+    </aside>
   </div>
 </section>
