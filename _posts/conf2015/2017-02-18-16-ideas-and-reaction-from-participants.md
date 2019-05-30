@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Ryan Taylor asks people at the conference to describe what it is and if they recommend it."
 title: "16. Ideas and Reactions"

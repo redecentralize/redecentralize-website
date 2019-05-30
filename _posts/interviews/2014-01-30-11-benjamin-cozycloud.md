@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "After the Personal Computer, is the Personal Cloud next? Benjamin André talks about Cozy Cloud, including thoughts on business models for decentralized services."
 title: "#11: Benjamin André - Cozy Cloud"

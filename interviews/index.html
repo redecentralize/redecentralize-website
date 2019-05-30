@@ -4,42 +4,39 @@ title: Interviews
 id: interviews
 ---
 
-
-<div class="bgbody">
-  <div class="bg-green">
-    <section id="" class="container py4 px4 mega_header">
-      <div class="clearfix mxn2">
-         <div class="col-10 mx-auto center">
-          <h1>Founder Interviews</h1>
-            <p class="lead">We interview the passionate people who start decentralization projects. What motivates them? What's unique about their technologies? What business model do they use?
-            </p>
-            <p>
-              <strong>Subscribe:</strong> 
-              <a style="margin-left: 8px" target="_blank" href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music"></i> iTunes</a>
-              &nbsp;<a target="_blank" href="/podcast/feed.rss"><i class="icon-rss"></i> RSS feed</a>
-              &nbsp;<a target="_blank" href="http://www.youtube.com/redecentralize"><i class="icon-youtube"></i> YouTube</a>
-              &nbsp;<a target="_blank" href="http://t.co/z1zZ16C57Z"><i class="icon-envelope"></i> Newsletter</a>
-              &nbsp;<a target="_blank" href="https://twitter.com/redecentralize"><i class="icon-twitter"></i> Twitter</a>
-            </p>
-        </div>
-      </div>
+<div class="bg-green">
+  <section class="mega_header">
+    <h1>Founder Interviews</h1>
+    <p>
+      We interview the passionate people who start decentralization projects. What motivates them? What's unique about their technologies? What business model do they use?
+    </p>
+    <p>
+      <strong>Subscribe:</strong>
+      <a style="margin-left: 8px" target="_blank" href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music"></i> iTunes</a>
+      &nbsp;<a target="_blank" href="/podcast/feed.rss"><i class="icon-rss"></i> RSS feed</a>
+      &nbsp;<a target="_blank" href="http://www.youtube.com/redecentralize"><i class="icon-youtube"></i> YouTube</a>
+      &nbsp;<a target="_blank" href="http://t.co/z1zZ16C57Z"><i class="icon-envelope"></i> Newsletter</a>
+      &nbsp;<a target="_blank" href="https://twitter.com/redecentralize"><i class="icon-twitter"></i> Twitter</a>
+    </p>
   </section>
-  </div>
+</div>
 
- <section id="volunteer" class="container py4 px4">
-<div class="clearfix mxn2">
-  <div class="col-12 mx-auto">
+<section class="container">
+  <div class="clearfix mxn3">
       {% for post in site.categories['interviews'] %}
-      <div class="sm-col sm-col-4 px3 py1 video">
-        <div class="item{% cycle ' clear', '', '' %}">
-          <a href="{{ post.url }}"><img class="rounded" src="{{ post.poster }}"></a>
+      <div class="md-col md-col-4 px3 py1" style="height: 450px">
+        <div>
+          <a href="{{ post.url }}">
+            <img class="rounded" src="{{ post.poster }}"/>
+          </a>
           <h4>{{ post.title }}</h4>
           <p>{{ post.summary }}</p>
-          <a href="{{ post.url }}"><span>Watch now</span></a>
+          <a href="{{ post.url }}">
+            <span>Watch now</span>
+          </a>
         </div>
       </div>
       {% endfor %}
+    </div>
   </div>
-</div>
-</div>
 </section>

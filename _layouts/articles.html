@@ -3,40 +3,24 @@ layout: default
 id: articles
 ---
 
-
 <div class="bg-medium">
-  <section id="volunteer" class="container py4 px4">
-    <div class="clearfix mxn2">
-      <div class="col-10 mx-auto">
-        <h1 class="responsive-h1 caps pt4 mt4">Blog</h1>
-        <hr class="haar-fijn-5"/>
-          <div class="blogfeed">
-            {% for post in site.categories[page.category] %}
-            {% assign author = site.authors[post.author] %}
-            <div class="blogpost">
-              {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
-            <a href="{{post.url}}"  style='display:inline; position:relative;'><h4 class="responsive-h4 caps">{{ post.title }}</h4></a>
-            <p style="color: #000;">
-            {{ post.summary }}  <a href="{{post.url}}"  style='display:inline; position:relative;'>Read more &raquo;</a>
-          <br/>
-          <br/>
+  <section class="container single-column">
+    <h1 class="caps">{{page.title}}</h1>
+    <hr class="hr-magenta"/>
+    {% for post in site.categories[page.category] %}
+    {% assign author = site.authors[post.author] %}
+    <div class="py2">
+      {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
+      <a href="{{post.url}}">
+        <h2 class="h4 caps">{{ post.title }}</h2>
+      </a>
+      <p>
+        {{ post.summary }}
+        <a href="{{post.url}}">
+          Read more &raquo;
+        </a>
       </p>
     </div>
-  {% endfor %}
+    {% endfor %}
+  </section>
 </div>
-</div>
-</div>
-</section>
-</div>
-
-<!--<script type="text/javascript">-->
-  <!--var disqus_shortname = 'redecentralizedotorg';-->
-
-  <!--/* * * DON'T EDIT BELOW THIS LINE * * */-->
-  <!--(function () {-->
-      <!--var s = document.createElement('script'); s.async = true;-->
-      <!--s.type = 'text/javascript';-->
-      <!--s.src = '//' + disqus_shortname + '.disqus.com/count.js';-->
-      <!--(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);-->
-  <!--}());-->
-  <!--</script>-->

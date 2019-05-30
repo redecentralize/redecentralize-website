@@ -2,26 +2,25 @@
 layout: default
 ---
 
-<div><a href="/radar">&laquo; Redecentralize Radar app directory</a></div>
-
-<div class="row">
-  <div class="col-md-8">
-    <div class="radar-entry">
-      <img src="/assets/images/radar/{{ page.icon }}">
+<div class="container">
+  <a href="/radar">&laquo; Redecentralize Radar app directory</a>
+  <div class="clearfix mxn3">
+    <main class="md-col md-col-7 px3">
       <h1>
-          {{ page.title }}
-          {% if page.status == "use" %} 
-            <span class="label label-info">Use</span>
-          {% endif %}
-          {% if page.status == "try" %} 
-            <span class="label label-primary">Try</span>
-          {% endif %}
-	  {% if page.status == "share" %} 
-	    <span class="label label-success">Share</span>
-	  {% endif %}
-	  {% if page.status == "hold" %} 
-	    <span class="label label-warning">Hold</span>
-	  {% endif %}
+        <img
+          style="height: 88px; margin-right: 16px; vertical-align: middle; float: left;"
+          src="/assets/images/radar/{{ page.icon }}"
+        />
+        {% if page.status == "use" %}
+        <span class="radar-label radar-label-use">Use</span>
+        {% endif %}
+        {% if page.status == "try" %}
+        <span class="radar-label radar-label-try">Try</span>
+        {% endif %}
+        {% if page.status == "share" %}
+        <span class="radar-label radar-label-share">Share</span>
+        {% endif %}
+        {{ page.title }}
       </h1>
       <p class="lead">{{ page.intro }}</p>
       <p><b>Good things:</b> {{ page.good }}</p>
@@ -30,36 +29,29 @@ layout: default
 
       <p class="lead"><a href="{{ page.appurl }}">{{ page.title }} home page &raquo;</a></p>
 
-      <div class="listing-date">Entry reviewed {{ page.date | date: "%-d %b %Y"}}</div>
+      <div>Entry reviewed {{ page.date | date: "%-d %b %Y"}}</div>
+    </main>
+
+    <aside class="md-col-right md-col-5 px3 py3">
+      <h2>What's this directory?</h2>
+
+      <p>Redecentralize Radar is a directory of applications which are private and resilient.</p>
+
+      <p>We can email you whenever we review an app.</p>
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""></div>
+            <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+          </div>
+        </form>
+      </aside>
+      <!--End mc_embed_signup-->
     </div>
   </div>
-
-  <div class="col-md-4" id="radar_entry_sidebar">
-    <h2>What's this directory?</h2>
-
-    <p>Redecentralize Radar is a directory of
-    applications which are private and resilient.
-    </p>
-  
-    <p>We can email you whenever we review an app.
-    </p>
-
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="//redecentralize.us7.list-manage.com/subscribe/post?u=e695b0ee388925f96abc28c36&amp;id=8718aeab17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
-	<input type="email" value="" name="EMAIL" class="email input-md" id="mce-EMAIL" placeholder="Email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e695b0ee388925f96abc28c36_8718aeab17" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-md btn-primary"></div>
-    </div>
-</form>
 </div>
-<!--End mc_embed_signup-->
-
-
-  </div>
-
-</div>
-

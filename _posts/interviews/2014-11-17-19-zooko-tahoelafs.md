@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Zooko Wilcox-O'Hearn, co-founder of Tahoe-LAFS, a distributed cloud storage system. Zooko discusses the long view of a 7 year old project, including changing business models."
 title: "#19: Zooko Wilcox-O'Hearn - Tahoe-LAFS"

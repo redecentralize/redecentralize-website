@@ -13,11 +13,6 @@ Your pull requests will be checked by Travis that they compile in Jekyll, the so
 Setting up local development
 ============================
 
-Bootstrap is a git submodule (in vendor/bootstrap), so you need to run this or
-the file will be missing locally.
-
-`git submodule init; git submodule update`
-
 The website is made using Jekyll, which converts simple templates into HTML.
 Github supports it automatically, so this keeps things simple.
 

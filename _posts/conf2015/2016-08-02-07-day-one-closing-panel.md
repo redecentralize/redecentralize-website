@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "What are the best projects? What as a community will make this work? Ira Bolychevsky, Francis Irving and Blaine Cook from Redecentralize discuss, chaired by David Miller"
 title: "7. Day One Closing Panel"

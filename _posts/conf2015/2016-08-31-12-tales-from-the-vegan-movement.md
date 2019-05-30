@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Johanna Kollman gives lessons from vegan activism on how the decentralization movement can get non-technical people to care."
 title: "12. Tales from the Vegan Movement"

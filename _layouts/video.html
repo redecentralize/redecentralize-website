@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<main class="container single-column">
+  {% if page.categories contains "interviews" %}
+  <div><a href="/interviews">&laquo; More interviews</a></div>
+  {% endif %}
+  {% if page.categories contains "conf2015" %}
+  <div><a href="/conference">&laquo; Conference 2015 videos</a></div>
+  {% endif %}
+
+  <h1>{{ page.title }}</h1>
+  <p class="muted">{{ page.date | date_to_string }}</p>
+  <p class="lead">
+    {{ page.summary }}
+  </p>
+  <video controls width="100%" poster="{{ page.poster }}">
+    <source src="{{ page.url-mp4 }}" type="video/mp4" />
+    <source src="{{ page.url-webm }}" type="video/webm" />
+  </video>
+  {% if page.links %}
+  <h2>Links</h2>
+  <ul>
+    {{ page.links }}
+  </ul>
+  {% endif %}
+  {% if page.transcript %}
+  <h2>Transcript</h2>
+  {% if page.transcript_by %}
+  <p class="muted">Kindly transcribed by: {{ page.transcript_by }}</p>
+  {% endif %}
+  {{ page.transcript }}
+  {% endif %}
+</main>

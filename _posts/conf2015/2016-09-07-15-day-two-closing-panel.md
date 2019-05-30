@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Johanna Kollman, Sarah Gold, Vinay Gupta and Ira Bolychevsky tell us their highlights from the conference, and what they'd like to see happen in the future. Plus thanks!"
 title: "15. Day Two Closing Panel"

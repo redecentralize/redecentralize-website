@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Jutta Steiner talks through real world uses of Ethereum, in particular supply chain management."
 title: "6. Decentralizing in the Real World"

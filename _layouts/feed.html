@@ -7,12 +7,12 @@ layout: none
 
 <channel>
 
-<title>Redecentralize</title>
+<title>{{ page.title }} — Redecentralize</title>
 <link>http://redecentralize.org</link>
 
 <language>en-us</language>
 
-<description>Quietly, some geeks are decentralizing the net. Again. Who are they? Why are they doing it? What new technologies are they using? How will this change the world? Each month, we interview one for 15 minutes.</description>
+<description>{{ page.description }}</description>
 
 {% for post in site.categories[page.category] %}
 {% assign author = site.authors[post.author] %}

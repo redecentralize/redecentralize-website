@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Michiel de Jong talks about Unhosted, a protocol to separate web applications from where their data is stored. Plus a call for more developers to work on decentralized technologies, and how to get paid."
 title: "#12: Michiel de Jong - Unhosted"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: interviews
 summary: "Bjarni Rúnar Einarsson talks about Mailpile, a mail client aiming to decentralize email again. Will people ever encrypt email? Can we make it cool to code on email again, and beat the central services?"
 title: "#8: Bjarni Einarsson - Mailpile"

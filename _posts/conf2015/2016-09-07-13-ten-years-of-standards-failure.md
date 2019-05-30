@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Harry Halpin and Blaine Cooke go through the history of standards for social networks and identiy, and why they failed."
 title: "13. Ten Years of Standards Failure"

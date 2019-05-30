@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 categories: conf2015
 summary: "Vinay Gupta gives the cultural history of crypto, explaining where Ethereum comes from. Why does the only crypto used so far enable trade? Can we have democratic respresentation for users of decentralized systems?"
 title: "4. Cyperpunk to Blockchains"

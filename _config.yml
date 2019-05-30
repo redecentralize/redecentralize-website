@@ -1,9 +1,7 @@
 name: Redecentralize
 timezone: Europe/London
-gems:
+plugins:
   - jekyll-sitemap
-sass:
-  sass_dir: _sass
 collections:
   radar:
     output: true
@@ -37,6 +35,3 @@ authors:
     display_name: Michiel de Jong
     picname: michielbdejong.png
     link: https://twitter.com/michieldejong
-
-exclude:
-- "vendor/*.html"
