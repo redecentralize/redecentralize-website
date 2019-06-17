@@ -79,14 +79,12 @@ footer {
   border-radius: 3px;
 }
 
-.btn-header {
+.btn-support {
   display: inline-block;
   background-color: #0dab76;
   color: white;
-  font-weight: 600;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 20px;
+  padding: 2px 10px;
+  border-radius: 10px;
 }
 
 .btn-news {
