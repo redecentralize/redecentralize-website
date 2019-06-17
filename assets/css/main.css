@@ -192,6 +192,10 @@ nav {
   align-items: center;
 }
 
+nav, nav a {
+  color: white;
+}
+
 nav > .left {
   flex-shrink: 0;
 
@@ -208,11 +212,9 @@ nav > .right {
   justify-content: flex-end;
 }
 
-nav a {
-  color: white;
-}
 
-nav a.top-level-nav {
+
+nav .top-level-nav {
   cursor: pointer;
   color: white;
   display: inline-block;
