@@ -43,7 +43,7 @@ We need to work on this now. And we need your help! [Support redecentralize toda
 
 * Review, test and give feedback on the usability and quality of decentralised apps, with the aim to stimulate innovation and spur mass adoption.
 
-* [Continue maturing the conversation](https://medium.com/@shevski/how-decentralised-are-you-a6539eeb27ff) on the importance, value and direction of decentralisation.
+* [Continue maturing the conversation](/blog/2018/08/18/how-decentralised-are-you.html) on the importance, value and direction of decentralisation.
 
 * Set up a working group to research regulation and policy suggestions to take to governments that will increase mass adoption of decentralised alternatives.
 
