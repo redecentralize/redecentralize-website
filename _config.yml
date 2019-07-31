@@ -6,6 +6,9 @@ collections:
   radar:
     output: true
     permalink: /radar/:title
+  redigest:
+    output: true
+    permalink: /redigest/:year/:month
 authors:
   frabcus:
     display_name: Francis Irving

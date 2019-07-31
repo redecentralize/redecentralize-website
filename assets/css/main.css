@@ -16,8 +16,38 @@ a {
   text-decoration: none;
 }
 
+abbr {
+  text-decoration: dotted underline;
+  text-decoration: dotted underline #00000066;
+}
+
+a[title] {
+  text-decoration: dotted underline;
+  text-decoration: dotted underline #3b1ecc66;
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: 500;
+}
+
+/* Keep list items dense. */
+li > blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote, q {
+  font-style: italic;
+}
+
+figcaption {
+  text-align: right;
+  font-size: smaller;
 }
 
 footer {
@@ -228,4 +258,14 @@ nav .dropdown ul {
 .radar-label-share {
   background-color: gold;
   color: white;
+}
+
+/* for more whitespace between sections, list items, … */
+.spacious li {
+  margin-bottom: 0.2em;
+}
+
+.spacious h2,
+.spacious h3 {
+  margin-top: 2em;
 }
