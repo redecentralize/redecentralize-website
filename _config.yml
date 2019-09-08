@@ -6,9 +6,6 @@ collections:
   radar:
     output: true
     permalink: /radar/:title
-  redigest:
-    output: true
-    permalink: /redigest/:year/:month
 authors:
   frabcus:
     display_name: Francis Irving
@@ -38,3 +35,5 @@ authors:
     display_name: Michiel de Jong
     picname: michielbdejong.png
     link: https://twitter.com/michieldejong
+  gerben:
+    display_name: Gerben
