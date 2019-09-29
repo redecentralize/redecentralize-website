@@ -31,7 +31,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Keep list items dense. */
-li > blockquote {
+li > blockquote,
+li > ul,
+li > ol {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -263,6 +265,10 @@ nav .dropdown ul {
 /* for more whitespace between sections, list items, … */
 .spacious li {
   margin-bottom: 0.2em;
+}
+
+.spacious li li {
+  margin-bottom: unset;
 }
 
 .spacious h2,
