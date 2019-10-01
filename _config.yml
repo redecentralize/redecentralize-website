@@ -2,6 +2,7 @@ name: Redecentralize
 timezone: Europe/London
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 collections:
   radar:
     output: true
