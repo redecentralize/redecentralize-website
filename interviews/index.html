@@ -5,7 +5,7 @@ id: interviews
 ---
 
 <div class="bg-green">
-  <section class="mega_header">
+  <header>
     <h1>Founder Interviews</h1>
     <p>
       We interview the passionate people who start decentralization projects. What motivates them? What's unique about their technologies? What business model do they use?
@@ -18,25 +18,20 @@ id: interviews
       &nbsp;<a target="_blank" href="http://t.co/z1zZ16C57Z"><i class="icon-envelope"></i> Newsletter</a>
       &nbsp;<a target="_blank" href="https://twitter.com/redecentralize"><i class="icon-twitter"></i> Twitter</a>
     </p>
-  </section>
+  </header>
 </div>
 
-<section class="container">
-  <div class="clearfix mxn3">
-      {% for post in site.categories['interviews'] %}
-      <div class="md-col md-col-4 px3 py1" style="height: 450px">
-        <div>
-          <a href="{{ post.url }}">
-            <img class="rounded" src="{{ post.poster }}"/>
-          </a>
-          <h4>{{ post.title }}</h4>
-          <p>{{ post.summary }}</p>
-          <a href="{{ post.url }}">
-            <span>Watch now</span>
-          </a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+<section class="container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+  {% for post in site.categories['interviews'] %}
+  <div class="p2">
+    <a href="{{ post.url }}">
+      <img class="rounded" src="{{ post.poster }}"/>
+    </a>
+    <h4>{{ post.title }}</h4>
+    <p>{{ post.summary }}</p>
+    <a href="{{ post.url }}">
+      Watch now
+    </a>
   </div>
+  {% endfor %}
 </section>

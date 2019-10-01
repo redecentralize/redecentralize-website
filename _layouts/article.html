@@ -9,13 +9,29 @@ id: article
   <h1>{{ page.title }}</h1>
   <div class="clearfix mxn3">
     <main class="md-col md-col-8 px3 py1">
-      <p class="muted">{{ page.date | date_to_string }} - <a href="{{author.link}}">{{ author.display_name }}</a></p>
+      <p class="muted">
+        {{ page.date | date_to_string }} —
+        {% if author.link %}
+        <a href="{{author.link}}">{{ author.display_name }}</a>
+        {% else %}
+        {{ author.display_name }}
+        {% endif %}
+      </p>
 
       {{ content }}
 
+      {% if author.picname %}
       <img src="/assets/images/avatars/{{author.picname}}" class="circle"/>
+      {% endif %}
       <br/>
-      <p>By: <a href="{{author.link}}">{{ author.display_name }}</a></p>
+      <p>
+        By:
+        {% if author.link %}
+        <a href="{{author.link}}">{{ author.display_name }}</a>
+        {% else %}
+        {{ author.display_name }}
+        {% endif %}
+      </p>
     </main>
 
     <aside class="md-col-right md-col-4 px3 py1">
