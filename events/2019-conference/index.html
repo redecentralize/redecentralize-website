@@ -83,12 +83,30 @@ head: |
 <div class="bg-grey">
   <section class="container single-column">
     <h2>Sponsors</h2>
-    <figure style="width:120px; max-width: 100%; margin: 1em auto;">
-      <a href="https://dat.foundation/">
-        <img src="dat-logo.svg"/>
-      </a>
-      <figcaption style="text-align: center;">Dat Foundation</figcaption>
-    </figure>
+    <div style="display: flex; flex-flow: row wrap; justify-content: center;">
+      <style>
+        figure.sponsor {
+          width: 120px;
+          max-width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin: 2em;
+        }
+      </style>
+      <figure class="sponsor">
+        <a href="https://dat.foundation/">
+          <img src="dat-logo.svg"/>
+        </a>
+        <figcaption style="text-align: center;">Dat Foundation</figcaption>
+      </figure>
+      <figure class="sponsor">
+        <a href="https://matrix.org/">
+          <img src="matrix-logo.svg" style="width: 100%;"/>
+        </a>
+        <figcaption style="text-align: center;">Matrix.org</figcaption>
+      </figure>
+    </div>
     <p>
       Want to help get us tastier food, drinks &amp; comfy hangout spaces? Message <a href="mailto:hello@redecentralize.org">hello@redecentralize.org</a> to hear about sponsorship options! We’ll add your logo here and throw in a ticket or two.
     </p>
