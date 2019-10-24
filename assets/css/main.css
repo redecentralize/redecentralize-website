@@ -9,6 +9,7 @@ body {
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
   word-wrap: break-word; /* On narrow screens, prefer a broken title over a horizontal scrollbar. */
+  scroll-padding-top: 80px;
 }
 
 a {
@@ -217,7 +218,6 @@ nav > .right {
 nav .top-level-nav {
   cursor: pointer;
   color: white;
-  display: inline-block;
   padding: 0.2rem 1rem;
   font-weight: 700;
 }
