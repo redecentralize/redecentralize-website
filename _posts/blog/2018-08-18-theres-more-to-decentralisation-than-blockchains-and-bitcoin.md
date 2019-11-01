@@ -4,6 +4,8 @@ categories: blog
 summary: "As the decentralisation movement grows, I consider the characteristics of decentralisation, what decentralisation is a tactic for, why and what work still needs to happen to re-decentralize the digital world."
 date: 2018-08-18 08:00:00
 author: "shevski"
+title: "There’s more to decentralisation than blockchains and bitcoin"
+redirect_from: /blog/2018/08/18/how-decentralised-are-you
 ---
 
 As the decentralisation movement grows, I consider the characteristics of decentralisation, what decentralisation is a tactic for, why and what work still needs to happen to re-decentralize the digital world.
