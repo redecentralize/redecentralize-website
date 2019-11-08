@@ -34,7 +34,7 @@
       </a>
     </div>
     <div class="right">
-      <details class="relative">
+      <details class="relative collapse-on-click">
         <summary class="top-level-nav">Projects</summary>
         <div class="dropdown" style="min-width:124px">
           <ul>
@@ -45,7 +45,7 @@
           </ul>
         </div>
       </details>
-      <details class="relative">
+      <details class="relative collapse-on-click">
         <summary class="top-level-nav">Get Involved</summary>
         <div class="dropdown" style="min-width:124px">
           <ul>
@@ -69,5 +69,15 @@
     <a class="btn-support" href="https://www.patreon.com/bePatron?u=12764983">Become a patron</a>
   </footer>
 
+  <script type="text/javascript">
+    // Make a navigation drop-down menu close when the user clicks anywhere outside of it.
+    document.addEventListener('click', event => {
+      for (detailsElement of Array.from(document.querySelectorAll('details.collapse-on-click'))) {
+        if (detailsElement.open && !detailsElement.contains(event.target)) {
+          detailsElement.open = false;
+        }
+      }
+    });
+  </script>
 </body>
 </html>
