@@ -11,7 +11,7 @@ From advocates, politicians and technologists, calls for doing something about B
 
 This post covers what breaking up big tech would mean and why it’s not enough. I then propose an open intervention that will give people a real choice and a way out of controlled walled gardens. Google, Facebook, Amazon and Apple are not natural monopolies and we need to regulate them better to support competition and alternative business models.
 
-...
+***
 
 As a social species, our social and digital infrastructure is of vital importance. Just think of the postal service that even in the most extreme circumstances, would deliver letters to soldiers fighting on the front lines. There’s a complicated and not-risk-free system that makes this work, and we make it work, because it matters. It’s incredibly important for us to be able to keep in touch with our loved ones, to stay connected about news and what’s happening in our communities, countries and the planet.
 
@@ -29,13 +29,13 @@ These companies are too big, too powerful and too unaccountable. We can’t get 
 Several politicians including the Democrat presidential candidates Bernie Sanders and Elizabeth Warren are calling for breaking up Big Tech.
 
 [Warren wants two key interventions](https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c). First, to reverse some of the bigger controversial mergers and acquisitions which have happened over the last few years. Specifically, separating:
-- Amazon, Whole Foods & Zappos  
-- Facebook, WhatsApp & Instagram  
-- Google, Waze, Nest & DoubleClick  
+- Amazon, Whole Foods & Zappos
+- Facebook, WhatsApp & Instagram
+- Google, Waze, Nest & DoubleClick
 
 while also empowering regulators to stricter interpretation and enforcement of anti-trust law to avoid monopoly capture. This is worthwhile and may or may not be possible.
 
-The second intervention is even more interesting, and an acknowledgement of how much harm comes from monopolies who are themselves intermediaries between producers and consumers. [Google was fined €2.7 billion](https://money.cnn.com/2017/06/27/technology/business/google-eu-antitrust-fine/index.html) for denying “consumers a genuine choice by using its search engine to unfairly steer them to its own shopping platform”. Amazon is [currently under formal investigation by the European Commission](https://ec.europa.eu/commission/presscorner/detail/en/ip_19_4291) for using their privileged access to their platform data for what’s profitable to put out competing products and outcompete other companies’ products either by undercutting on price or manipulating search results in favour of their own products.
+The second intervention is even more interesting, and an acknowledgement of how much harm comes from monopolies who are themselves intermediaries between producers and consumers. [Google was fined €2.4 billion](https://money.cnn.com/2017/06/27/technology/business/google-eu-antitrust-fine/index.html) for denying “consumers a genuine choice by using its search engine to unfairly steer them to its own shopping platform”. Amazon is [currently under formal investigation by the European Commission](https://ec.europa.eu/commission/presscorner/detail/en/ip_19_4291) for using their privileged access to their platform data for what’s profitable to put out competing products and outcompete other companies’ products either by undercutting on price or manipulating search results in favour of their own products.
 
 Elizabeth Warren wants to pass “legislation that requires large tech platforms to be designated as ‘Platform Utilities’ and broken apart from any participant on that platform”. This would mean that Amazon and Facebook and Google could not both be the platform provider and sell their own services and products through the platform.
 
@@ -44,7 +44,7 @@ While breakup plans will go some way to address the unhealthy centralisation of 
 1. It won’t give us better privacy or change the surveillance business models used by tech platforms; and
 2. It won’t provide genuine choice or accountability, leaving essential digital services under the control of big tech.
 
-The first point relates to the toxic and anti-competitive business models increasingly known as ‘Surveillance capitalism’. [ Smarter people than me have written](https://www.banking.senate.gov/imo/media/doc/Ceglowski%20Testimony%205-7-19.pdf)  about the dangers and [ dark patterns](https://www.darkpatterns.org/types-of-dark-pattern)  that emerge from this practice. When the commodity these companies profit from is your time and attention, these multi-billion companies are incentivised to hook you, manipulate you and keep dialing up the rampant consumerism which is destroying our planet. Our privacy and time is constantly exploited for profit. The break-ups Warren proposes won’t change this.
+The first point relates to the toxic and anti-competitive business models increasingly known as ‘Surveillance capitalism’. [Smarter people than me have written](https://www.banking.senate.gov/imo/media/doc/Ceglowski%20Testimony%205-7-19.pdf) about the dangers and [dark patterns](https://www.darkpatterns.org/types-of-dark-pattern) that emerge from this practice. When the commodity these companies profit from is your time and attention, these multi-billion companies are incentivised to hook you, manipulate you and keep dialing up the rampant consumerism which is destroying our planet. Our privacy and time is constantly exploited for profit. The break-ups Warren proposes won’t change this.
 
 Secondly, it won’t make it easier for other companies to compete or experiment with alternative business models.
 
@@ -58,7 +58,7 @@ What Facebook has, that no rival has, is all your friends. And where it keeps th
 It doesn’t have to be this way. These monopolies are not natural, they are monopolies by design — choosing to run on closed protocols and walling off their users in silos. **We need to regulate Facebook and others to force them to open up their APIs to make it possible for users to have access to each other across platforms and services.**
 
 # Technically, interoperability is possible
-There are already examples of digital social systems which don’t operate as walled gardens: email for example. We don’t expect Google to refuse to deliver an email simply because we use an alternative email provider. If I send an email to a Gmail account from my Protonmail, FastMail or even Hotmail account — it goes through. It just works. No message about how I first have to get a Gmail account. This, fundamentally, is the reason email has been so successful for so long. Email uses an open protocol, supported by Google, Microsoft and others (probably due to being early enough, coming about in the heady open days of the web, before data mining and advertising became the dominant forces they are today… although email is increasingly centralised and dominated by Google, more on this in a future post!)
+There are already examples of digital social systems which don’t operate as walled gardens: email for example. We don’t expect Google to refuse to deliver an email simply because we use an alternative email provider. If I send an email to a Gmail account from my Protonmail, FastMail or even Hotmail account — it goes through. It just works. No message about how I first have to get a Gmail account. This, fundamentally, is the reason email has been so successful for so long. Email uses an open protocol, supported by Google, Microsoft and others (probably due to being early enough, coming about in the heady open days of the web, before data mining and advertising became the dominant forces they are today… although email is increasingly centralised and dominated by Google, more on this in a future post!).
 
 While email just works, a technology that’s very similar, such as instant messaging, doesn’t. We have no interoperability, which means many of us have upward of four different chat apps on our phones and have to remember which of our friends are on Twitter, Facebook, WhatsApp (owned by Facebook), Signal, Wire, Telegram, etc. We don’t carry around 5 phones so why do we maintain accounts with so many providers, each storing our personal details, each with a different account and password to remember? This is because these messaging apps use their own, closed, proprietary protocols and harm usability and accessibility in the process. This is not in the interests of most people.
 
@@ -79,10 +79,10 @@ Interoperability would be transformational. It would mean that:
 4. I’ll be less stressed trying to remember and contact people across different platforms with different passwords and accounts (e.g. now where this requires a Facebook event, email, tweets, WhatsApp group reminders and Mastodon, Diaspora and Scuttlebutt posts for siloed communities…)
 5. Alternative services, and their alternative business models and privacy policies become much more viable! Suddenly, a whole ecosystem of innovation and experimentation is possible which is out of reach for us today. (I’m not saying it will be easy. Finding sustainable funding and non-advertising-based business models will still be hard and will require more effort and systemic interventions, but this is a key ingredient).
 
-This last point, especially, would start shifting the power imbalance between Facebook and its users (and let’s face it, regulators) making Facebook more accountable and incentivising them to be responsive to user wants and needs. Right now Facebook acts as it pleases because it can — it knows its users have nowhere to go. As soon as people have meaningful choice, exploitation and abuse become much harder and more expensive to maintain.
+This last point, especially, would start shifting the power imbalance between Facebook and its users (and let’s face it, regulators), making Facebook more accountable and incentivising them to be responsive to user wants and needs. Right now Facebook acts as it pleases because it can — it knows its users have nowhere to go. As soon as people have meaningful choice, exploitation and abuse become much harder and more expensive to maintain.
 
 # So, how do we get there?
-In the first instance, regulating Facebook, Twitter and others to make them open up their APIs so that other services can read/write to facebook events, groups, messages etc. would be the first milestone. Yes, this isn’t trivial and there are questions to work out, but it can be done.
+In the first instance, regulating Facebook, Twitter and others to make them open up their APIs so that other services can read/write to Facebook events, groups, messages etc. would be the first milestone. Yes, this isn’t trivial and there are questions to work out, but it can be done.
 
 Looking ahead, investing now in developing open standards for our social digital infrastructure is a must. Funders and governments should be supporting the work and adoption of open protocols and standards — working with open software and services to refine, test and use these standards and see how they work in practice over time. We’ll need governance mechanisms for evolving and investing our open digital infrastructure that includes diverse stakeholders and accounts for power imbalances between them.
 
@@ -90,6 +90,6 @@ We use platforms which have not been co-designed by us and on terms and conditio
 
 We need to do more to ensure our data and essential services are not owned by one or two companies, too big to keep accountable. And after many years of work and discussions on this, I believe openness and decentralisation must play a central role.
 
-Redecentralize.org and friends are working on a campaign to figure out how to make this a reality. Is this something you’re working on already or want to contribute and get invited to future workshops and calls? Then ping me on [hello@redecentralize.org](mailto:hello@redecentralize.org) .
+Redecentralize.org and friends are working on a campaign to figure out how to make this a reality. Is this something you’re working on already or want to contribute and get invited to future workshops and calls? Then ping me on <hello@redecentralize.org>.
 
 The opportunity is huge. By breaking Big Tech open, we can build a fairer digital future so come get involved!
