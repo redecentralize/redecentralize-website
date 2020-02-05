@@ -2,7 +2,7 @@
 layout: article
 categories: blog
 summary: "This post covers what breaking up big tech would mean and why it’s not enough. I propose an open intervention that will give people a real choice and a way out of controlled walled gardens."
-title: "Instead of breaking up big tech, let’s break them open"
+title: "Instead of breaking up big tech, let’s break it open"
 date: 2020-01-29
 author: "shevski"
 ---
@@ -21,23 +21,23 @@ But right now, so much of this data, so much of our social digital infrastructur
 
 We’re witnessing the unaccountable corporate capture of essential services, reliance on exploitative business models and the increasing dominance of big tech monopolies.
 
-Amazon, Facebook, Google, Apple, Microsoft use their amassed power to subvert the markets which they operate within, stifling competition and denying us real choice. Amazon has put thousands of companies out of business, leaving them the option to sell on their controlled platform or not sell at all. Once just a digital bookstore, Amazon now controls [over 49% of the US digital commerce market](https://techcrunch.com/2018/07/13/amazons-share-of-the-us-e-commerce-market-is-now-49-or-5-of-all-retail-spend/?guccounter=1&guce_referrer_us=aHR0cHM6Ly9kdWNrZHVja2dvLmNvbS8&guce_referrer_cs=GPFDMCmp6OoOpa0Xr9vOpw) ([and growing fast](https://marketingland.com/amazon-owns-more-than-90-market-share-across-5-different-product-categories-report-241135)) — selling everything from sex toys to cupcakes. Facebook (who, remember, also own Instagram and WhatsApp) dominates social, isolating people who don’t want to use their services. About a fifth of the population of the entire planet (1.6 billion) log in *daily*. They control a vast honeypot of personal data, vulnerable to data breaches, influencing elections and enabling the spread of mis-information. It’s tough to imagine a digital industry Google doesn’t operate in.
+Amazon, Facebook, Google, Apple, Microsoft use their amassed power to subvert the markets which they operate within, stifling competition and denying us real choice. Amazon has put thousands of companies out of business, leaving them the option to sell on its controlled platform or not sell at all. Once just a digital bookstore, Amazon now controls [over 49% of the US digital commerce market](https://techcrunch.com/2018/07/13/amazons-share-of-the-us-e-commerce-market-is-now-49-or-5-of-all-retail-spend/?guccounter=1&guce_referrer_us=aHR0cHM6Ly9kdWNrZHVja2dvLmNvbS8&guce_referrer_cs=GPFDMCmp6OoOpa0Xr9vOpw) ([and growing fast](https://marketingland.com/amazon-owns-more-than-90-market-share-across-5-different-product-categories-report-241135)) — selling everything from sex toys to cupcakes. Facebook (who, remember, also own Instagram and WhatsApp) dominates social, isolating people who don’t want to use its services. About a fifth of the population of the entire planet (1.6 billion) log in *daily*. It controls a vast honeypot of personal data, vulnerable to data breaches, influencing elections and enabling the spread of mis-information. It’s tough to imagine a digital industry Google doesn’t operate in.
 
 These companies are too big, too powerful and too unaccountable. We can’t get them to change their behaviour. We can’t even get them to pay their taxes. And it’s way past time to do something about this.
 
 # A plan to break up monopolies
-Several politicians including the Democrat presidential candidates Bernie Sanders and Elizabeth Warren are calling for breaking up Big Tech.
+In the USA, several politicians including the Democrat presidential candidates Bernie Sanders and Elizabeth Warren are calling for breaking up Big Tech.
 
-[Warren wants two key interventions](https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c). First, to reverse some of the bigger controversial mergers and acquisitions which have happened over the last few years. Specifically, separating:
+[Elizabeth Warren wants two key interventions](https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c). First, to reverse some of the bigger controversial mergers and acquisitions which have happened over the last few years. Specifically, separating:
 - Amazon, Whole Foods & Zappos
 - Facebook, WhatsApp & Instagram
 - Google, Waze, Nest & DoubleClick
 
-while also empowering regulators to stricter interpretation and enforcement of anti-trust law to avoid monopoly capture. This is worthwhile and may or may not be possible.
+Along with this, she would empower regulators for a stricter interpretation and enforcement of anti-trust law to avoid monopoly capture. This is worthwhile and may or may not be possible.
 
-The second intervention is even more interesting, and an acknowledgement of how much harm comes from monopolies who are themselves intermediaries between producers and consumers. [Google was fined €2.4 billion](https://money.cnn.com/2017/06/27/technology/business/google-eu-antitrust-fine/index.html) for denying “consumers a genuine choice by using its search engine to unfairly steer them to its own shopping platform”. Amazon is [currently under formal investigation by the European Commission](https://ec.europa.eu/commission/presscorner/detail/en/ip_19_4291) for using their privileged access to their platform data for what’s profitable to put out competing products and outcompete other companies’ products either by undercutting on price or manipulating search results in favour of their own products.
+The second intervention is even more interesting, and an acknowledgement of how much harm comes from monopolies who are themselves intermediaries between producers and consumers. [Google was fined €2.4 billion](https://ec.europa.eu/commission/presscorner/detail/en/IP_17_1784) for denying “consumers a genuine choice by using its search engine to unfairly steer them to its own shopping platform”. Amazon is [currently under formal investigation by the European Commission](https://ec.europa.eu/commission/presscorner/detail/en/ip_19_4291) for using its privileged access to its platform data for what’s profitable to put out competing products and outcompete other companies’ products either by undercutting on price or manipulating search results in favour of its own products.
 
-Elizabeth Warren wants to pass “legislation that requires large tech platforms to be designated as ‘Platform Utilities’ and broken apart from any participant on that platform”. This would mean that Amazon and Facebook and Google could not both be the platform provider and sell their own services and products through the platform.
+Elizabeth Warren wants to pass “legislation that requires large tech platforms to be designated as ‘Platform Utilities’ and broken apart from any participant on that platform”. This would mean that Amazon, Facebook or Google could not both be the platform provider *and* sell its own services and products through the platform.
 
 # Breaking up big tech is not enough
 While breakup plans will go some way to address the unhealthy centralisation of data and power, the two biggest problems with Big Tech will remain:
@@ -73,13 +73,13 @@ Say I choose to use a privacy-preserving service for instant messaging, photo sh
 This is where the open protocol and interoperability come in. I have some friends using the same service as me, many more scattered across Twitter, Facebook and other social services, maybe a few just on email. If all these services share an open standard for events, every person, wherever they are, will get my event invite and be able to RSVP, receive updates and possibly even comment (depending on what functionality the standard supports). No more getting left out as the cost of caring about privacy.
 
 Interoperability would be transformational. It would mean that:
-1. I can choose to keep my photos and data where I have better access, security and portability. Facebook won’t have rights to use my data, since by not having an account I won’t have signed their terms and conditions and not given my consent for them to use what they know about me to sell to advertisers. This gives us great control over our data and means that…
+1. I can choose to keep my photos and data where I have better access, security and portability. Facebook won’t have rights to use my data, since by not having an account I won’t have signed its terms and conditions and not given my consent for them to use what it knows about me to sell to advertisers. This gives us great control over our data and means that…
 2. Surveillance is harder and more expensive to do. My data will not all be conveniently centralised for corporations or governments to use in unaccountable ways I haven’t agreed to. Privacy ❤
 3. I won’t lose contact with, leave out, or forget my friends who aren’t on the same platform as me. I can choose services which serve my needs better, not based on the fear of social exclusion or missing out. Hooray for inclusion and staying friends!
 4. I’ll be less stressed trying to remember and contact people across different platforms with different passwords and accounts (e.g. now where this requires a Facebook event, email, tweets, WhatsApp group reminders and Mastodon, Diaspora and Scuttlebutt posts for siloed communities…)
 5. Alternative services, and their alternative business models and privacy policies become much more viable! Suddenly, a whole ecosystem of innovation and experimentation is possible which is out of reach for us today. (I’m not saying it will be easy. Finding sustainable funding and non-advertising-based business models will still be hard and will require more effort and systemic interventions, but this is a key ingredient).
 
-This last point, especially, would start shifting the power imbalance between Facebook and its users (and let’s face it, regulators), making Facebook more accountable and incentivising them to be responsive to user wants and needs. Right now Facebook acts as it pleases because it can — it knows its users have nowhere to go. As soon as people have meaningful choice, exploitation and abuse become much harder and more expensive to maintain.
+This last point, especially, would start shifting the power imbalance between Facebook and its users (and let’s face it, regulators), making Facebook more accountable and incentivising it to be responsive to user wants and needs. Right now Facebook acts as it pleases because it can — it knows its users have nowhere to go. As soon as people have meaningful choice, exploitation and abuse become much harder and more expensive to maintain.
 
 # So, how do we get there?
 In the first instance, regulating Facebook, Twitter and others to make them open up their APIs so that other services can read/write to Facebook events, groups, messages etc. would be the first milestone. Yes, this isn’t trivial and there are questions to work out, but it can be done.
