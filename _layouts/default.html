@@ -36,20 +36,29 @@
     <div class="right">
       <details class="relative collapse-on-click">
         <summary class="top-level-nav">Projects</summary>
-        <div class="dropdown" style="min-width:124px">
+        <div class="dropdown">
           <ul>
-            <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/">Founder Interviews</a></li>
-            <li> <a href="https://github.com/redecentralize/alternative-internet" target="_blank">Alternative Internet</a></li>
-            <li {% if page.id == 'events' %} class="active" {% endif %} > <a href="/events">Events</a></li>
+            <li {% if page.id == 'interviews' %}class="active"{% endif %}>
+              <a href="/interviews/">Founder Interviews</a>
+            </li>
+            <li>
+              <a href="https://github.com/redecentralize/alternative-internet" target="_blank">
+                Alternative Internet
+              </a>
+            </li>
+            <li {% if page.id == 'events' %}class="active"{% endif %}>
+              <a href="/events">Events</a>
+            </li>
           </ul>
         </div>
       </details>
       <details class="relative collapse-on-click">
         <summary class="top-level-nav">Get Involved</summary>
-        <div class="dropdown" style="min-width:124px">
+        <div class="dropdown">
           <ul>
-            <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
-            <li> <a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
+            <li><a href="/#contact">Contact us</a></li>
+            <li><a href="https://riot.im/app/#/room/#redecentralize:matrix.org" title="Join #redecentralize:matrix.org" target="_blank">Join our chat</a></li>
+            <li><a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
           </ul>
         </div>
       </details>

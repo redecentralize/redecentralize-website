@@ -232,17 +232,13 @@ nav .top-level-nav {
   font-weight: 700;
 }
 
-nav a.top-level-nav:hover {
-  text-decoration: none;
-}
-
 nav .dropdown {
   min-width: 124px;
   z-index: 210;
   position: absolute;
   right: 0;
-  padding: 5px;
   background-color: black;
+  border: 1px solid white;
   border-radius: 3px;
   white-space: nowrap;
 }
@@ -251,6 +247,16 @@ nav .dropdown ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+}
+
+nav .dropdown li a {
+  display: block;
+  padding: .5em;
+}
+
+nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
+  background-color: #440066;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 920px) {
