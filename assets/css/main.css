@@ -129,21 +129,31 @@ header p {
 }
 
 hr {
+  width: 50%;
+  margin: 1.5rem auto;
+}
+
+hr.pill {
   height: 15px;
   width: 100px;
   border-radius: 15px;
   margin: 1.5rem 0;
 }
 
-hr.hr-magenta {
+hr.pill.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.pill.magenta {
   background: #f00699;
 }
 
-hr.hr-greenish {
+hr.pill.greenish {
   background: #0dab76;
 }
 
-hr.hr-yellow {
+hr.pill.yellow {
   background: #fff90d;
 }
 
