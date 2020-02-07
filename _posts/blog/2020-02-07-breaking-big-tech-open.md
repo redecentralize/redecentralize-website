@@ -25,13 +25,15 @@ Amazon, Facebook, Google, Apple, Microsoft use their amassed power to subvert th
 
 These companies are too big, too powerful and too unaccountable. We can’t get them to change their behaviour. We can’t even get them to pay their taxes. And it’s way past time to do something about this.
 
-## A plan to break up monopolies
+## Plans to break up monopolies
 Several politicians are calling for breaking up Big Tech. In the USA, presidential candidate [Elizabeth Warren wants two key interventions](https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c).
 One is to reverse some of the bigger controversial mergers and acquisitions which have happened over the last few years, such as Facebook with WhatsApp and Instagram, while going for a stricter interpretation and enforcement of anti-trust law.
 
 The other intervention is even more interesting, and an acknowledgement of how much harm comes from monopolies who are themselves intermediaries between producers and consumers. Elizabeth Warren wants to pass “legislation that requires large tech platforms to be designated as ‘Platform Utilities’ and broken apart from any participant on that platform”. This would mean that Amazon, Facebook or Google could not both be the platform provider *and* sell their own services and products through the platform.
 
-The EU has also taken aim at such platform power abuse. [Google was fined €2.4 billion](https://ec.europa.eu/commission/presscorner/detail/en/IP_17_1784) by the European Commission for denying “consumers a genuine choice by using its search engine to unfairly steer them to its own shopping platform”. Likewise, Amazon is [currently under formal investigation](https://ec.europa.eu/commission/presscorner/detail/en/ip_19_4291) for using their privileged access to their platform data to put out competing products and outcompete other companies’ products. Meanwhile, in India, a foreign-owned company like Amazon is already [prohibited](https://dipp.gov.in/sites/default/files/pn2_2018.pdf#page=3) from being a vendor on its own electronic market place.
+The EU has also taken aim at such platform power abuse. [Google was fined €2.4 billion](https://ec.europa.eu/commission/presscorner/detail/en/IP_17_1784) by the European Commission for denying “consumers a genuine choice by using its search engine to unfairly steer them to its own shopping platform”. Likewise, [Amazon is currently under formal investigation](https://ec.europa.eu/commission/presscorner/detail/en/ip_19_4291) for using their privileged access to their platform data to put out competing products and outcompete other companies’ products.
+
+Meanwhile, in India, a foreign-owned company like Amazon is already [prohibited](https://dipp.gov.in/sites/default/files/pn2_2018.pdf#page=3) from being a vendor on its own electronic market place.
 
 ## Breaking up big tech is not enough
 While breakup plans will go some way to address the unhealthy centralisation of data and power, the two biggest problems with Big Tech will remain:
