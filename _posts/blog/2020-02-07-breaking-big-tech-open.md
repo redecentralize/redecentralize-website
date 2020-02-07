@@ -3,7 +3,7 @@ layout: article
 categories: blog
 summary: "This post covers what breaking up big tech would mean and why it’s not enough. I propose an open intervention that will give people a real choice and a way out of controlled walled gardens."
 title: "Instead of breaking up big tech, let’s break them open"
-date: 2020-01-29
+date: 2020-02-07
 author: "shevski"
 ---
 
