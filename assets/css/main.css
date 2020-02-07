@@ -237,6 +237,7 @@ nav a.top-level-nav:hover {
 }
 
 nav .dropdown {
+  min-width: 124px;
   z-index: 210;
   position: absolute;
   right: 0;
