@@ -7,17 +7,15 @@ date: 2020-02-07
 author: "shevski"
 ---
 
-From advocates, politicians and technologists, calls for doing something about Big Tech grow louder by the day. Yet concrete ideas are few or failing to reach the mainstream.
+From advocates, politicians and technologists, calls for doing something about big tech grow louder by the day. Yet concrete ideas are few or failing to reach the mainstream.
 
-This post covers what breaking up big tech would mean and why it’s not enough. I then propose an open intervention that will give people a real choice and a way out of controlled walled gardens. Google, Facebook, Amazon and Apple are not natural monopolies and we need to regulate them better to support competition and alternative business models.
+This post covers what breaking up big tech would mean and why it’s not enough. I propose an open intervention that will give people a real choice and a way out of controlled walled gardens. Google, Facebook, Amazon and Apple are not natural monopolies and we need to regulate them to support competition and alternative business models.
 
-## Why we should be worried
+## What's the problem?
 
-As a social species, our social and digital infrastructure is of vital importance. Just think of the postal service that even in the most extreme circumstances, would deliver letters to soldiers fighting on the front lines. There’s a complicated and not-risk-free system that makes this work, and we make it work, because it matters. It’s incredibly important for us to be able to keep in touch with our loved ones, to stay connected about news and what’s happening in our communities, countries and the planet.
+As a social species, our social and digital infrastructure is of vital importance. Just think of the postal service that even in the most extreme circumstances, would deliver letters to soldiers fighting on the front lines. There’s a complicated and not-risk-free system that makes this work, and we make it work, because it matters. It is so important for us to keep in touch with our loved ones, stay connected with news and what’s happening in our communities, countries and the planet.
 
-Our ability to easily and instantly collaborate and work with people halfway across the world is one of the wonders of the Information Age. The data we can collect to make better decisions about our environment, transport, healthcare, education, governance and planning should be used to support the flourishing of all people and our planet.
-
-But right now, so much of this data, so much of our social digital infrastructure is owned, designed and controlled by a tiny elite of companies, driven by profit.
+Our ability to easily and instantly collaborate and work with people halfway across the world is one of the wonders of the Information Age. The data we collect can help us make better decisions about our environment, transport, healthcare, education, governance and planning. It should be used to support the flourishing of all people and our planet. But right now, so much of this data, so much of our social digital infrastructure, is owned, designed and controlled by a tiny elite of companies, driven by profit.
 
 We’re witnessing the unaccountable corporate capture of essential services, reliance on exploitative business models and the increasing dominance of big tech monopolies.
 
@@ -27,7 +25,7 @@ These companies are too big, too powerful and too unaccountable. We can’t get 
 
 ## Plans to break up monopolies
 
-Several politicians are calling for breaking up Big Tech. In the USA, presidential candidate [Elizabeth Warren wants two key interventions](https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c).
+Several politicians are calling for breaking up big tech. In the USA, presidential candidate [Elizabeth Warren wants two key interventions](https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c).
 One is to reverse some of the bigger controversial mergers and acquisitions which have happened over the last few years, such as Facebook with WhatsApp and Instagram, while going for a stricter interpretation and enforcement of anti-trust law.
 
 The other intervention is even more interesting, and an acknowledgement of how much harm comes from monopolies who are themselves intermediaries between producers and consumers. Elizabeth Warren wants to pass “legislation that requires large tech platforms to be designated as ‘Platform Utilities’ and broken apart from any participant on that platform”. This would mean that Amazon, Facebook or Google could not both be the platform provider *and* sell their own services and products through the platform.
@@ -38,7 +36,7 @@ Meanwhile, in India, a foreign-owned company like Amazon is already [prohibited]
 
 ## Breaking up big tech is not enough
 
-While breakup plans will go some way to address the unhealthy centralisation of data and power, the two biggest problems with Big Tech will remain:
+While breakup plans will go some way to address the unhealthy centralisation of data and power, the two biggest problems with big tech monopolies will remain:
 1. It won’t give us better privacy or change the surveillance business models used by tech platforms; and
 2. It won’t provide genuine choice or accountability, leaving essential digital services under the control of big tech.
 
@@ -46,7 +44,7 @@ The first point relates to the toxic and anti-competitive business models increa
 
 The second point means it still wouldn’t become it easier for other companies to compete or to experiment with alternative business models.
 
-Right now, it’s near impossible to compete with Facebook and Amazon since their dominance is built on ‘network effects’. Both companies strictly police their user network and data. People aren’t choosing these platforms because they are better any more, they default to them because that’s where everyone else is. Connectivity and reach is vital for people to communicate, share, organise and sell — there’s no option but to go where most people already are. So we’re increasingly locked in. We need to make it possible for other providers and services to thrive.
+Right now, it’s near impossible to compete with Facebook and Amazon since their dominance is built on ‘network effects’. Both companies strictly police their user network and data. People aren’t choosing these platforms because they are better, they default to them because that’s where everyone else is. Connectivity and reach is vital for people to communicate, share, organise and sell — there’s no option but to go where most people already are. So we’re increasingly locked in. We need to make it possible for other providers and services to thrive.
 
 ## Breaking big tech open
 
@@ -64,7 +62,7 @@ There are already examples of digital social systems which don’t operate as wa
 
 While email just works, a technology that’s very similar, such as instant messaging, doesn’t. We have no interoperability, which means many of us have upward of four different chat apps on our phones and have to remember which of our friends are on Twitter, Facebook, WhatsApp (owned by Facebook), Signal, Wire, Telegram, etc. We don’t carry around 5 phones so why do we maintain accounts with so many providers, each storing our personal details, each with a different account and password to remember? This is because these messaging apps use their own, closed, proprietary protocols and harm usability and accessibility in the process. This is not in the interests of most people.
 
-Interoperability and the use of open protocols would transform this, offering us a better experience and control over our data while reducing our reliance on any one platform. Open protocols can form the basis of shared digital infrastructure that’s more resilient and would help us keep companies that provide digital services more accountable. It would make it possible to leave and choose whose services we use.
+Interoperability and the use of open protocols would transform this, offering us a better experience and control over our data while reducing our reliance on any one platform. Open protocols can form the basis of a shared digital infrastructure that’s more resilient and would help us keep companies that provide digital services, accountable. It would make it possible to leave and choose whose services we use.
 
 ## What would this look like in practice?
 
@@ -75,17 +73,17 @@ This is where the open protocol and interoperability come in. I have some friend
 Interoperability would be transformational. It would mean that:
 1. I can choose to keep my photos and data where I have better access, security and portability. This gives us greater control over our data and means that…
 2. Surveillance is harder and more expensive to do. My data will not all be conveniently centralised for corporations or governments to use in unaccountable ways I haven’t agreed to. Privacy ❤
-3. I won’t lose contact with, leave out, or forget my friends who aren’t on the same platform as me. I can choose services which serve my needs better, not based on the fear of social exclusion or missing out. Hooray for inclusion and staying friends!
-4. I’ll be less stressed trying to remember and contact people across different platforms with different passwords and accounts (e.g. where this now requires a Facebook event, email, tweets, WhatsApp group reminders and Mastodon, Diaspora and Scuttlebutt posts for siloed communities…)
+3. I won’t lose contact with, leave out, or forget friends who aren’t on the same platform as me. I can choose services which serve my needs better, not based on the fear of social exclusion or missing out. Hooray for inclusion and staying friends!
+4. I’ll be less stressed trying to remember and contact people across different platforms with different passwords and accounts (e.g. this currently requires a Facebook event, email, tweets, WhatsApp group reminders and Mastodon, Diaspora and Scuttlebutt posts for siloed communities…)
 5. Alternative services, and their alternative business models and privacy policies become much more viable! Suddenly, a whole ecosystem of innovation and experimentation is possible which is out of reach for us today. (I’m not saying it will be easy. Finding sustainable funding and non-advertising-based business models will still be hard and will require more effort and systemic interventions, but this is a key ingredient).
 
-Especially this last point, the viability of creating alternatives, would start shifting the power imbalance between Facebook and its users (and regulators), making Facebook more accountable and incentivising them to be responsive to user wants and needs. Right now Facebook acts as it pleases because it can — it knows its users will have to stick with it. As soon as people have meaningful choice, exploitation and abuse become much harder and more expensive to maintain.
+Especially this last point, the viability of creating alternatives, would start shifting the power imbalance between Facebook and its users (and regulators), making Facebook more accountable and incentivising them to be responsive to user wants and needs. Right now Facebook acts as it pleases because it can — it knows its users are trapped. As soon as people have meaningful choice, exploitation and abuse become much harder and more expensive to maintain.
 
 ## So, how do we get there?
 
 In the first instance, regulating Facebook, Twitter and others to make them open up their APIs so that other services can read/write to Facebook events, groups, messages etc. would be the first milestone. Yes, this isn’t trivial and there are questions to work out, but it can be done.
 
-Looking ahead, investing now in developing open standards for our social digital infrastructure is a must. Funders and governments should be supporting the work and adoption of open protocols and standards — working with open software and services to refine, test and use these standards and see how they work in practice over time. We’ll need governance mechanisms for evolving and investing our open digital infrastructure that includes diverse stakeholders and accounts for power imbalances between them.
+Looking ahead, investing now in developing open standards for our social digital infrastructure is a must. Funders and governments should be supporting the work and adoption of open protocols and standards — working with open software and services to refine, test and use these standards and see how they work in practice over time. We’ll need governance mechanisms for evolving and investing in our open digital infrastructure that includes diverse stakeholders and accounts for power imbalances between them.
 
 We use platforms which have not been co-designed by us and on terms and conditions we have little say over. Investment into alternatives have largely failed outside of more authoritarian countries that have banned or blocked the likes of Google and Facebook.
 
@@ -93,4 +91,4 @@ We need to do more to ensure our data and essential services are not in the hand
 
 Redecentralize.org and friends are working on a campaign to figure out how to make this a reality. Is this something you’re working on already or want to contribute and get invited to future workshops and calls? Then ping me on <hello@redecentralize.org>.
 
-The opportunity is huge. By breaking Big Tech open, we can build a fairer digital future so come get involved!
+The opportunity is huge. By breaking big tech open, we can build a fairer digital future for all, so come get involved!
