@@ -11,7 +11,7 @@ From advocates, politicians and technologists, calls for doing something about B
 
 This post covers what breaking up big tech would mean and why it’s not enough. I then propose an open intervention that will give people a real choice and a way out of controlled walled gardens. Google, Facebook, Amazon and Apple are not natural monopolies and we need to regulate them better to support competition and alternative business models.
 
-***
+## Why we should be worried
 
 As a social species, our social and digital infrastructure is of vital importance. Just think of the postal service that even in the most extreme circumstances, would deliver letters to soldiers fighting on the front lines. There’s a complicated and not-risk-free system that makes this work, and we make it work, because it matters. It’s incredibly important for us to be able to keep in touch with our loved ones, to stay connected about news and what’s happening in our communities, countries and the planet.
 
