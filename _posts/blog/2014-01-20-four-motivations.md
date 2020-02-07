@@ -20,7 +20,7 @@ Lots of the well known recent decentralization projects were started by people
 who care about privacy. They don't like centrally run services, as they are
 easier to snoop on.
 
-Interview to watch: <a href="http://redecentralize.org/interviews/2013/08/07/03-tony-cryptosphere.html"><i class="icon-film"></i> Cryptosphere</a>
+Interview to watch: <a href="https://redecentralize.org/interviews/2013/08/07/03-tony-cryptosphere.html"><i class="icon-film"></i> Cryptosphere</a>
 
 ## 2. Resilience
 
@@ -31,7 +31,7 @@ A hurricane, a civil war, a severe disease epidemic... The web and telephones
 basically stop working. If the transatlantic cable was cut, I should still be
 able to send email to other people in Liverpool.
 
-Interview to watch: <a href="http://redecentralize.org/interviews/2013/08/14/04-paul-serval.html"><i class="icon-film"></i> Serval Project</a>
+Interview to watch: <a href="https://redecentralize.org/interviews/2013/08/14/04-paul-serval.html"><i class="icon-film"></i> Serval Project</a>
 
 ## 3. Competition
 
@@ -45,7 +45,7 @@ Part of it is cultural. A monopoly in selling fizzy water doesn't matter so
 much, as you can drink something else. Much more insidious are the newly
 forming monopolies in information flow, as information informs everything else.
 
-Interview to watch: <a href="http://redecentralize.org/interviews/2013/10/13/06-chris-mediagoblin.html"><i class="icon-film"></i> Media Goblin</a>
+Interview to watch: <a href="https://redecentralize.org/interviews/2013/10/13/06-chris-mediagoblin.html"><i class="icon-film"></i> Media Goblin</a>
 
 ## 4. Fun
 
@@ -62,7 +62,7 @@ Why's this section called "fun"? Some tech geeks find expermenting and playing
 with information systems in radically new ways great fun. They are the set of
 people who create amazing new open standards.
 
-Interview to watch: <a href="http://redecentralize.org/interviews/2013/07/15/01-ntoll-drogulus.html"><i class="icon-film"></i>Drogulus</a>
+Interview to watch: <a href="https://redecentralize.org/interviews/2013/07/15/01-ntoll-drogulus.html"><i class="icon-film"></i>Drogulus</a>
 
 ## Conclusion
 

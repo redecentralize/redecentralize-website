@@ -11,5 +11,5 @@ poster: http://something.redecentralize.org/video/redecentralize-conf-2015-5-wtf
 links: |
   <li><a href="https://twitter.com/gavofyork" target="_blank">@gavofyork on Twitter</a></li>
   <li><a href="https://www.ethereum.org/" target="_blank">Ethereum Project</a></li>
-  <li><a href="http://redecentralize.org/interviews/2014/09/23/18-gavin-ethereum.html" target="_blank">Redecentralize interview with Gavin Wood (2014)</a></li>
+  <li><a href="https://redecentralize.org/interviews/2014/09/23/18-gavin-ethereum.html" target="_blank">Redecentralize interview with Gavin Wood (2014)</a></li>
 ---
