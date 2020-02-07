@@ -33,7 +33,7 @@ The other intervention is even more interesting, and an acknowledgement of how m
 
 The EU has also taken aim at such platform power abuse. [Google was fined €2.4 billion](https://ec.europa.eu/commission/presscorner/detail/en/IP_17_1784) by the European Commission for denying “consumers a genuine choice by using its search engine to unfairly steer them to its own shopping platform”. Likewise, [Amazon is currently under formal investigation](https://ec.europa.eu/commission/presscorner/detail/en/ip_19_4291) for using their privileged access to their platform data to put out competing products and outcompete other companies’ products.
 
-Meanwhile, in India, a foreign-owned company like Amazon is already [prohibited](https://dipp.gov.in/sites/default/files/pn2_2018.pdf#page=3) from being a vendor on its own electronic market place.
+Meanwhile, in India, a foreign-owned company like Amazon is already [prohibited](https://dipp.gov.in/sites/default/files/pn2_2018.pdf#page=3) from being a vendor on their own electronic market place.
 
 ## Breaking up big tech is not enough
 While breakup plans will go some way to address the unhealthy centralisation of data and power, the two biggest problems with Big Tech will remain:
