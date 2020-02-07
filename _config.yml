@@ -1,4 +1,4 @@
-name: Redecentralize
+title: Redecentralize
 timezone: Europe/London
 plugins:
   - jekyll-sitemap
