@@ -4,14 +4,14 @@ id: articles
 ---
 
 <div class="bg-medium">
-  <section class="container single-column">
+  <main class="container single-column">
     <h1 class="caps">{{page.title}}</h1>
     <hr class="pill magenta"/>
     {% for post in site.categories[page.category] %}
     {% assign author = site.authors[post.author] %}
-    <div class="py2">
+    <article class="py2">
       {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
-      <a href="{{post.url}}">
+      <a rel="bookmark" href="{{post.url}}">
         <h2 class="h4 caps">{{ post.title }}</h2>
       </a>
       <p>
@@ -20,7 +20,13 @@ id: articles
           Read more &raquo;
         </a>
       </p>
-    </div>
+    </article>
     {% endfor %}
-  </section>
+    {% if page.footer %}
+    <footer>
+      <hr class="pill magenta"/>
+      {{ page.footer }}
+    </footer>
+    {% endif %}
+  </main>
 </div>

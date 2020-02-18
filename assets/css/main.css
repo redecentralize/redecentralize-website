@@ -54,7 +54,7 @@ figcaption {
   font-size: smaller;
 }
 
-footer {
+footer.site-footer {
   background-color: black;
   color: white;
   padding: 40px;
