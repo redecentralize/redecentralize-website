@@ -77,7 +77,7 @@
   <script type="text/javascript">
     // Make a navigation drop-down menu close when the user clicks anywhere outside of it.
     document.addEventListener('click', event => {
-      for (detailsElement of Array.from(document.querySelectorAll('details.collapse-on-click'))) {
+      for (detailsElement of document.querySelectorAll('details.collapse-on-click')) {
         if (detailsElement.open && !detailsElement.contains(event.target)) {
           detailsElement.open = false;
         }
