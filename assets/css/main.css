@@ -71,15 +71,6 @@ footer {
   max-width: 44rem;
 }
 
-.btn {
-  display: inline-block;
-  background-color: rgb(135, 23, 121);
-  color: white;
-  margin-bottom: 20px;
-  font-size: 0.8rem;
-  border-radius: 3px;
-}
-
 .btn-support {
   display: inline-block;
   background-color: #0dab76;
@@ -93,6 +84,10 @@ footer {
   background-color: #f00699;
   color: white;
   border-radius: 20px;
+}
+
+.btn.caps {
+  font-size: 0.8rem;
 }
 
 header {
