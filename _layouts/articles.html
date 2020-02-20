@@ -6,7 +6,7 @@ id: articles
 <div class="bg-medium">
   <main class="container single-column">
     <h1 class="caps">{{page.title}}</h1>
-    <hr class="pill magenta"/>
+    <hr class="flashy pill"/>
     {% for post in site.categories[page.category] %}
     {% assign author = site.authors[post.author] %}
     <article class="py2">
@@ -24,7 +24,7 @@ id: articles
     {% endfor %}
     {% if page.footer %}
     <footer>
-      <hr class="pill magenta"/>
+      <hr class="flashy pill"/>
       {{ page.footer }}
     </footer>
     {% endif %}

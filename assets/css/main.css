@@ -55,8 +55,6 @@ figcaption {
 }
 
 footer.site-footer {
-  background-color: black;
-  color: white;
   padding: 40px;
   font-size: 0.8rem;
   text-align: center;
@@ -71,19 +69,12 @@ footer.site-footer {
   max-width: 44rem;
 }
 
-.btn-support {
-  display: inline-block;
-  background-color: #0dab76;
-  color: white;
-  padding: 2px 10px;
+.btn {
   border-radius: 10px;
 }
 
-.btn-news {
-  display: inline-block;
-  background-color: #f00699;
-  color: white;
-  border-radius: 20px;
+.btn-small {
+  padding: 2px 10px;
 }
 
 .btn.caps {
@@ -115,7 +106,6 @@ header p {
   min-height: 100vh;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: black;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.0) 80%, #fbfaf999), url('/assets/images/nasa-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,16 +148,34 @@ hr.pill.centered {
   margin-right: auto;
 }
 
-hr.pill.magenta {
+.flashy {
   background: #f00699;
+  color: white;
 }
 
-hr.pill.greenish {
-  background: #0dab76;
+.bg-black .flashy {
+  background: #11aa55;
+  color: white;
 }
 
-hr.pill.yellow {
+.bg-dark .flashy,
+.bg-green .flashy {
   background: #fff90d;
+  color: black;
+}
+
+.bg-dark a,
+.bg-green a {
+  color: #fff90d;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.bg-grey {
+  background-color: #f1f1f1;
 }
 
 .bg-medium {
@@ -176,28 +184,17 @@ hr.pill.yellow {
 }
 
 .bg-green {
+  background-color: #11aa55;
   background-image: linear-gradient(to top,rgb(13,171,118, 0.95),rgb(13,171,118, 0.95)), url("/assets/images/water_pattern.jpg");
   background-size: 1400px;
   color: white;
 }
 
-.bg-green a {
-  color: white;
-}
-
 .bg-dark {
+  background-color: #332266;
   background-image: linear-gradient(to bottom, rgba(59, 30, 104, 0.95), rgba(59, 30, 104, 0.95)), url("/assets/images/water_pattern.jpg");
   background-size: 1400px;
   color: white;
-}
-
-.bg-dark a {
-  color: white;
-}
-
-.bg-grey {
-  color: #300124;
-  background-color: #f1f1f1;
 }
 
 nav {
@@ -268,7 +265,7 @@ nav .dropdown li a {
 }
 
 nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
-  background-color: #440066;
+  background-color: #11aa55;
   text-decoration: none;
 }
 
