@@ -5,49 +5,34 @@ id: article
 
 {% assign author = site.authors[page.author] %}
 
-<section class="container">
+<main class="container single-column spacious">
   <h1>{{ page.title }}</h1>
-  <div class="clearfix mxn3">
-    <main class="md-col md-col-8 px3 py1">
-      <p class="muted">
-        {{ page.date | date_to_string }} —
-        {% if author.link %}
-        <a href="{{author.link}}">{{ author.display_name }}</a>
-        {% else %}
-        {{ author.display_name }}
-        {% endif %}
-      </p>
+  <p class="muted">
+    {{ page.date | date_to_string }} —
+    {% if author.link %}
+    <a href="{{author.link}}">{{ author.display_name }}</a>
+    {% else %}
+    {{ author.display_name }}
+    {% endif %}
+  </p>
 
-      {{ content }}
+  {{ content }}
 
-      {% if author.picname %}
-      <img src="/assets/images/avatars/{{author.picname}}" class="circle"/>
+  <footer>
+    {% if page.footer %}
+    {{ page.footer | markdownify }}
+    {% endif %}
+    {% if author.picname %}
+    <img src="/assets/images/avatars/{{author.picname}}" class="circle"/>
+    {% endif %}
+    <br/>
+    <p>
+      By:
+      {% if author.link %}
+      <a href="{{author.link}}">{{ author.display_name }}</a>
+      {% else %}
+      {{ author.display_name }}
       {% endif %}
-      <br/>
-      <p>
-        By:
-        {% if author.link %}
-        <a href="{{author.link}}">{{ author.display_name }}</a>
-        {% else %}
-        {{ author.display_name }}
-        {% endif %}
-      </p>
-    </main>
-
-    <aside class="md-col-right md-col-4 px3 py1">
-      <h1 class="h3">Recent posts</h1>
-
-      <ul class='recent-posts'>
-        {% for post in site.categories[page.categories.first] offset: 0 limit: 10 %}
-        {% if posts.title == page.title %}
-        {% else %}
-        <li>
-          {% assign author = site.authors[post.author] %}
-          <a href="{{post.url}}">{{post.title}}</a> by {{author.display_name}}
-        </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </aside>
-  </div>
-</section>
+    </p>
+  </footer>
+</main>
