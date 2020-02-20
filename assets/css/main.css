@@ -1,13 +1,10 @@
-@import '/assets/fonts/roboto/roboto.css';
-
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   word-wrap: break-word; /* On narrow screens, prefer a broken title over a horizontal scrollbar. */
   scroll-padding-top: 80px;
 }
@@ -90,13 +87,11 @@ header {
 
 header h1 {
   margin: 0;
-  font-weight: 600;
   font-size: 4.0rem;
 }
 
 header p {
   max-width: 48rem;
-  font-weight: 500;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -116,7 +111,12 @@ header p {
   align-items: center;
 }
 
+.front-page-header h1 {
+  font-weight: 700;
+}
+
 .front-page-header .intro-text {
+  font-weight: 600;
   background: rgba(0,0,0,0.4);
   box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.4);
   border-radius: 100px;
@@ -204,7 +204,6 @@ nav {
   width: 100%;
   padding: 0px 5%;
   text-align: right;
-  font-weight: 300;
   z-index: 200;
   background-color: black;
   font-size: 1rem;
@@ -215,6 +214,7 @@ nav {
 
 nav, nav a {
   color: white;
+  font-weight: 600;
 }
 
 nav > .left {
@@ -233,13 +233,11 @@ nav > .right {
   justify-content: flex-end;
 }
 
-
-
 nav .top-level-nav {
   cursor: pointer;
   color: white;
   padding: 0.2rem 1rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 nav .dropdown {
@@ -271,7 +269,6 @@ nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
 
 @media screen and (max-width: 920px) {
   header h1 {
-    font-weight: 600;
     font-size: 2rem;
   }
 
