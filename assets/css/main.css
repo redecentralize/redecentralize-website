@@ -279,6 +279,15 @@ nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
   }
 }
 
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 2em;
+}
+
+.card {
+}
+
 .radar-label {
   display: inline-block;
   padding: .5rem;
