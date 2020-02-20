@@ -246,8 +246,9 @@ nav .dropdown {
   position: absolute;
   right: 0;
   background-color: black;
-  border: 1px solid white;
-  border-radius: 3px;
+  border-right: 1px solid #11aa55;
+  border-bottom: 1px solid #11aa55;
+  box-shadow: 1px 1px 1px #33333366;
   white-space: nowrap;
 }
 
@@ -265,6 +266,7 @@ nav .dropdown li a {
 nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
   background-color: #11aa55;
   text-decoration: none;
+  outline: none;
 }
 
 @media screen and (max-width: 920px) {
