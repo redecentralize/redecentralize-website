@@ -282,10 +282,8 @@ nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-gap: 2em;
   gap: 2em;
-}
-
-.card {
 }
 
 .radar-label {
