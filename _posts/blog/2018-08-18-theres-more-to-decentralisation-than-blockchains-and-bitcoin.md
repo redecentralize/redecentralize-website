@@ -6,6 +6,10 @@ date: 2018-08-18 08:00:00
 author: "shevski"
 title: "There’s more to decentralisation than blockchains and bitcoin"
 redirect_from: /blog/2018/08/18/how-decentralised-are-you
+footer: |
+  <p>
+    This article was originally titled <i>“how decentralised are you?”</i> and also appeared <a rel="alternate" href="https://medium.com/@shevski/how-decentralised-are-you-a6539eeb27ff">on medium.com</a> and <a rel="alternate" href="https://blog.p2pfoundation.net/theres-more-to-decentralisation-than-blockchains-and-bitcoin/2018/10/02">on the P2P Foundation blog</a>.
+  </p>
 ---
 
 As the decentralisation movement grows, I consider the characteristics of decentralisation, what decentralisation is a tactic for, why and what work still needs to happen to re-decentralize the digital world.

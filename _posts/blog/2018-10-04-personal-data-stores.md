@@ -5,6 +5,10 @@ summary: "We’ve heard about the consequences of mass personal data mining �
 title: "Are Personal Data Stores about to become the NEXT BIG THING?"
 date: 2018-10-04
 author: "shevski"
+footer: |
+  <p>
+    This article also appeared <a rel="alternate" href="https://medium.com/@shevski/are-personal-data-stores-about-to-become-the-next-big-thing-b767295ed842">on medium.com</a>.
+  </p>
 ---
 
 Written by [Irina](https://twitter.com/shevski) and [Simon Worthington](https://twitter.com/51M0NW).
