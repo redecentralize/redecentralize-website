@@ -6,7 +6,7 @@ title: "Instead of breaking up big tech, let’s break them open"
 date: 2020-02-07
 author: "shevski"
 footer: |
-    <small><i>An earlier version of this post appeared [on medium.com](https://medium.com/@shevski/instead-of-breaking-up-big-tech-lets-break-it-open-7535b59dc2f6)</i></small>
+  <i>An earlier version of this post appeared [on medium.com](https://medium.com/@shevski/instead-of-breaking-up-big-tech-lets-break-it-open-7535b59dc2f6)</i>
 ---
 
 From advocates, politicians and technologists, calls for doing something about big tech grow louder by the day. Yet concrete ideas are few or failing to reach the mainstream.

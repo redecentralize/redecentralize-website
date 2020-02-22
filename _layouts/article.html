@@ -19,8 +19,11 @@ id: article
   {{ content }}
 
   <footer>
+    <hr/>
     {% if page.footer %}
+    <small>
     {{ page.footer | markdownify }}
+    </small>
     {% endif %}
     {% if author.picname %}
     <img src="/assets/images/avatars/{{author.picname}}" class="circle"/>
