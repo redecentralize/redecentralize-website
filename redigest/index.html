@@ -3,29 +3,35 @@ layout: default
 title: Digest
 ---
 
-<section class="container single-column bg-white">
-
-  <h1>Redecentralize Digest</h1>
-  <p>
-    The Redecentralize Digest is a monthly publication about internet (re)decentralisation. It covers progress and thoughts relating technology and politics, without ties to a particular project nor to one definition of decentralisation — figuring out its meanings and relations is part of the mission.
-  </p>
-  <p>
-    The digest’s format and content are not set in stone. Feedback and suggestions for next editions are welcome at <a href="mailto:hello@redecentralize.org">hello@redecentralize.org</a>.
-  </p>
-  <p>
-    <a class="btn btn-news" target="_blank" href="http://eepurl.com/DgRA1">Subscribe to our newsletter to receive future digests by email</a>
-  </p>
-  <h2>Previous (re)digests</h2>
-
-  {% for entry in site.categories['redigest'] %}
-  <h3>
-    <a href="{{ entry.url }}">
-      {{ entry.date | date: "%B %Y" }}
-    </a>
-  </h3>
-  <p>
-    {{ entry.summary }}
-  </p>
-  {% endfor %}
-
+<div class="bg-green">
+  <header>
+    <h1>Redecentralize Digest</h1>
+    <p>
+      The Redecentralize Digest is a monthly publication about internet (re)decentralisation. It covers progress and thoughts relating technology and politics, without ties to a particular project nor to one definition of decentralisation — figuring out its meanings and relations is part of the mission.
+    </p>
+    <p>
+      To receive future digests, follow our <a href="/blog/">blog</a> or newsletter:
+      <a class="flashy btn" target="_blank" href="http://eepurl.com/DgRA1">Subscribe to our newsletter</a>
+    </p>
+    <p>
+      Feedback and suggestions for next editions are welcome at <a href="mailto:hello@redecentralize.org">hello@redecentralize.org</a>.
+    </p>
+  </header>
+</div>
+<section class="container">
+  <h2>Previous digests</h2>
+  <div class="card-grid">
+    {% for entry in site.categories['redigest'] %}
+    <article>
+      <h3>
+        <a rel="bookmark" href="{{ entry.url }}">
+          {{ entry.date | date: "%B %Y" }}
+        </a>
+      </h3>
+      <p>
+        {{ entry.summary }}
+      </p>
+    </article>
+    {% endfor %}
+  </div>
 </section>

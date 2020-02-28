@@ -5,6 +5,8 @@ summary: "This post covers what breaking up big tech would mean and why it’s n
 title: "Instead of breaking up big tech, let’s break them open"
 date: 2020-02-07
 author: "shevski"
+footer: |
+  <i>An earlier version of this post appeared [on medium.com](https://medium.com/@shevski/instead-of-breaking-up-big-tech-lets-break-it-open-7535b59dc2f6)</i>
 ---
 
 From advocates, politicians and technologists, calls for doing something about big tech grow louder by the day. Yet concrete ideas are few or failing to reach the mainstream.
@@ -92,5 +94,3 @@ We need to do more to ensure our data and essential services are not in the hand
 Redecentralize.org and friends are working on a campaign to figure out how to make this a reality. Is this something you’re working on already or want to contribute and get invited to future workshops and calls? Then ping me on <hello@redecentralize.org>.
 
 The opportunity is huge. By breaking big tech open, we can build a fairer digital future for all, so come get involved!
-
-<small><i>An earlier version of this post appeared [on medium.com](https://medium.com/@shevski/instead-of-breaking-up-big-tech-lets-break-it-open-7535b59dc2f6)</i></small>

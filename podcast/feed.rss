@@ -8,7 +8,7 @@ layout: null
 <channel>
 
 <title>Redecentralize interviews</title>
-<link>http://redecentralize.org/interviews</link>
+<link>https://redecentralize.org/interviews</link>
 
 <language>en-us</language>
 <itunes:explicit>clean</itunes:explicit>
@@ -24,19 +24,19 @@ layout: null
   <itunes:email>francis@flourish.org</itunes:email>
 </itunes:owner>
 
-<itunes:image href="http://redecentralize.org/assets/images/logo-square-small.png" />
+<itunes:image href="https://redecentralize.org/assets/images/logo-square-small.png" />
 <itunes:category text="Technology"/>
 
 {% for post in site.categories['interviews'] %}
 
 <item>
   <title>{{ post.title }}</title>
-  <link>http://redecentralize.org{{ post.url }}</link>
+  <link>https://redecentralize.org{{ post.url }}</link>
   <itunes:author>{{ post.author }}</itunes:author>
   <itunes:summary>{{ post.summary }}</itunes:summary>
   <itunes:image href="{{ post.poster}}" />
   <enclosure url="{{ post.url-mp4 }}" length="{{ post.size-mp4 }}" type="video/mp4" />
-  <guid>http://redecentralize.org{{ post.url }}</guid>
+  <guid>https://redecentralize.org{{ post.url }}</guid>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
   <itunes:duration>{{ post.duration }}</itunes:duration>
 </item>

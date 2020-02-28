@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="google-site-verification" content="SslreymzxZXYc1zIgjvt-3sXg0IQcfI8CxgvXIN0VYA" />
   {% if page.id == "index" %}
   <title>Redecentralize.org</title>
   {% else %}
@@ -19,60 +18,71 @@
 
   <link rel="shortcut icon" href="/assets/images/logo-square-large.png"/>
 
+  <link rel="me" href="https://mastodon.social/@redecentralize"/>
+
   {{ page.head }}
 </head>
 
 <body>
   <nav>
     <div class="left">
-      <a href="/" class="top-level-nav caps">
+      <a href="/" class="top-level-nav caps" style="font-weight: 700;">
       <img
         src="/assets/images/logo-square-large.png"
-        style="height: 2em; vertical-align: middle; margin-right: 1em;"
+        width="20" height="20"
+        style="height: 2em; width: auto; vertical-align: middle; margin-right: 1em;"
       />
         Redecentralize
       </a>
     </div>
     <div class="right">
+      <a class="top-level-nav" href="/about/">About</a>
+      <a class="top-level-nav" href="/blog/">Blog</a>
       <details class="relative collapse-on-click">
         <summary class="top-level-nav">Projects</summary>
-        <div class="dropdown" style="min-width:124px">
+        <div class="dropdown">
           <ul>
-            <li {% if page.id == 'interviews' %} class="active" {% endif %} > <a href="/interviews/">Founder Interviews</a></li>
-            <li {% if page.id == 'radar' %} class="active" {% endif %} > <a href="/radar/" >App Radar</a></li>
-            <li> <a href="https://github.com/redecentralize/alternative-internet" target="_blank">Alternative Internet</a></li>
-            <li {% if page.id == 'events' %} class="active" {% endif %} > <a href="/events">Events</a></li>
+            <li {% if page.id == 'interviews' %}class="active"{% endif %}>
+              <a href="/interviews/">Founder Interviews</a>
+            </li>
+            <li>
+              <a href="https://github.com/redecentralize/alternative-internet" target="_blank">
+                Alternative Internet
+              </a>
+            </li>
+            <li>
+              <a href="/redigest/">ReDigest</a>
+            </li>
+            <li {% if page.id == 'events' %}class="active"{% endif %}>
+              <a href="/events/">Events</a>
+            </li>
           </ul>
         </div>
       </details>
       <details class="relative collapse-on-click">
         <summary class="top-level-nav">Get Involved</summary>
-        <div class="dropdown" style="min-width:124px">
+        <div class="dropdown">
           <ul>
-            <li> <a href="https://github.com/redecentralize/organize/issues" target="_blank">Help organize</a></li>
-            <li> <a href="https://matrix.to/#/!UOiWshZxoMFennjjxm:matrix.org" target="_blank">Chat channel</a></li>
-            <li> <a href="https://github.com/redecentralize/organize/wiki" target="_blank">Wiki</a></li>
-            <li> <a href="https://adhoc.group/*redecentralize" target="_blank">Discussion list</a></li>
-            <li> <a href="https://github.com/redecentralize/organize/wiki/Local-Groups" target="_blank">Local groups</a></li>
-            <li> <a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
+            <li><a href="/#contact">Contact us</a></li>
+            <li><a href="https://riot.im/app/#/room/#redecentralize:matrix.org" title="Join #redecentralize:matrix.org" target="_blank">Join our chat</a></li>
+            <li><a href="https://www.patreon.com/redecentralize" target="_blank">Donate to us</a></li>
           </ul>
         </div>
       </details>
-      <a class="top-level-nav" href="/blog/">Blog</a>
     </div>
   </nav>
 
   {{ content }}
 
-  <footer>
+  <footer class="site-footer bg-black">
     Support Redecentralize:
-    <a class="btn-support" href="https://www.patreon.com/bePatron?u=12764983">Become a patron</a>
+    <a class="flashy btn btn-small" href="https://www.patreon.com/bePatron?u=12764983">Become a patron</a>
   </footer>
 
   <script type="text/javascript">
     // Make a navigation drop-down menu close when the user clicks anywhere outside of it.
     document.addEventListener('click', event => {
-      for (detailsElement of Array.from(document.querySelectorAll('details.collapse-on-click'))) {
+      for (detailsElement of document.querySelectorAll('details.collapse-on-click')) {
         if (detailsElement.open && !detailsElement.contains(event.target)) {
           detailsElement.open = false;
         }

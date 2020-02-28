@@ -10,7 +10,7 @@ date: 2014-08-09 08:00:00
 
 In June, through the [Internet Freedom](http://www.meetup.com/Internet-Freedom-Lisbon/) meetup from Lisbon, we organised a day with
 [Michiel](https://twitter.com/michielbdejong) from the [Unhosted Movement](https://unhosted.org/).
-Francis already did an [interview of him some months ago](http://redecentralize.org/interviews/2014/03/26/12-michiel-unhosted.html).
+Francis already did an [interview of him some months ago](https://redecentralize.org/interviews/2014/03/26/12-michiel-unhosted.html).
 
 
 ## Introduction

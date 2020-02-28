@@ -6,6 +6,10 @@ date: 2018-08-18 08:00:00
 author: "shevski"
 title: "There’s more to decentralisation than blockchains and bitcoin"
 redirect_from: /blog/2018/08/18/how-decentralised-are-you
+footer: |
+  <p>
+    This article was originally titled <i>“how decentralised are you?”</i> and also appeared <a rel="alternate" href="https://medium.com/@shevski/how-decentralised-are-you-a6539eeb27ff">on medium.com</a> and <a rel="alternate" href="https://blog.p2pfoundation.net/theres-more-to-decentralisation-than-blockchains-and-bitcoin/2018/10/02">on the P2P Foundation blog</a>.
+  </p>
 ---
 
 As the decentralisation movement grows, I consider the characteristics of decentralisation, what decentralisation is a tactic for, why and what work still needs to happen to re-decentralize the digital world.
@@ -20,7 +24,7 @@ Yet, what does decentralisation actually mean? Does it only apply to technology 
 
 The number of times I’ve heard ‘it’s decentralised’ as a reason to use or move to a particular application or platform recently, is impressive. All kinds of crypto/blockchain companies are branding themselves as ‘decentralised’ — every day there’s a new decentralised social network, decentralised file storage solution, decentralised identity app, decentralised syncing, contract management, health data sharing, dating service, avocado delivery — all decentralised! As if decentralisation is something wonderful and worthwhile in and of itself. Yet, when I ask ‘why does that matter?’ or ‘how are you decentralised?’ the answers tend to be very different and even inconsistent with the actual business proposition people are working on. How did we get here and what’s beyond the hype?
 
-Decentralisation means different things to different people. When [Francis](https://twitter.com/frabcus) and I picked [Redecentralize](http://redecentralize.org/) to name our decentralisation-promoting side project 6 years ago, it was precisely because we cared about a number of things: privacy, competition and resilience. It wasn’t just about one solution (such as encryption) that we wanted to promote, it was a set of values: freedom, autonomy, collaboration, experimentation. Those values were tied up to the original spirit of the open web and net — the sense of freedom and possibility that we wanted to remind people of, and protect.
+Decentralisation means different things to different people. When [Francis](https://twitter.com/frabcus) and I picked [Redecentralize](https://redecentralize.org/) to name our decentralisation-promoting side project 6 years ago, it was precisely because we cared about a number of things: privacy, competition and resilience. It wasn’t just about one solution (such as encryption) that we wanted to promote, it was a set of values: freedom, autonomy, collaboration, experimentation. Those values were tied up to the original spirit of the open web and net — the sense of freedom and possibility that we wanted to remind people of, and protect.
 
 As decentralisation becomes more popular, those values and goals are getting lost as the community fractures into [various roles](https://medium.com/@shevski/when-movements-go-mainstream-9c73d5613927). We need a way to distinguish and assess decentralisation meaningfully.
 

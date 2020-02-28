@@ -4,37 +4,47 @@ title: Home
 id: index
 ---
 
-<header class="front-page-header">
-  <h1 class="caps center">
-    Re­decentra­lize
-    <hr class="hr-greenish mx-auto"/>
-  </h1>
-  <p>
-    We’ve had enough of digital monopolies and surveillance capitalism. We want an alternative world that works for everyone, just like the original intention of the web and net.
-    <br/>
-    We seek a world of open platforms and protocols with real choices of applications and services for people. We care about privacy, transparency and autonomy. Our tools and organisations should fundamentally be accountable and resilient.
-  </p>
+<header class="front-page-header bg-black">
+  <h1 class="caps center">Re­decentra­lize</h1>
+  <hr class="flashy pill centered"/>
+  <div class="intro-text">
+    <p>
+      We’ve had enough of digital monopolies and surveillance capitalism. We want a world that works for everyone, just like the original intention of the web and net.
+    </p>
+    <p>
+      We seek a world of open platforms and protocols with real choices of applications and services for people. We care about privacy, transparency and autonomy. Our organisations and tools should fundamentally be accountable and resilient.
+    </p>
+  </div>
 </header>
 
 <div class="bg-medium">
-  <section id="about" class="container clearfix">
-    <h1 class="caps">
-      About us
-    </h1>
-    <p>
-      <strong>We are a movement of people pioneering technologies and governance models to redecentralize the web.</strong>
-    </p>
-    <hr class="hr-magenta"/>
-    <div class="clearfix mxn3">
+  <section class="container clearfix">
+    <h2>Our mission</h2>
+    <hr class="flashy pill"/>
+    <div class="mxn3">
       <div class="md-col md-col-6 px3">
-        <h2 class="caps">Our mission</h3>
+        <h3>Taking back the net…</h3>
         <p>
-          The internet, once hailed as a force for democracy, has allowed a handful of monoliths to amass more power than most nation states. Social media have become surveillance machines, making our interactions with technology feel exploitative. We aim to change that. Redecentralize strives for an alternative ecosystem made up of interoperable products and services build on public infrastructures. Products, moreover, that do not surveill their users, but instead protect their right to privacy.
+          Redecentralize challenges the prevalent paradigm of central ‘clouds’ and ‘platforms’ that intermediate people’s interactions, set the rules, and lock them in.
+        </p>
+        <p>
+          We strive for an ecosystem of interoperable products, letting people choose their software and keep their data themselves.
+        </p>
+        <p>
+          Think self-hostable social media where users and communities can set their own rules; apps that don’t spy; devices that obey their user, not creator.
         </p>
       </div>
       <div class="md-col md-col-6 px3">
-        <h2 class="caps">Bridging Communities</h3>
-        <p>A web built for everyone requires us all to get involved. Redecentralize creates space for communities to share their knowledge, learn from each other and celebrate successes. We bring people together to work on common challenges and build open infrastructures that promote interoperable services. We help existing solutions gain mainstream attention and help define how we measure progress to the goals and objectives of decentralization.</p>
+        <h3>…by supporting <em>decent</em> tech</h3>
+        <p>
+          Redecentralize connects, facilitates and promotes projects pursuing decentralisation. We bring people together to learn and exchange, and help bridge the gap between technology, media and politics.
+        </p>
+        <p>
+          Amid growing awareness of problems with big tech, we advocate for structural solutions. Where others might debate how a powerful platform should be kept accountable, we question why it even has this power — and show the alternatives.
+        </p>
+        <p>
+          <a href="/about/" class="flashy btn">More about Redecentralize →</a>
+        </p>
       </div>
     </div>
   </section>
@@ -42,55 +52,76 @@ id: index
 
 <div class="bg-green">
   <section class="container">
-    <h1 class="caps">
-      <span class="">Values</span>
-    </h1>
-    <hr class="hr-yellow"/>
-    <div class="clearfix mxn3">
-      <div class="md-col md-col-4 px3 py1">
-        <h3 class="caps">Autonomy</h3>
-        <p class="">Data &amp; technology should enhance our ability to make informed and un-coerced decisions, on both an individual and organisational level. It should respect our personal and collective privacy. </p>
-      </div>
-      <div class="md-col md-col-4 px3 py1">
-        <h3 class="caps">Inclusivity</h3>
-        <p class="">We only succeed when the systems and tools we create are inclusive to anyone, regardless of time availability, physical fitness, wealth or digital literacy.</p>
-      </div>
-      <div class="md-col md-col-4 px3 py1">
-        <h3 class="caps">Privacy &amp; trust</h3>
-        <p class="">Digital services should respect our personal and collective privacy. Personal information should be secure and used to deliver services in a trusted, non-exploitative and accountable way.</p>
-      </div>
+    <h2>Latest posts</h2>
+    <hr class="flashy pill"/>
+    <div class="card-grid">
+      {% for post in site.categories['blog'] offset: 0 limit: 3 %}
+      {% assign author = site.authors[post.author] %}
+      <article>
+        {{ post.date  | date: "%-d %B %Y" }} — <small>{{ author.display_name }}</small>
+        <a rel="bookmark" href="{{post.url}}">
+          <h3>{{ post.title }}</h3>
+        </a>
+        <p>
+          {{ post.summary }}
+        </p>
+      </article>
+      {% endfor %}
+    </div>
+    <div style="display: flex; flex-flow: row wrap; align-items: baseline; justify-content: space-around;">
+      <p style="margin: 1em;">
+        <a class="flashy btn" href="/blog/">See all posts →</a>
+      </p>
+      <p style="margin: 1em;">
+        To get updates in your inbox: <a class="btn btn-outline" target="_blank" href="http://eepurl.com/DgRA1">Sign up for our newsletter</a>
+      </p>
     </div>
   </section>
 </div>
 
-<div class="bg-grey">
+<div class="bg-medium">
   <section class="container">
-    <h1 class="caps">
-      How to join
-    </h1>
-    <h4 class="">Redecentralize relies heavily on its community of technologists, scientists, designers and decentralization enthusiasts. Get involved!</h4>
-    <hr class="hr-magenta"/>
-    <p>
-      We need web developers, community managers, event organisers, marketing and policy advisors to help build and grow our community and organise our next conference. Eager to help? Email us at <a href="mailto:hello@redecentralize.org">hello@redecentralize.org</a>, join the conversation on our <a href='https://groups.google.com/forum/#!forum/redecentralize' target="_blank">forum</a>, or chat with us on riot.im: <a href='https://riot.im/app/#/room/!UOiWshZxoMFennjjxm:matrix.org' target="_blank">#redecentralize</a>.
-    </p>
-    <p>
-      To stay up to date, <a href="http://eepurl.com/DgRA1">join our newsletter</a> and receive major updates and news about our next conference!
-    </p>
-    <div class="py2">
-      <a class="btn btn-news caps" target="_blank" href="http://eepurl.com/DgRA1">Sign up for our newsletter!</a>
+    <h2>Resources</h2>
+    <hr class="flashy pill"/>
+    <div class="card-grid">
+      <section>
+        <h3>Learn more about decentralisation</h3>
+        <p>
+          Read our articles on <a href="/blog/2018/08/18/theres-more-to-decentralisation-than-blockchains-and-bitcoin.html">the what and why of decentralization</a> and <a href="/blog/2020/02/07/breaking-big-tech-open.html">how to break big tech <em>open</em></a>. We also surface writings from others in our monthly <a href="/redigest/">digests</a>.
+        </p>
+      </section>
+      <section>
+        <h3>Find decentralised alternatives</h3>
+        <p>
+          Check out or contribute to the <a href="https://github.com/redecentralize/alternative-internet">alternative internet list</a>, a crowd-sourced directory of hundreds of software projects.
+        </p>
+        <p>
+          We also love <a href="https://switching.software/">switching.software</a> as a user-friendly guide to ethical alternatives to well-known apps and services.
+        </p>
+      </section>
+      <section>
+        <h3>Watch founder interviews</h3>
+        <p>
+          Back in 2013 we started with interviewing people working in this space, leading to over 20 videos revealing the minds behind the projects. <a href="/interviews/">Explore the archive</a>.
+        </p>
+      </section>
     </div>
   </section>
 </div>
 
 <div class="bg-dark">
   <section id="contact" class="container">
-    <h1 class="caps">Contact</h1>
-    <hr class="hr-yellow"/>
+    <h2>Get involved</h2>
+    <hr class="flashy pill"/>
+    <p>Redecentralize relies heavily on its community of technologists, scientists, designers and decentralization enthusiasts. Get involved!</p>
     <p>
-      For more information you can reach us at:
-        <a href="" target="_blank">
-          <strong>hello@redecentralize.org</strong>
-        </a>
+      We need web developers, community managers, event organisers, marketing and policy advisors to help build and grow our community and organise our next conference. Eager to help? Email us at <a href="mailto:hello@redecentralize.org">hello@redecentralize.org</a>, or chat with us on Matrix in <a href="https://riot.im/app/#/room/#redecentralize:matrix.org" target="_blank">#redecentralize:matrix.org</a>.
+    </p>
+    <p>
+      If you want to just stay in the loop, join our newsletter to receive updates, blog posts, and a monthly digest in your inbox:
+    </p>
+    <p>
+      <a class="flashy btn" target="_blank" href="http://eepurl.com/DgRA1">Sign up for our newsletter</a>
     </p>
   </section>
 </div>

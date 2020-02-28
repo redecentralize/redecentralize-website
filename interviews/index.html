@@ -8,23 +8,21 @@ id: interviews
   <header>
     <h1>Founder Interviews</h1>
     <p>
-      We interview the passionate people who start decentralization projects. What motivates them? What's unique about their technologies? What business model do they use?
+      In our earlier years, we interviewed many passionate people who started decentralisation projects. What motivates them? What’s special about their technologies? What business/funding model do they use?
     </p>
     <p>
-      <strong>Subscribe:</strong>
-      <a style="margin-left: 8px" target="_blank" href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music"></i> iTunes</a>
+      Also available via:
       &nbsp;<a target="_blank" href="/podcast/feed.rss"><i class="icon-rss"></i> RSS feed</a>
+      &nbsp;<a target="_blank" href="https://itunes.apple.com/gb/podcast/redecentralize/id675823747"><i class="icon-music"></i> iTunes</a>
       &nbsp;<a target="_blank" href="http://www.youtube.com/redecentralize"><i class="icon-youtube"></i> YouTube</a>
-      &nbsp;<a target="_blank" href="http://t.co/z1zZ16C57Z"><i class="icon-envelope"></i> Newsletter</a>
-      &nbsp;<a target="_blank" href="https://twitter.com/redecentralize"><i class="icon-twitter"></i> Twitter</a>
     </p>
   </header>
 </div>
 
-<section class="container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+<section class="container card-grid">
   {% for post in site.categories['interviews'] %}
-  <div class="p2">
-    <a href="{{ post.url }}">
+  <article>
+    <a rel="bookmark" href="{{ post.url }}">
       <img class="rounded" src="{{ post.poster }}"/>
     </a>
     <h4>{{ post.title }}</h4>
@@ -32,6 +30,6 @@ id: interviews
     <a href="{{ post.url }}">
       Watch now
     </a>
-  </div>
+  </article>
   {% endfor %}
 </section>

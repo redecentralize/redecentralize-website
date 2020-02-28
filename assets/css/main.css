@@ -1,13 +1,10 @@
-@import '/assets/fonts/roboto/roboto.css';
-
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   word-wrap: break-word; /* On narrow screens, prefer a broken title over a horizontal scrollbar. */
   scroll-padding-top: 80px;
 }
@@ -54,9 +51,7 @@ figcaption {
   font-size: smaller;
 }
 
-footer {
-  background-color: black;
-  color: white;
+footer.site-footer {
   padding: 40px;
   font-size: 0.8rem;
   text-align: center;
@@ -72,31 +67,19 @@ footer {
 }
 
 .btn {
-  display: inline-block;
-  background-color: rgb(135, 23, 121);
-  color: white;
-  margin-bottom: 20px;
-  font-size: 0.8rem;
-  border-radius: 3px;
-}
-
-.btn-support {
-  display: inline-block;
-  background-color: #0dab76;
-  color: white;
-  padding: 2px 10px;
   border-radius: 10px;
 }
 
-.btn-news {
-  display: inline-block;
-  background-color: #f00699;
-  color: white;
-  border-radius: 20px;
+.btn-small {
+  padding: 2px 10px;
+}
+
+.btn.caps {
+  font-size: 0.8rem;
 }
 
 header {
-  padding: 1rem;
+  padding: 2rem;
   padding-top: 80px; /* Some extra space because of the navigation bar */
   max-width: 48rem;
   margin: auto;
@@ -104,13 +87,11 @@ header {
 
 header h1 {
   margin: 0;
-  font-weight: 600;
   font-size: 4.0rem;
 }
 
 header p {
   max-width: 48rem;
-  font-weight: 500;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -118,7 +99,9 @@ header p {
 .front-page-header {
   max-width: none;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.2), rgba(0,0,0,0.1), rgba(0,0,0,0.0), rgba(0,0,0,0.7)), url('/assets/images/nasa-unsplash.jpg');
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.0) 80%, #fbfaf999), url('/assets/images/nasa-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -128,23 +111,71 @@ header p {
   align-items: center;
 }
 
+.front-page-header h1 {
+  font-weight: 700;
+}
+
+.front-page-header .intro-text {
+  font-weight: 600;
+  background: rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.4);
+  border-radius: 100px;
+}
+
+.front-page-header > :not(.intro-text) {
+  /* Keep other things above the box-shadow of the intro-text */
+  z-index: 10;
+}
+
+.front-page-header .intro-text p:last-child {
+  margin-bottom: 0;
+}
+
 hr {
+  width: 50%;
+  margin: 1.5rem auto;
+}
+
+hr.pill {
   height: 15px;
   width: 100px;
   border-radius: 15px;
   margin: 1.5rem 0;
 }
 
-hr.hr-magenta {
+hr.pill.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flashy {
   background: #f00699;
+  color: white;
 }
 
-hr.hr-greenish {
-  background: #0dab76;
+.bg-black .flashy {
+  background: #11aa55;
+  color: white;
 }
 
-hr.hr-yellow {
+.bg-dark .flashy,
+.bg-green .flashy {
   background: #fff90d;
+  color: black;
+}
+
+.bg-dark a,
+.bg-green a {
+  color: #fff90d;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.bg-grey {
+  background-color: #f1f1f1;
 }
 
 .bg-medium {
@@ -153,28 +184,17 @@ hr.hr-yellow {
 }
 
 .bg-green {
+  background-color: #11aa55;
   background-image: linear-gradient(to top,rgb(13,171,118, 0.95),rgb(13,171,118, 0.95)), url("/assets/images/water_pattern.jpg");
   background-size: 1400px;
   color: white;
 }
 
-.bg-green a {
-  color: white;
-}
-
 .bg-dark {
+  background-color: #332266;
   background-image: linear-gradient(to bottom, rgba(59, 30, 104, 0.95), rgba(59, 30, 104, 0.95)), url("/assets/images/water_pattern.jpg");
   background-size: 1400px;
   color: white;
-}
-
-.bg-dark a {
-  color: white;
-}
-
-.bg-grey {
-  color: #300124;
-  background-color: #f1f1f1;
 }
 
 nav {
@@ -184,7 +204,6 @@ nav {
   width: 100%;
   padding: 0px 5%;
   text-align: right;
-  font-weight: 300;
   z-index: 200;
   background-color: black;
   font-size: 1rem;
@@ -195,6 +214,7 @@ nav {
 
 nav, nav a {
   color: white;
+  font-weight: 600;
 }
 
 nav > .left {
@@ -213,26 +233,22 @@ nav > .right {
   justify-content: flex-end;
 }
 
-
-
 nav .top-level-nav {
   cursor: pointer;
   color: white;
   padding: 0.2rem 1rem;
-  font-weight: 700;
-}
-
-nav a.top-level-nav:hover {
-  text-decoration: none;
+  font-weight: 600;
 }
 
 nav .dropdown {
+  min-width: 124px;
   z-index: 210;
   position: absolute;
   right: 0;
-  padding: 5px;
   background-color: black;
-  border-radius: 3px;
+  border-right: 1px solid #11aa55;
+  border-bottom: 1px solid #11aa55;
+  box-shadow: 1px 1px 1px #33333366;
   white-space: nowrap;
 }
 
@@ -242,15 +258,32 @@ nav .dropdown ul {
   margin-bottom: 0;
 }
 
+nav .dropdown li a {
+  display: block;
+  padding: .5em;
+}
+
+nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
+  background-color: #11aa55;
+  text-decoration: none;
+  outline: none;
+}
+
 @media screen and (max-width: 920px) {
   header h1 {
-    font-weight: 600;
     font-size: 2rem;
   }
 
   nav {
     padding: 0;
   }
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-gap: 2em;
+  gap: 2em;
 }
 
 .radar-label {
@@ -275,6 +308,12 @@ nav .dropdown ul {
 }
 
 /* for more whitespace between sections, list items, … */
+.spacious {
+  font-family: 'Lato', 'Verdana', 'Roboto', 'Arial', 'sans-serif';
+  font-size: large;
+  line-height: 1.6;
+}
+
 .spacious li {
   margin-bottom: 0.2em;
 }

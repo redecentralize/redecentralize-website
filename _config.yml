@@ -1,4 +1,4 @@
-name: Redecentralize
+title: Redecentralize
 timezone: Europe/London
 plugins:
   - jekyll-sitemap
@@ -15,7 +15,7 @@ authors:
   shevski:
     display_name: Irina Bolychevsky
     picname: shevski.jpg
-    link: https://twitter.com/shevski
+    link: /about/#ira
   rossjones:
     display_name: Ross Jones
     picname: rossjones.jpg
@@ -38,3 +38,4 @@ authors:
     link: https://twitter.com/michieldejong
   gerben:
     display_name: Gerben
+    link: /about/#gerben

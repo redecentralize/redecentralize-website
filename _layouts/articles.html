@@ -3,24 +3,33 @@ layout: default
 id: articles
 ---
 
+<div class="bg-green">
+  <header>
+    <h1>{{page.title}}</h1>
+    {% if page.header %}
+    {{ page.header }}
+    {% endif %}
+  </header>
+</div>
 <div class="bg-medium">
-  <section class="container single-column">
-    <h1 class="caps">{{page.title}}</h1>
-    <hr class="hr-magenta"/>
+  <main class="container single-column">
     {% for post in site.categories[page.category] %}
     {% assign author = site.authors[post.author] %}
-    <div class="py2">
+    <article class="py2">
       {{ post.date  | date: "%-d %B %Y" }} - <small>{{ author.display_name }}</small>
-      <a href="{{post.url}}">
-        <h2 class="h4 caps">{{ post.title }}</h2>
+      <a rel="bookmark" href="{{post.url}}">
+        <h2 class="h3">{{ post.title }}</h2>
       </a>
       <p>
         {{ post.summary }}
-        <a href="{{post.url}}">
-          Read more &raquo;
-        </a>
       </p>
-    </div>
+    </article>
     {% endfor %}
-  </section>
+    {% if page.footer %}
+    <footer>
+      <hr class="flashy pill"/>
+      {{ page.footer }}
+    </footer>
+    {% endif %}
+  </main>
 </div>
