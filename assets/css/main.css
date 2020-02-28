@@ -308,6 +308,12 @@ nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
 }
 
 /* for more whitespace between sections, list items, … */
+.spacious {
+  font-family: 'Lato', 'Verdana', 'Roboto', 'Arial', 'sans-serif';
+  font-size: large;
+  line-height: 1.6;
+}
+
 .spacious li {
   margin-bottom: 0.2em;
 }
