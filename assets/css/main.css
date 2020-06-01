@@ -326,3 +326,10 @@ nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
 .spacious h3 {
   margin-top: 2em;
 }
+
+.spacious img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
