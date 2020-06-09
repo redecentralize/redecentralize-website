@@ -3,26 +3,35 @@ layout: none
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
 
-<title>{{ page.title }} — Redecentralize</title>
-<link>https://redecentralize.org</link>
+<title>{{ page.title | xml_escape }}</title>
+<link>{{ page.url_of_html_version | default: page.dir | absolute_url }}</link>
+<atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
 
-<language>en-us</language>
+<language>en</language>
 
-<description>{{ page.description }}</description>
+<description>{{ page.description | xml_escape }}</description>
+
+<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+
+<image>
+  <url>{{ "/assets/images/logo-square-small.png" | absolute_url }}</url>
+  <width>100</width>
+  <height>100</height>
+</image>
 
 {% for post in site.categories[page.category] %}
 {% assign author = site.authors[post.author] %}
 <item>
-  <title>{{ post.title }}</title>
-  <link>https://redecentralize.org{{ post.url }}</link>
-  <author>{{ author.display_name }}</author>
-  <description><![CDATA[{{ post.content }}]]></description>
-  <guid>https://redecentralize.org{{ post.url }}</guid>
+  <link>{{ post.url | absolute_url }}</link>
+  <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+  <title>{{ post.title | xml_escape }}</title>
+  <author>{{ author.display_name | xml_escape }}</author>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+  <description><![CDATA[{{ post.content }}]]></description>
 </item>
 
 {% endfor %}
