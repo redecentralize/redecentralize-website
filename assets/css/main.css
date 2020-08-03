@@ -17,12 +17,12 @@ a {
 
 abbr {
   text-decoration: dotted underline;
-  text-decoration: dotted underline #00000066;
+  text-decoration-color: #00000066;
 }
 
-a[title] {
+a[title]:not(:hover) {
   text-decoration: dotted underline;
-  text-decoration: dotted underline #3b1ecc66;
+  text-decoration-color: #3b1ecc66;
 }
 
 h1, h2, h3, h4, h5 {
@@ -147,14 +147,34 @@ hr.pill.centered {
   margin-right: auto;
 }
 
-.flashy {
+.flashy,
+.bg-medium .flashy,
+.bg-grey .flashy {
   background: #f00699;
   color: white;
+}
+
+.bg-medium a,
+.bg-grey a {
+  color: #c00466;
+}
+
+.bg-medium a[title],
+.bg-grey a[title] {
+  color: #f0069966;
 }
 
 .bg-black .flashy {
   background: #11aa55;
   color: white;
+}
+
+.bg-black a {
+  color: #11aa55;
+}
+
+.bg-black a[title] {
+  text-decoration-color: #11aa5566;
 }
 
 .bg-dark .flashy,
@@ -166,6 +186,11 @@ hr.pill.centered {
 .bg-dark a,
 .bg-green a {
   color: #fff90d;
+}
+
+.bg-dark a[title],
+.bg-green a[title] {
+  text-decoration-color: #fff90d66;
 }
 
 .bg-black {
