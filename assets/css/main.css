@@ -80,7 +80,6 @@ footer.site-footer {
 
 header {
   padding: 2rem;
-  padding-top: 80px; /* Some extra space because of the navigation bar */
   max-width: 48rem;
   margin: auto;
 }
@@ -98,7 +97,7 @@ header p {
 
 .front-page-header {
   max-width: none;
-  min-height: 100vh;
+  min-height: 100vh; /* fill the window; it would be nice to substract the height of <nav> here, but that is unknowable */
   padding-top: 100px;
   padding-bottom: 100px;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.0) 80%, #fbfaf999), url('/assets/images/nasa-unsplash.jpg');
@@ -198,7 +197,7 @@ hr.pill.centered {
 }
 
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   box-sizing: border-box;
   width: 100%;
@@ -332,4 +331,3 @@ nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
   display: block;
   margin: auto;
 }
-
