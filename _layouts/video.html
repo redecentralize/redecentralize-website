@@ -16,8 +16,12 @@ layout: default
     {{ page.summary }}
   </p>
   <video controls width="100%" poster="{{ page.poster }}">
+    {% if page.url-mp4 %}
     <source src="{{ page.url-mp4 }}" type="video/mp4" />
+    {% endif %}
+    {% if page.url-webm %}
     <source src="{{ page.url-webm }}" type="video/webm" />
+    {% endif %}
   </video>
   {% if page.links %}
   <h2>Links</h2>
