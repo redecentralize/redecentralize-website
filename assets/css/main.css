@@ -249,10 +249,10 @@ nav > .left {
 }
 
 nav > .right {
-  flex-shrink: 0;
   flex-grow: 1;
 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
 }
@@ -300,6 +300,10 @@ nav a:hover, nav summary:hover, nav a:focus, nav summary:focus {
 
   nav {
     padding: 0;
+  }
+
+  nav .top-level-nav {
+    padding: 0.2rem 0.5rem;
   }
 }
 

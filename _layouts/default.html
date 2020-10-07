@@ -7,9 +7,15 @@
   {% else %}
   <title>{{ page.title }} &mdash; Redecentralize.org</title>
   {% endif %}
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="An organisation with a mission to make everything decentralized again"/>
+  {% if page.summary %}
+  <meta name="description" content="{{ page.summary | strip_html | strip_newlines | strip }}"/>
+  {% endif %}
+  {% if page.author %}
+  <meta name="author" content="{{ site.authors[page.author].display_name }}"/>
+  {% endif %}
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#000000">
   <link href="/assets/css/font-awesome.css" rel="stylesheet"/>
   <link href="/assets/css/basscss.min.css" rel="stylesheet"/>
   <link href="/assets/css/main.css" rel="stylesheet"/>
@@ -17,8 +23,6 @@
   <link rel="alternate" type="application/rss+xml" href="/blog/feed.rss" title="Redecentralize Blog"/>
 
   <link rel="shortcut icon" href="/assets/images/logo-square-large.png"/>
-
-  <link rel="me" href="https://mastodon.social/@redecentralize"/>
 
   {{ page.head }}
 </head>
