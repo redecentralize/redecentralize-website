@@ -5,11 +5,11 @@ summary: "Sally Carson talks about Pinoccio, an Internet of Things platform whic
 title: "#16: Sally Carson - Pinoccio"
 date: 2014-07-10 22:00:00
 author: "Irina Bolychevsky"
-url-mp4: http://something.redecentralize.org/video/pinoccio-with-sally-carson.mp4
+url-mp4: https://something.redecentralize.org/video/pinoccio-with-sally-carson.mp4
 size-mp4: 88565800
-url-webm: http://something.redecentralize.org/video/pinoccio-with-sally-carson.webm
+url-webm: https://something.redecentralize.org/video/pinoccio-with-sally-carson.webm
 duration: "32:10"
-poster: http://something.redecentralize.org/video/pinoccio-with-sally-carson.jpg
+poster: https://something.redecentralize.org/video/pinoccio-with-sally-carson.jpg
 links: |
   <li><a href="https://pinocc.io/" target="_blank">Pinoccio site</a></li>
   <li><a href="https://pinocc.io/community/discussion/115/routing-with-lightweight-mesh/p1" target="_blank">Lightweight Mesh Routing</a></li>

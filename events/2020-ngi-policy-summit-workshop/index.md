@@ -13,11 +13,11 @@ summary: |
 title: "Follow us OFF Facebook — workshop at the 2020 NGI Policy Summit"
 date: 2020-09-29 10:00:00+02
 author: "Gerben"
-url-mp4: http://something.redecentralize.org/video/2020-ngi-policy-summit-workshop-follow-us-off-facebook.mp4
+url-mp4: https://something.redecentralize.org/video/2020-ngi-policy-summit-workshop-follow-us-off-facebook.mp4
 size-mp4: 1011533410
-url-webm: http://something.redecentralize.org/video/2020-ngi-policy-summit-workshop-follow-us-off-facebook.webm
+url-webm: https://something.redecentralize.org/video/2020-ngi-policy-summit-workshop-follow-us-off-facebook.webm
 duration: "57:14"
-poster: http://something.redecentralize.org/video/2020-ngi-policy-summit-workshop-follow-us-off-facebook.jpg
+poster: https://something.redecentralize.org/video/2020-ngi-policy-summit-workshop-follow-us-off-facebook.jpg
 links: |
   <li><a href="presentation.html">Presentation slides</a></li>
   <li><a href="https://mastodon.social/@RegierungBW">Baden-Württemberg on Mastodon</a></li>

@@ -5,11 +5,11 @@ summary: "Tony Arcieri talks about Cryptosphere, an open source P2P web applicat
 title: "#3: Tony Arcieri - Cryptosphere"
 date: 2013-08-07 22:00:00
 author: "Irina Bolychevsky"
-url-mp4: http://something.redecentralize.org/video/cryptosphere-with-toni-arcieri.mp4
+url-mp4: https://something.redecentralize.org/video/cryptosphere-with-toni-arcieri.mp4
 size-mp4: 89130904
-url-webm: http://something.redecentralize.org/video/cryptosphere-with-toni-arcieri.webm
+url-webm: https://something.redecentralize.org/video/cryptosphere-with-toni-arcieri.webm
 duration: "33:09"
-poster: http://something.redecentralize.org/video/cryptosphere-with-toni-arcieri.jpg
+poster: https://something.redecentralize.org/video/cryptosphere-with-toni-arcieri.jpg
 links: |
   <li><a href="http://cryptosphere.org/" target="_blank">Cryptosphere website</a></li>
   <li><a href="https://github.com/cryptosphere/cryptosphere" target="_blank">Cryptosphere Github</a></li>

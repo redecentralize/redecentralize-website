@@ -6,11 +6,11 @@ has he learnt about how to make a protocol popular? How does Kademlia work?"
 title: "#7: Jeremie Miller - TeleHash"
 date: 2013-10-17 21:00:00
 author: "Francis Irving"
-url-mp4: http://something.redecentralize.org/video/telehash-with-jeremie-miller.mp4
+url-mp4: https://something.redecentralize.org/video/telehash-with-jeremie-miller.mp4
 size-mp4: 47040573
-url-webm: http://something.redecentralize.org/video/telehash-with-jeremie-miller.webm
+url-webm: https://something.redecentralize.org/video/telehash-with-jeremie-miller.webm
 duration: "17:19"
-poster: http://something.redecentralize.org/video/telehash-with-jeremie-miller.jpg
+poster: https://something.redecentralize.org/video/telehash-with-jeremie-miller.jpg
 links: |
   <li><a href="http://telehash.org/" target="_blank">TeleHash site</a></li>
   <li><a href="https://github.com/quartzjer/TeleHash" target="_blank">GitHub repo</a></li>
@@ -18,7 +18,7 @@ links: |
   <li><a href="https://twitter.com/jeremie" target="_blank">@jeremie on Twitter</a></li>
 transcript_by: |
   <a href="https://twitter.com/ryanpardieck" target="_blank">Ryan Pardieck</a>
-transcript: 
+transcript:
   <p><span>Francis Irving:</span> Hello, welcome to Redecentralize where today we’re interviewing Jeremie Miller, who was the creator — from his farm in Iowa — of Jabber and founded the startup Singly. And now he’s working on TeleHash and he’s going to tell us all about it. Hello Jeremie.</p>
   <p><span>Jeremie Miller:</span> Hello. Great to be doing this. I’m excited!</p>
   <p><span>Francis:</span> So, can you give us a brief introduction to TeleHash, what it does?</p>

@@ -5,11 +5,11 @@ summary: "Bjarni Rúnar Einarsson talks about Mailpile, a mail client aiming to 
 title: "#8: Bjarni Einarsson - Mailpile"
 date: 2013-11-03 21:00:00
 author: "Francis Irving"
-url-mp4: http://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.mp4
+url-mp4: https://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.mp4
 size-mp4: 54074760
-url-webm: http://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.webm
+url-webm: https://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.webm
 duration: "19:56"
-poster: http://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.jpg
+poster: https://something.redecentralize.org/video/mailpile-with-bjarni-einarsson.jpg
 links: |
   <li><a href="http://www.mailpile.is/" target="_blank">Mailpile site</a></li>
   <li><a href="https://github.com/pagekite/Mailpile" target="_blank">Github repository</a></li>
@@ -17,7 +17,7 @@ links: |
   <li><a href="http://bre.klaki.net/" target="_blank">Bjarni's homepage</a></li>
 transcript_by: |
     <a href="http://media-creators.blogspot.co.uk/" target="_blank">Sally</a> and <a href="mailto:jan@badrabbit.de" target="_blank">Rabbit</a>
-transcript: 
+transcript:
   <p><span>Francis Irving:</span> Hello! Welcome to Redecentralize interview, and today we’ve got Bjarni Einarsson from Mailpile, and he’s an open-source developer based in Iceland. He’s also done PageKite. So hello, how are you?</p>
   <p><span>Bjarni Einarsson:</span> Hi, nice to meet you.</p>
   <p><span>Francis:</span> Thanks for talking to us. So tell us about Mailpile — what is it?</p>

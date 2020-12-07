@@ -5,11 +5,11 @@ summary: "After the Personal Computer, is the Personal Cloud next? Benjamin Andr
 title: "#11: Benjamin André - Cozy Cloud"
 date: 2014-01-30 20:00:00
 author: "Francis Irving"
-url-mp4: http://something.redecentralize.org/video/cozy-cloud-with-benjamin-andre.mp4
+url-mp4: https://something.redecentralize.org/video/cozy-cloud-with-benjamin-andre.mp4
 size-mp4: 50964016
-url-webm: http://something.redecentralize.org/video/cozy-cloud-with-benjamin-andre.webm
+url-webm: https://something.redecentralize.org/video/cozy-cloud-with-benjamin-andre.webm
 duration: "20:15"
-poster: http://something.redecentralize.org/video/cozy-cloud-with-benjamin-andre.jpg
+poster: https://something.redecentralize.org/video/cozy-cloud-with-benjamin-andre.jpg
 links: |
   <li><a href="https://www.cozycloud.cc/" target="_blank">Cozy Cloud - hosted</a></li>
   <li><a href="http://cozy.io/" target="_blank">Cozy.io - self-host</a></li>

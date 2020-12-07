@@ -5,11 +5,11 @@ summary: "Nicholas Tollervey talks about the drogulus, his programmable peer-to-
 title: "#1: Nicholas Tollervey - Drogulus"
 date: 2013-07-15 22:00:00
 author: "Francis Irving"
-url-mp4: http://something.redecentralize.org/video/drogulus-with-nicholas-tollervey.mp4
+url-mp4: https://something.redecentralize.org/video/drogulus-with-nicholas-tollervey.mp4
 size-mp4: 47011215
-url-webm: http://something.redecentralize.org/video/drogulus-with-nicholas-tollervey.webm
+url-webm: https://something.redecentralize.org/video/drogulus-with-nicholas-tollervey.webm
 duration: "17:23"
-poster: http://something.redecentralize.org/video/drogulus-with-nicholas-tollervey.jpg
+poster: https://something.redecentralize.org/video/drogulus-with-nicholas-tollervey.jpg
 links: |
   <li><a href="http://drogul.us/" target="_blank">Drogulus website</a></li>
   <li><a href="https://github.com/ntoll/drogulus" target="_blank">Github repository</a></li>
