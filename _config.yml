@@ -1,4 +1,5 @@
 title: Redecentralize
+url: https://redecentralize.org
 timezone: Europe/London
 plugins:
   - jekyll-sitemap
