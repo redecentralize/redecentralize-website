@@ -9,6 +9,9 @@ id: article
   <h1>{{ page.title }}</h1>
   <p class="muted">
     {{ page.date | date_to_string }} —
+    {% if page.guest_post %}
+    Guest post by
+    {% endif %}
     {% if author.link %}
     <a href="{{author.link}}">{{ author.display_name }}</a>
     {% else %}
@@ -30,7 +33,11 @@ id: article
     {% endif %}
     <br/>
     <p>
+      {% if page.guest_post %}
+      Guest post by:
+      {% else %}
       By:
+      {% endif %}
       {% if author.link %}
       <a href="{{author.link}}">{{ author.display_name }}</a>
       {% else %}

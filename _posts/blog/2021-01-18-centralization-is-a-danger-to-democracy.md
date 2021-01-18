@@ -5,12 +5,12 @@ summary: "After the Capitol riot, the question isn't about how the social media 
 title: "Centralisation is a danger to democracy"
 date: 2021-01-18
 author: "rysiek"
+guest_post: true
 footer: |
-  <i>An version of this post appeared [on vsquare.org](https://vsquare.org/centralisation-is-a-danger-to-democracy/)</i>
+  <i>This post also appeared [on vsquare.org](https://vsquare.org/centralisation-is-a-danger-to-democracy/)</i>
+
   <i>This post is licensed under the [Creative Commons &mdash; By Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license.</i>
 ---
-
-# Centralisation is a danger to democracy
 
 After the [violent events](https://www.theguardian.com/us-news/2021/jan/06/trump-mob-capitol-clash-police-washington) at the US Capitol social media [monopolists](https://mashable.com/article/house-antitrust-report-facebook-privacy-misinformation/) are finally waking up to the reality that centralisation is dangerous; with power over daily communication of [hundreds of millions of users](https://chrissniderdesign.com/blog/resources/social-media-statistics/) comes responsibility perhaps too big even for Big Tech.
 
@@ -22,13 +22,13 @@ After all, nothing really changed in President Trump's rhetoric, or in the [wild
 
 Could it be that [after the electoral shake-up](https://types.pl/@hazel/105522730408015610) what used to be an asset became a [liability](https://www.stophateforprofit.org/)?
 
-## A "difficult position"
+## A “difficult position”
 
 I have participated in many a public forum on Internet governance, and whenever anyone pointed out that social platforms like Facebook need to do more as far as content moderation is concerned, Facebook would complain that it's difficult in their huge network, since regulation and cultures are so different across the world.
 
 They're not wrong! But while their goal was to stifle further regulation, they were in fact making a very good argument for decentralisation.
 
-After all the very reason they are in this "difficult position" is their business decision to insist on providing [centrally-controlled](https://blog.joinmastodon.org/2018/03/twitter-is-not-a-public-utility/) global social media platforms, [trying to push the round peg of a myriad of cultures](https://thenextweb.com/socialmedia/2019/02/26/facebooks-global-content-moderation-fails-to-account-for-regional-sensibilities/) into [a square hole of a single moderation policy](https://www.vice.com/en/article/xwk9zd/how-facebook-content-moderation-works).
+After all the very reason they are in this “difficult position” is their business decision to insist on providing [centrally-controlled](https://blog.joinmastodon.org/2018/03/twitter-is-not-a-public-utility/) global social media platforms, [trying to push the round peg of a myriad of cultures](https://thenextweb.com/socialmedia/2019/02/26/facebooks-global-content-moderation-fails-to-account-for-regional-sensibilities/) into [a square hole of a single moderation policy](https://www.vice.com/en/article/xwk9zd/how-facebook-content-moderation-works).
 
 Social media behemoths argued for years that democratically elected governments [should not regulate them](https://www.theverge.com/2019/10/1/20756701/mark-zuckerberg-facebook-leak-audio-ftc-antitrust-elizabeth-warren-tiktok-comments) according to the will of the people, because it is incompatible with their business models!
 
@@ -42,7 +42,7 @@ Of course, major social media platforms banning anyone immediately raise concern
 
 [Obviously](https://www.eff.org/deeplinks/2020/12/decade-after-arab-spring-platforms-have-turned-their-backs-critical-voices-middle) [we](https://www.wired.com/story/mark-zuckerberg-is-an-arbiter-of-truth-whether-he-likes-it-or-not/) [don't](https://gizmodo.com/twitter-doesnt-like-piracy-even-when-its-in-the-public-1846022460). This is too much power, and power corrupts. But the question isn't really about how these platforms should wield their power &mdash; **the question is whether these platforms should have such power in the first place**.
 
-And the answer is a resounding "*no*".
+And the answer is a resounding “*no*”.
 
 ## Universe of alternatives
 
@@ -52,7 +52,7 @@ Imagine if Twitter and Facebook worked the way e-mail providers do: you can have
 
 Individual instances are run by different people or communities, using [different software](https://fediverse.party/), and each has their own rules.
 
-These rules are enforced using [moderation tools](https://docs.joinmastodon.org/admin/moderation/), some of which are simply not possible in a centralised network. Not only are moderators able to block or silence particular accounts, but also block (or, "*defederate from*") whole instances which cater to abusive users &mdash; which is inconceivable if the whole network is a single "instance".
+These rules are enforced using [moderation tools](https://docs.joinmastodon.org/admin/moderation/), some of which are simply not possible in a centralised network. Not only are moderators able to block or silence particular accounts, but also block (or, “*defederate from*”) whole instances which cater to abusive users &mdash; which is inconceivable if the whole network is a single “instance”.
 
 Additionally, each user has the ability to block or silence threads, abusive users, or whole instances, too. All this means that the response to abusive users can be fine-tuned. Because Fediverse communities run their own instances, they care about keeping any abuse or discrimination at bay, and they have the agency to do just that.
 
