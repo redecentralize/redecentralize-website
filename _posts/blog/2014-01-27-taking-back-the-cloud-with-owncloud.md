@@ -111,7 +111,7 @@ To switch from Google Drive to ownCloud Files, I simply downloaded
 the contents of my Google Drive, then set the ownCloud desktop
 client to start synchronizing the appropriate directories.
 
-![Screen shot of ownCloud Files](https://dl.dropboxusercontent.com/u/2023873/ownCloud%20Files.png)
+![Screen shot of ownCloud Files](/assets/images/posts/2014/owncloud/ownCloud%20Files.png)
 
 ### ownCloud Documents vs. Google Documents
 
@@ -121,7 +121,7 @@ To switch to ownCloud Documents, I didn't have to do a thing. My
 documents were made available to me once I started synchronizing
 them through the desktop client.
 
-![Screen shot of ownCloud Documents](https://dl.dropboxusercontent.com/u/2023873/ownCloud%20Documents.png)
+![Screen shot of ownCloud Documents](/assets/images/posts/2014/owncloud/ownCloud%20Documents.png)
 
 ### Pictures vs. Picasa
 
@@ -136,7 +136,7 @@ with a link. There are no editing functions available.
 Switching to ownCloud Pictures involved downloading my photos from
 Picasa, then uploading them to ownCloud through the desktop client.
 
-![Screen shot of ownCloud Pictures](https://dl.dropboxusercontent.com/u/2023873/ownCloud%20Pictures.png)
+![Screen shot of ownCloud Pictures](/assets/images/posts/2014/owncloud/ownCloud%20Pictures.png)
 
 ### ownCloud Calendar vs. Google Calendar
 
@@ -154,7 +154,7 @@ Google Calendar in ICS format, then uploading each ICS file to
 ownCloud Files. From the ownCloud file browser, clicking on an ICS
 file opened a dialog that allowed me import my events.
 
-![Screen shot of ownCloud Calendar](https://dl.dropboxusercontent.com/u/2023873/ownCloud%20calendar.png)
+![Screen shot of ownCloud Calendar](/assets/images/posts/2014/owncloud/ownCloud%20calendar.png)
 
 ### ownCloud Contacts vs. Google Contacts
 
@@ -182,5 +182,5 @@ music streaming, and more. As the collection of extensions grows, so
 does the user's ability to replace centralized cloud services with
 personal cloud services under one's own control.
 
-![Screen shot of ownCloud Apps](https://dl.dropboxusercontent.com/u/2023873/ownCloud%20Apps.png)
+![Screen shot of ownCloud Apps](/assets/images/posts/2014/owncloud/ownCloud%20Apps.png)
 

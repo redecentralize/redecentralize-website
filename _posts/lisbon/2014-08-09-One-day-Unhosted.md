@@ -65,7 +65,7 @@ And we finished the day with the now classic group picture with the Unhos city s
 Credit [OncleTom](https://twitter.com/oncletom).
 
 #### Other pictures
-![Restaurant](https://storage.5apps.com/michiel/public/shares/140701-1007-IMG_0041.jpg "In the Restaurant")
-![Outside](https://storage.5apps.com/michiel/public/shares/140701-1012-IMG_0050.jpg "Outside geeks")
-![Preparation Group Picture](https://storage.5apps.com/michiel/public/shares/140701-1013-IMG_0070.jpg "Preparation Group Picture")
+![Restaurant](/assets/images/posts/2014/one-day-unhosted/140701-1007-IMG_0041.jpg "In the Restaurant")
+![Outside](/assets/images/posts/2014/one-day-unhosted/140701-1012-IMG_0050.jpg "Outside geeks")
+![Preparation Group Picture](/assets/images/posts/2014/one-day-unhosted/140701-1013-IMG_0070.jpg "Preparation Group Picture")
 Credit [Michiel's](https://twitter.com/michielbdejong) pictures taken with Firefox OS and uploaded with Sharesome, yay! :)
