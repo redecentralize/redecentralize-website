@@ -3,8 +3,11 @@ layout: default
 id: redigest
 ---
 
-<header>
+<header style="display: flex; justify-content: space-between; flex-flow: row wrap;">
   <a href="/redigest/">&laquo; Other digests</a>
+  {% if page.mp3_url %}
+  <audio type="audio/mpeg" controls preload="metadata" src="{{ page.mp3_url }}" style="max-width: 100%;"></audio>
+  {% endif %}
 </header>
 <main class="container single-column spacious">
 

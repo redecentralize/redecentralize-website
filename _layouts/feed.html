@@ -31,6 +31,9 @@ layout: none
   <title>{{ post.title | xml_escape }}</title>
   <author>{{ author.display_name | xml_escape }}</author>
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+  {% if post.mp3_url %}
+    <enclosure type="audio/mpeg" length="{{ post.mp3_size }}" url="{{ post.mp3_url | absolute_url }}" />
+  {% endif %}
   <description><![CDATA[{{ post.content }}]]></description>
 </item>
 

@@ -24,6 +24,10 @@
 
   <link rel="shortcut icon" href="/assets/images/logo-square-large.png"/>
 
+  {% if page.mp3_url %}
+  <link rel="alternate" type="audio/mpeg" href="{{ page.mp3_url }}" />
+  {% endif %}
+
   {{ page.head }}
 </head>
 

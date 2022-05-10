@@ -5,6 +5,12 @@ id: article
 
 {% assign author = site.authors[page.author] %}
 
+
+{% if page.mp3_url %}
+<header style="display: flex; flex-flow: row wrap; justify-content: flex-end;">
+  <audio type="audio/mpeg" controls preload="metadata" src="{{ page.mp3_url }}" style="justify-self: flex-end; max-width: 100%;"></audio>
+</header>
+{% endif %}
 <main class="container single-column spacious">
   <h1>{{ page.title }}</h1>
   <p class="muted">
