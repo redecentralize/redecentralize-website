@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+	<head>
+		<title>redigest_feed_recommendations.opml</title>
+		<dateCreated>Fri, 09 Sep 2022 20:20:26 GMT</dateCreated>
+  </head>
+	<body>
+    <outline type="rss" title="Stories from the Decentralized Web - Medium" text="Stories from the Decentralized Web - Medium" version="RSS" xmlUrl="https://medium.com/feed/decentralized-web" htmlUrl="https://medium.com/decentralized-web"/>
+    <outline type="rss" title="Dripline" text="Dripline" version="RSS" xmlUrl="https://hypha.coop/feed.xml" htmlUrl="https://hypha.coop/feed.xml"/>
+    <outline type="rss" title="Identosphere Sovereign Identity Updates" text="Identosphere Sovereign Identity Updates" version="RSS" xmlUrl="https://newsletter.identosphere.net/feed/" htmlUrl="https://newsletter.identosphere.net"/>
+    <outline type="rss" title="Tech Policy Press" text="Tech Policy Press" version="RSS" xmlUrl="https://techpolicy.press/feed/" htmlUrl="https://techpolicy.press/"/>
+    <outline type="rss" title="EFF" text="EFF" version="RSS" xmlUrl="https://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/rss/updates.xml"/>
+    <outline type="rss" title="FSFE News" text="FSFE News" version="RSS" xmlUrl="https://fsfe.org/news/news.en.rss" htmlUrl="https://fsfe.org/news/"/>
+    <outline type="rss" title="Internet Policy Review" text="Internet Policy Review" version="RSS" xmlUrl="https://policyreview.info/feed" htmlUrl="https://policyreview.info/articles"/>
+    <outline type="rss" title="Cubicgarden.com…" text="Cubicgarden.com…" version="RSS" xmlUrl="https://cubicgarden.com/tag/publicserviceinternetnotes/feed/" htmlUrl="https://cubicgarden.com/tag/publicserviceinternetnotes/"/>
+    <outline type="rss" title="Pluralistic: Daily links from Cory Doctorow" text="Pluralistic: Daily links from Cory Doctorow" version="RSS" xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net"/>
+    <outline type="rss" title="Jay Graber on Medium" text="Jay Graber on Medium" version="RSS" xmlUrl="https://medium.com/feed/@jaygraber" htmlUrl="https://medium.com/@jaygraber"/>
+    <outline type="rss" title="Ruben Verborgh's blog" text="Ruben Verborgh's blog" version="RSS" xmlUrl="https://ruben.verborgh.org/blog/latest.xml" htmlUrl="https://ruben.verborgh.org/blog/"/>
+    <outline type="rss" title="mark nottingham" text="mark nottingham" version="RSS" xmlUrl="https://www.mnot.net/blog/index.atom" htmlUrl="https://www.mnot.net/blog/"/>
+    <outline type="rss" title="Stories by Paul Frazee on Medium" text="Stories by Paul Frazee on Medium" version="RSS" xmlUrl="https://medium.com/feed/@paulfrazee" htmlUrl="https://medium.com/@paulfrazee"/>
+    <outline type="rss" title="The Changelog" text="The Changelog" version="RSS" xmlUrl="https://changelog.complete.org/feed" htmlUrl="https://changelog.complete.org"/>
+    <outline type="rss" title="DSHR's Blog" text="DSHR's Blog" version="RSS" xmlUrl="https://blog.dshr.org/feeds/posts/default" htmlUrl="https://blog.dshr.org/"/>
+    <outline type="rss" title="Augmented Lawyer" text="Augmented Lawyer" version="RSS" xmlUrl="https://augmentedlawyer.com/feed/" htmlUrl="https://augmentedlawyer.com"/>
+  </body>
+</opml>
