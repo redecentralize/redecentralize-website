@@ -15,6 +15,11 @@ layout: default
   <p class="lead">
     {{ page.summary }}
   </p>
+  {% if page.video_placeholder %}
+  <div style="border: grey 1px solid; text-align: center; padding: 3em;">
+    {{ page.video_placeholder }}
+  </div>
+  {% else %}
   <video controls width="100%" poster="{{ page.poster }}">
     {% if page.url-mp4 %}
     <source src="{{ page.url-mp4 }}" type="video/mp4" />
@@ -23,6 +28,7 @@ layout: default
     <source src="{{ page.url-webm }}" type="video/webm" />
     {% endif %}
   </video>
+  {% endif %}
   {% if page.links %}
   <h2>Links</h2>
   <ul>
